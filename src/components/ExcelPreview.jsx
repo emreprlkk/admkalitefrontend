@@ -4,8 +4,8 @@ import { Box, Button, Alert,Snackbar } from '@mui/material';
 
 import alasql from 'alasql';
 import ApexCharts from './ApexCharts';
-import NavbarBolge from './Navbarbolge';
-import Navbarİsletme from './Navbarİsletme';
+import NavbarBolge from './NavbarBolge'; 
+import Navbarİsletme from './NavbarIsletme';
 import { useData } from './DataContext';
 import ColumnSelector from './ColumnSelector'
 import FileUpload from './FileUpload';

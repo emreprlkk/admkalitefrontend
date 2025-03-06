@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbarİsletme({ onIsletmeChange }) { 
+function NavbarIsletme({ onIsletmeChange }) { 
   return (
     <nav className="navbar">
       <a href="#Acipayam" onClick={() => onIsletmeChange('ACİPAYAM isletme')}>ACIPAYAM</a>
@@ -25,4 +25,4 @@ function Navbarİsletme({ onIsletmeChange }) {
   );
 }
 
-export default Navbarİsletme;
+export default NavbarIsletme;
