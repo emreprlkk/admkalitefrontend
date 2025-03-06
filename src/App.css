@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* styles.css */
+
+  background-color: #292d31; /* Mavi rengi örnek olarak kullanıyoruz */
+  min-height: 100vh;
+  margin: 0;
+
+
+  margin: 150;
+  font-family: Arial, sans-serif;
+}
+/* HD Ready monitörler (1280x720) */
+@media only screen and (min-width: 1920px) and (max-width: 3839px) {
+  /* Stil kuralları buraya */
+ 
+.dashboard-container {
+  
+  margin-left: 150px;
+}
+}
+.main-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 45px;
+}
+
+
+.box {
+  border: 2px solid rgb(186, 80, 80);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(231, 18, 18);
+
+}
+
+.chart1 {
+  height: 350px;
+  width: 600px;
+  background-color: #FF6347; /* Tomato Red */
+}
+
+.chart2 {
+  height: 600px;
+  width: 600px;
+  background-color: #FFB6C1; /* Light Pink */
+}
+
+.table1 {
+  grid-column: span 1;
+  height: 490px;
+
+  background-color: hsl(207, 5%, 66%); /* Dodger Blue */
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  padding: 0px;
+ 
+}
+.griddashboard1 {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0px;
+  padding: 0px;
+  margin-bottom: 100px;
+ 
+}
+
+
+.chart {
+  border: 1px  solid #c40e0e;
+  padding: 0px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+
+}
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+
+  .table1 {
+      grid-column: span 1;
+  }
+}
