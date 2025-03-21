@@ -264,7 +264,7 @@ export const DataProvider = ({ children }) => {
           console.warn(`Month ${monthKey} is not found in data`);
         }
       });
-     // console.log("datancontexteki herhangi bir veri ",data[1][1])
+     //console.log("datancontexteki herhangi bir veri ",data[1][1])
       setData(newData);
     };
   

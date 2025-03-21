@@ -156,7 +156,7 @@ export default function ExcelPreview() {
         return selectedRow;
       
       }); 
-     //   console.log("entireSelectedData ",entireSelectedData)
+        //console.log("entireSelectedData ",entireSelectedData)
         setAllSelectedData(entireSelectedData); },
          [columnMapping, excelData]);
 
@@ -253,13 +253,21 @@ allSelectedData = allSelectedData.map(item => {
 
     //SetexecutionCount(-3); // Çalışma sayısını artır.
     //console.log( executionCount)
-   // console.log("excel data ", excelData)
+  // console.log("excel data ", excelData)
     if (!excelData || excelData.length === 0) {
       console.log("Excel verisi boş!");
       return [];
     }
   
     // **AlaSQL işlemleri**
+
+
+   /* il: '',
+    ilce: '',
+    sureyegore:'',
+    kaynagagore:'',
+    sebebegore: '',
+    bildirimegore:'',*/
     const baseData = alasql(`
       SELECT 
          isletme,
@@ -267,78 +275,78 @@ allSelectedData = allSelectedData.map(item => {
         ROUND(timestampdiff(second, baslamaTarihi, bitisTarihi) / 60,2) AS kesinti_suresi_dakika,
         toplamabonesayisi,
         isletmeabonecount,
-        kaynak,
-        sure,
-        sebep,
-        bildirim,
+        kaynagagore,
+        sureyegore,
+        sebebegore,
+        bildirimegore,
         baslamaTarihi,
         bitisTarihi,
         MONTH(baslamaTarihi) AS ay
       FROM ?
      WHERE baslamaTarihi >= new Date('2024-01-01 00:00:00') and bitisTarihi <= new Date('2026-01-01 00:00:00') 
-      GROUP BY  MONTH(baslamaTarihi),isletme, kesintikodu, kaynak, sure, sebep, bildirim, baslamaTarihi, bitisTarihi, ay,toplamabonesayisi,isletmeabonecount
+      GROUP BY  MONTH(baslamaTarihi),isletme, kesintikodu, kaynagagore, sureyegore, sebebegore, bildirimegore, baslamaTarihi, bitisTarihi, ay,toplamabonesayisi,isletmeabonecount
       ORDER BY MONTH(baslamaTarihi) ASC
     `, [excelData]);
   
-    //  console.log("baseData ",baseData)
+    //console.log("baseData ",baseData)
     let saidiData = alasql(`
     SELECT 
       ay, isletme,
       ROUND(
-        sum(case when kaynak in ('Dağıtım-OG', 'Dağıtım-AG') 
-            and sure = 'Uzun'
-            and sebep in ('Şebeke işletmecisi','Dışsal')
-            and bildirim = 'Bildirimsiz'
+        sum(case when kaynagagore in ('Dağıtım-OG', 'Dağıtım-AG') 
+            and sureyegore = 'Uzun'
+            and sebebegore in ('Şebeke işletmecisi','Dışsal')
+            and bildirimegore = 'Bildirimsiz'
           then (toplamabonesayisi*kesinti_suresi_dakika)/isletmeabonecount
           else 0 end), 2) as saidi_isletme,
   
       ROUND(
-        sum(case when kaynak in ('Dağıtım-OG', 'Dağıtım-AG') 
-            and sure = 'Uzun'
-            and sebep in ('Şebeke işletmecisi')
-            and bildirim = 'Bildirimsiz'
+        sum(case when kaynagagore in ('Dağıtım-OG', 'Dağıtım-AG') 
+            and sureyegore = 'Uzun'
+            and sebebegore in ('Şebeke işletmecisi')
+            and bildirimegore = 'Bildirimsiz'
           then (toplamabonesayisi/isletmeabonecount)
           else 0 end), 2) as saifi_isletme,
            ROUND(
-        avg(case when kaynak in ('Dağıtım-OG' ) 
-            and sure = 'Uzun'
-            and sebep in ('Şebeke işletmecisi','Dışsal')
-            and bildirim = 'Bildirimsiz'
+        avg(case when kaynagagore in ('Dağıtım-OG' ) 
+            and sureyegore = 'Uzun'
+            and sebebegore in ('Şebeke işletmecisi','Dışsal')
+            and bildirimegore = 'Bildirimsiz'
           then kesinti_suresi_dakika
-          else 0 end), 2) as ort_og_ariza_giderme_suresi,
+          else 0 end), 2) as ort_og_ariza_giderme_sureyegoresi,
             ROUND(
-        avg(case when kaynak in ('Dağıtım-AG' ) 
-            and sure = 'Uzun'
-            and sebep in ('Şebeke işletmecisi','Dışsal')
-            and bildirim = 'Bildirimsiz'
+        avg(case when kaynagagore in ('Dağıtım-AG' ) 
+            and sureyegore = 'Uzun'
+            and sebebegore in ('Şebeke işletmecisi','Dışsal')
+            and bildirimegore = 'Bildirimsiz'
           then kesinti_suresi_dakika
-          else 0 end), 2) as ort_ag_ariza_giderme_suresi,
+          else 0 end), 2) as ort_ag_ariza_giderme_sureyegoresi,
           ROUND(
-        sum(case when kaynak in ('Dağıtım-OG' ) 
-            and sure = 'Uzun'
-            and sebep in ('Şebeke işletmecisi','Dışsal')
-            and bildirim = 'Bildirimsiz'
+        sum(case when kaynagagore in ('Dağıtım-OG' ) 
+            and sureyegore = 'Uzun'
+            and sebebegore in ('Şebeke işletmecisi','Dışsal')
+            and bildirimegore = 'Bildirimsiz'
           then 1
           else 0 end), 2) as toplam_uzun_og_ariza_sayisi,
             ROUND(
-        sum(case when kaynak in ('Dağıtım-AG' ) 
-            and sure = 'Uzun'
-            and sebep in ('Şebeke işletmecisi','Dışsal')
-            and bildirim = 'Bildirimsiz'
+        sum(case when kaynagagore in ('Dağıtım-AG' ) 
+            and sureyegore = 'Uzun'
+            and sebebegore in ('Şebeke işletmecisi','Dışsal')
+            and bildirimegore = 'Bildirimsiz'
           then 1
           else 0 end), 2) as toplam_uzun_ag_ariza_sayisi,
           ROUND(
-        sum(case when kaynak in ('Dağıtım-OG' ) 
-            and sure = 'Kısa'
-            and sebep in ('Şebeke işletmecisi','Dışsal')
-            and bildirim = 'Bildirimsiz'
+        sum(case when kaynagagore in ('Dağıtım-OG' ) 
+            and sureyegore = 'Kısa'
+            and sebebegore in ('Şebeke işletmecisi','Dışsal')
+            and bildirimegore = 'Bildirimsiz'
           then 1
           else 0 end), 2) as toplam__kisa_og_ariza_sayisi
     FROM ?
     GROUP BY ay, isletme
     ORDER BY isletme ASC
   `, [baseData]);
-  
+      console.log("saidi data lenght ",saidiData.length)
     if (saidiData.length > 0 ) {
       const filteredAndSortedData = saidiData
         .filter(row => row.isletme === isletmeName)
@@ -354,7 +362,7 @@ allSelectedData = allSelectedData.map(item => {
       
     }
   
-   // console.log(JSON.stringify(saidiData));
+  // console.log("saidi data ",saidiData);
     
     return saidiData;
   };
