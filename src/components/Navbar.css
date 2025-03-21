@@ -1,22 +1,28 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: tomato;
-    padding: 10px;
-    border: 2px solid #000; /* Turuncu çerçeve için */
-    border-radius: 8px;
-    margin: 10px 0;
-  }
+  display: flex;
+  justify-content: flex-start; /* Öğeler arasındaki mesafeyi kontrol etmek için */
+  align-items: center;
+  gap: 10px; /* Öğeler arası boşluk */
+  background-color: tomato;
+  padding: 5px;
+  border: 2px solid #000; /* Çerçeve */
+  border-radius: 8px;
+  margin: 10px 0;
+  width: 99%; /* Navbar'ın genişliği (kapsayıcıya göre ayarlanabilir) */
+  max-width: 2000px; /* Maksimum genişlik */
+  height: 60px; /* Navbar'ın yüksekliği */
+}
+
   .navbar_bOLGE {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: tomato;
     padding: 5px;
     border: 2px solid #000; /* Turuncu çerçeve için */
     border-radius: 8px;
-    margin: 5px 0;
+    max-width: 800px; /* Maksimum genişlik */
+    margin-left: 350px;
   }
   
   .navbar_bOLGE a {

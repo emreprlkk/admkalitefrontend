@@ -5,7 +5,7 @@
 body {
   /* styles.css */
 
-  background-color: #292d31; /* Mavi rengi örnek olarak kullanıyoruz */
+  background-color: #1e2022; /* Mavi rengi örnek olarak kullanıyoruz */
   min-height: 100vh;
   margin: 0;
 
@@ -22,12 +22,6 @@ body {
   margin-left: 150px;
 }
 }
-.main-container2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -39,7 +33,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   gap: 20px;
-  padding: 45px;
+  padding: 5px;
 }
 
 
@@ -70,19 +64,19 @@ body {
   grid-column: span 1;
   height: 490px;
 
-  background-color: hsl(207, 5%, 66%); /* Dodger Blue */
+  background-color: hsl(212, 55%, 34%); /* Dodger Blue */
 }
 
 .dashboard-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
   padding: 0px;
  
 }
 .griddashboard1 {
   display: grid;
-  width: 1000px;
+  width: 100px;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 0px;
   padding: 0px;

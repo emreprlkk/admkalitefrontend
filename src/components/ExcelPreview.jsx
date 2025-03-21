@@ -3,13 +3,13 @@ import * as XLSX from 'xlsx';
 import { Box, Button, Alert,Snackbar } from '@mui/material';
 
 import alasql from 'alasql';
-import ApexCharts from './ApexCharts';
+ 
 import NavbarBolge from './NavbarBolge'; 
 import Navbarİsletme from './NavbarIsletme';
 import { useData } from './DataContext';
 import ColumnSelector from './ColumnSelector'
 import FileUpload from './FileUpload';
-
+import Tabb from './Tabb.jsx'
 
 
 
@@ -48,7 +48,9 @@ export default function ExcelPreview() {
  
   const [excelData, setExcelData] = useState([]);
   const [excelColumns, setExcelColumns] = useState([]);
-  const [isletmeName, setIsletmeName] = useState('DENİZLİ MERKEZ İŞLETME');
+  const [isletmeName, setIsletmeName] = useState('DENİZLİ MERKEZ isletme');
+  const [navbardangelenbolgecount,setnavbardangelenbolgecount]=useState(20);
+  const [navbardangelenisletmecount,setnavbardangelenisletmecount]=useState(1);
   const { updateSaidiSaifi } = useData();
   //const [executionCount,SetexecutionCount]=useState(18);
   
@@ -64,10 +66,10 @@ export default function ExcelPreview() {
     kesintikodu:'',
     il: '',
     ilce: '',
-    sure:'',
-    kaynak:'',
-    sebep: '',
-    bildirim:'',
+    sureyegore:'',
+    kaynagagore:'',
+    sebebegore: '',
+    bildirimegore:'',
     toplamabonesayisi:'',
     baslamaTarihi: '',
     bitisTarihi: '',
@@ -134,10 +136,12 @@ export default function ExcelPreview() {
   console.log("excelData.length ",excelData.length)
    if (excelData.length === 0) { setAllSelectedData([]); return; } 
  // "columnMapping" gibi: { il: 'IL', ilce: 'ilce', ... } (sadece örnek) 
- const entireSelectedData = excelData.map((row) => { const selectedRow = {}; 
+ const entireSelectedData = excelData.map((row) => {
+   const selectedRow = {}; 
  // Tüm mapping key'lerini ("il", "ilce" vs.) gez 
  for (let mappingKey in columnMapping) { const excelColName = columnMapping[mappingKey];
-   if (excelColName) { selectedRow[mappingKey] = row[excelColName]; } 
+   if (excelColName) { 
+    selectedRow[mappingKey] = row[excelColName]; } 
    else { selectedRow[mappingKey] = null; } }
     // Opsiyonel: Tarih kolonlarını formatla 
     if (selectedRow.baslamaTarihi) { 
@@ -350,8 +354,8 @@ allSelectedData = allSelectedData.map(item => {
       
     }
   
-    console.log(saidiData);
-  
+   // console.log(JSON.stringify(saidiData));
+    
     return saidiData;
   };
   
@@ -380,14 +384,21 @@ allSelectedData = allSelectedData.map(item => {
   //const previewData = excelData.slice(0, 20);
   const  veridekiİsletmeName=isletmeName
 
-  const handleIsletmeChange = (newIsletmeName) => {
+  const handleIsletmeChange = (newIsletmeName,bolgecount,İsletmecount) => {
     setIsletmeName(newIsletmeName); // isletmeName'i güncelliyoruz
+    setnavbardangelenbolgecount(bolgecount);
+    setnavbardangelenisletmecount( İsletmecount)
+   /* return new Promise((resolve) => {
+      setnavbardangelencount( sayi)
+      resolve();
+  });*/
    // console.log("ChangeİsletmeName çalışıyor" ,isletmeName)
+   //console.log("sayix",sayi)
   };
   // isletmeName değiştiği anda güncellenmiş değeri yakala
   useEffect(() => {
     console.log("Güncellenmiş İşletme Adı:", isletmeName);
-    // Burada API çağrıları veya sorgularını tetikleyebilirsin.
+    
   }, [isletmeName]); // isletmeName değiştiğinde tetiklenecek.
 //console.log(allSelectedData)
 //console.log(resutlAlaSQL)
@@ -441,20 +452,18 @@ const result = alasql(`
 
 // Sonuçları göster
 console.log(result);*/
-
+console.log(("xx ",navbardangelenisletmecount))
 
   return (
     
     <div className='manin-container'>
-      <NavbarBolge  onIsletmeChange={handleIsletmeChange} /> 
-       
-       {/* Kullanıcının tüm kolon seçimini tamamladığını varsayarak tetiklenecek buton */}
-   {/* <button onClick={handleMappingSubmit}>Mapping İşlemini Uygula</button>*/}
+    
+    {/*  <NavbarBolge  onIsletmeChange={handleIsletmeChange} /> */}
        <Navbarİsletme onIsletmeChange={handleIsletmeChange} /> {/* handleIsletmeChange fonksiyonunu prop olarak geçiyoruz */} {/* Navbar'ı burada render ediyoruz */}
      
 
        <FileUpload handleFileChange={handleFileChange}/>
-
+      
       {excelData.length > 0 && (
         <div >
  
@@ -482,76 +491,14 @@ console.log(result);*/
     </Box>
         </div>
       )}
+      <div> {< Tabb  isletme={isletmeName} navbarbolgecount={navbardangelenbolgecount} navbarisletmecount={navbardangelenisletmecount}/> }</div>
 
-<div className="grid-container">
-       
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={700} data1_2023={saidi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} SAİDİ`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={700} data1_2023={saifi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} SAİFİ`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-      {/* <DataTable  Saidi_Table_Array={data_saidi_table} İşletmeName={isletmeName} HangiTablo={"SAİDİ ŞEBEKE UNSURU TABLOSU"} Height_Props={400} />
-      <DataTable Saidi_Table_Array={data_saifi_table} İşletmeName={isletmeName} HangiTablo={"SAİFİ ŞEBEKE UNSURU TABLOSU"} Height_Props={400}/>  */}
-      </div> 
-      <div  className='main-container'>  <h1 style={{color:"white"}}>ÖZET GRAFİKLER</h1> 
-      <div  className="dashboard-container">
 
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={500} data1_2023={ort_og_ariza_giderme_suresi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} ORT OG ARIZA GİDERME SÜRESİ DAKİKA`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={500} data1_2023={ort_ag_ariza_giderme_suresi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} ORT AG  ARIZA GİDERME SÜRESİ DAKİKA`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={500} data1_2023={toplam_uzun_og_ariza_sayisi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} TOPLAM UZUN OG ARIZA SAYISI`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={500} data1_2023={toplam_uzun_ag_ariza_sayisi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} TOPLAM UZUN AG ARIZA SAYISI`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-
-<div className="chart">
-  
-  <ApexCharts key={veridekiİsletmeName} width={500} data1_2023={toplam__kisa_og_ariza_sayisi_verisi}  
-/*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName} TOPLAM KISA AG ARIZA SAYISI`}
-   X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
-</div>
-</div>  </div>
+    
     
       
 
-    { /* {excelData.length > 0 && (
-        <div style={{ marginTop: 20 }}>
-          <Typography variant="h6">Excel Verisi Önizleme (İlk 20 Satır)</Typography>
-          <DataTable
-            data={previewData}
-            columns={excelColumns}
-            selectedColumns={Object.values(columnMapping).filter(Boolean)}
-            dateColumns={[
-              columnMapping.baslamaTarihi,
-              columnMapping.bitisTarihi
-            ]}
-          />
-        </div>
-      )}  */}
+  
       
     </div>
 
