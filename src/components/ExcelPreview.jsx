@@ -485,7 +485,8 @@ console.log(("xx ",navbardangelenisletmecount))
         height: "2vh", // Sayfanın tamamını kaplasın
       }}
     >
-      <Button variant="contained" color="primary" onClick={dd}>
+      <Button  sx={{ marginBottom: 3 }} // margin-bottom: 16px (MUI spacing factor * 8)
+       variant="contained" color="primary" onClick={dd}>
         Yüklenen Verileri Grafikleyin 
       </Button>
 
