@@ -743,7 +743,7 @@ const ApexCharts = ({
   Y_axis = "Y Ekseni",
   X_axis = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", 
            "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
-  saidi_hedef_24 = "0.000",
+  //saidi_hedef_24 = "0.000",
   type //= "saidi" // "saidi" veya "saifi" seçimi
 }) => {
 //console.log("geçen poprs ",type)
@@ -962,7 +962,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
         }}>
         Verileri Excel'e Aktar
       </button>
-      <div style={{
+     {/* <div style={{
         position: 'absolute',
         top: '50px',
         left: '10px',
@@ -977,7 +977,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
         pointerEvents: 'auto'
       }}>
         2025 HEDEFİ {saidi_hedef_24}
-      </div>
+      </div>*/}
       <Chart
         options={chartOptions}
         series={chartSeries}

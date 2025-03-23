@@ -165,55 +165,55 @@ export default function ExcelPreview() {
  
       // Örnek eşleştirme tablosu (Excel'den alınan verileri içeren dizi)
 const districtMapping = [
-  { ilce: "ACIPAYAM", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 125222,ilceabonecount:40683 },
-  { ilce: "BABADAĞ", isletme: "SARAYKOY isletme", bolge: "DENİZLİ", isletmeabonecount: 57570,ilceabonecount:6761 },
-  { ilce: "BAKLAN", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 85023,ilceabonecount:4392 },
-  { ilce: "BEKİLLİ", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 85023,ilceabonecount:7000 },
-  { ilce: "BEYAĞAÇ", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 125222,ilceabonecount:4241 },
-  { ilce: "BODRUM", isletme: "BODRUM isletme", bolge: "BODRUM", isletmeabonecount: 156966,ilceabonecount:156966 },
-  { ilce: "BOZDOĞAN", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 190208,ilceabonecount:21489 },
-  { ilce: "BOZKURT", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 85023,ilceabonecount:8235 },
-  { ilce: "BUHARKENT", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 190208,ilceabonecount:9203 },
-  { ilce: "BULDAN", isletme: "SARAYKOY isletme", bolge: "DENİZLİ", isletmeabonecount: 57570,ilceabonecount:21723 },
-  { ilce: "ÇAL", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 85023,ilceabonecount:16216 },
-  { ilce: "ÇAMELİ", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 125222,ilceabonecount:15022 },
-  { ilce: "ÇARDAK", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 85023,ilceabonecount:5945 },
-  { ilce: "ÇİNE", isletme: "CİNE isletme", bolge: "AYDIN", isletmeabonecount: 45846,ilceabonecount: 37132 },
-  { ilce: "ÇİVRİL", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 85023,ilceabonecount: 43235 },
-  { ilce: "DALAMAN", isletme: "ORTACA isletme", bolge: "MUGLA", isletmeabonecount: 107041,ilceabonecount: 36973 },
-  { ilce: "DATÇA", isletme: "MARMARİS isletme", bolge: "MUGLA", isletmeabonecount: 92259,ilceabonecount: 28407 },
-  { ilce: "DİDİM", isletme: "DİDİM isletme", bolge: "AYDIN", isletmeabonecount: 117707,ilceabonecount: 117707 },
-  { ilce: "EFELER", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 261330,ilceabonecount: 172358 },
-  { ilce: "FETHİYE", isletme: "FETHİYE isletme", bolge: "MUGLA", isletmeabonecount: 179271,ilceabonecount: 129712 },
-  { ilce: "GERMENCİK", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 261330,ilceabonecount: 26616 },
-  { ilce: "GÜNEY", isletme: "SARAYKÖY isletme", bolge: "DENİZLİ", isletmeabonecount: 57570,ilceabonecount: 7814 },
-  { ilce: "HONAZ", isletme: "DENİZLİ MERKEZ isletme", bolge: "DENİZLİ", isletmeabonecount: 413120,ilceabonecount: 17137 },
-  { ilce: "İNCİRLİOVA", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 261330,ilceabonecount: 30861 },
-  { ilce: "KALE", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 125222,ilceabonecount: 12980 },
-  { ilce: "KARACASU", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 190208,ilceabonecount: 12182 },
-  { ilce: "KARPUZLU", isletme: "CİNE isletme", bolge: "AYDIN", isletmeabonecount: 45846,ilceabonecount: 8714 },
-  { ilce: "KAVAKLIDERE", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 136636,ilceabonecount: 7865 },
-  { ilce: "KOÇARLI", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 261330,ilceabonecount: 15162 },
-  { ilce: "KÖŞK", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 261330,ilceabonecount: 16333 },
-  { ilce: "KÖYCEĞİZ", isletme: "ORTACA isletme", bolge: "MUGLA", isletmeabonecount: 107041,ilceabonecount: 27871 },
-  { ilce: "KUŞADASI", isletme: "KUSADASİ isletme", bolge: "AYDIN", isletmeabonecount: 142390,ilceabonecount: 142390 },
-  { ilce: "KUYUCAK", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 190208,ilceabonecount: 19310 },
-  { ilce: "MARMARİS", isletme: "MARMARİS isletme", bolge: "MUGLA", isletmeabonecount: 92259,ilceabonecount: 63852 },
-  { ilce: "MENTEŞE", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 136636,ilceabonecount: 76036 },
-  { ilce: "MERKEZEFENDİ", isletme: "DENİZLİ MERKEZ isletme", bolge: "DENİZLİ", isletmeabonecount: 413120,ilceabonecount: 194090 },
-  { ilce: "MİLAS", isletme: "MİLAS isletme", bolge: "BODRUM", isletmeabonecount: 109492,ilceabonecount: 109492 },
-  { ilce: "NAZİLLİ", isletme: "NAZİLLİ isletme", bolge: "BODRUM", isletmeabonecount: 190208,ilceabonecount: 103383 },
-  { ilce: "ORTACA", isletme: "ORTACA isletme", bolge: "MUGLA", isletmeabonecount: 107041,ilceabonecount: 42197 },
-  { ilce: "PAMUKKALE", isletme: "DENİZLİ MERKEZ isletme", bolge: "DENİZLİ", isletmeabonecount: 413120,ilceabonecount: 201893 },
-  { ilce: "SARAYKÖY", isletme: "SARAYKÖY isletme", bolge: "DENİZLİ", isletmeabonecount: 57570,ilceabonecount: 21272 },
-  { ilce: "SERİNHİSAR", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 125222,ilceabonecount: 10902 },
-  { ilce: "SEYDİKEMER", isletme: "FETHİYE isletme", bolge: "MUGLA", isletmeabonecount: 179271,ilceabonecount: 49559 },
-  { ilce: "SÖKE", isletme: "SOKE isletme", bolge: "AYDIN", isletmeabonecount: 68144,ilceabonecount: 68144 },
-  { ilce: "SULTANHİSAR", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 190208,ilceabonecount: 14751 },
-  { ilce: "TAVAS", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 125222,ilceabonecount: 41394 },
-  { ilce: "ULA", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 136636,ilceabonecount: 22988 },
-  { ilce: "YATAĞAN", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 136636,ilceabonecount: 29747 },
-  { ilce: "YENİPAZAR", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 190208,ilceabonecount: 9890 },
+  { ilce: "ACIPAYAM", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 128044,ilceabonecount:40683 },
+  { ilce: "BABADAĞ", isletme: "SARAYKOY isletme", bolge: "DENİZLİ", isletmeabonecount: 58951,ilceabonecount:6761 },
+  { ilce: "BAKLAN", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 86329,ilceabonecount:4392 },
+  { ilce: "BEKİLLİ", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 86329,ilceabonecount:7000 },
+  { ilce: "BEYAĞAÇ", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 128044,ilceabonecount:4241 },
+  { ilce: "BODRUM", isletme: "BODRUM isletme", bolge: "BODRUM", isletmeabonecount: 163470,ilceabonecount:156966 },
+  { ilce: "BOZDOĞAN", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 193851,ilceabonecount:21489 },
+  { ilce: "BOZKURT", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 86329,ilceabonecount:8235 },
+  { ilce: "BUHARKENT", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 193851,ilceabonecount:9203 },
+  { ilce: "BULDAN", isletme: "SARAYKOY isletme", bolge: "DENİZLİ", isletmeabonecount: 58951,ilceabonecount:21723 },
+  { ilce: "ÇAL", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 86329,ilceabonecount:16216 },
+  { ilce: "ÇAMELİ", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 128044,ilceabonecount:15022 },
+  { ilce: "ÇARDAK", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 86329,ilceabonecount:5945 },
+  { ilce: "ÇİNE", isletme: "CİNE isletme", bolge: "AYDIN", isletmeabonecount: 47052,ilceabonecount: 37132 },
+  { ilce: "ÇİVRİL", isletme: "CİVRİL isletme", bolge: "DENİZLİ", isletmeabonecount: 86329,ilceabonecount: 43235 },
+  { ilce: "DALAMAN", isletme: "ORTACA isletme", bolge: "MUGLA", isletmeabonecount: 112452,ilceabonecount: 36973 },
+  { ilce: "DATÇA", isletme: "MARMARİS isletme", bolge: "MUGLA", isletmeabonecount: 94384,ilceabonecount: 28407 },
+  { ilce: "DİDİM", isletme: "DİDİM isletme", bolge: "AYDIN", isletmeabonecount: 120647,ilceabonecount: 120647 },
+  { ilce: "EFELER", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 267285,ilceabonecount: 172358 },
+  { ilce: "FETHİYE", isletme: "FETHİYE isletme", bolge: "MUGLA", isletmeabonecount: 187945,ilceabonecount: 129712 },
+  { ilce: "GERMENCİK", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 267285,ilceabonecount: 26616 },
+  { ilce: "GÜNEY", isletme: "SARAYKOY isletme", bolge: "DENİZLİ", isletmeabonecount: 58951,ilceabonecount: 7814 },
+  { ilce: "HONAZ", isletme: "DENİZLİ MERKEZ isletme", bolge: "DENİZLİ", isletmeabonecount: 423591,ilceabonecount: 17137 },
+  { ilce: "İNCİRLİOVA", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 267285,ilceabonecount: 30861 },
+  { ilce: "KALE", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 128044,ilceabonecount: 12980 },
+  { ilce: "KARACASU", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 193851,ilceabonecount: 12182 },
+  { ilce: "KARPUZLU", isletme: "CİNE isletme", bolge: "AYDIN", isletmeabonecount: 47052,ilceabonecount: 8714 },
+  { ilce: "KAVAKLIDERE", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 140309,ilceabonecount: 7865 },
+  { ilce: "KOÇARLI", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 267285,ilceabonecount: 15162 },
+  { ilce: "KÖŞK", isletme: "AYDİN MERKEZ isletme", bolge: "AYDIN", isletmeabonecount: 267285,ilceabonecount: 16333 },
+  { ilce: "KÖYCEĞİZ", isletme: "ORTACA isletme", bolge: "MUGLA", isletmeabonecount: 112452,ilceabonecount: 27871 },
+  { ilce: "KUŞADASI", isletme: "KUSADASİ isletme", bolge: "AYDIN", isletmeabonecount: 146423,ilceabonecount: 146423 },
+  { ilce: "KUYUCAK", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 193851,ilceabonecount: 19310 },
+  { ilce: "MARMARİS", isletme: "MARMARİS isletme", bolge: "MUGLA", isletmeabonecount: 94384,ilceabonecount: 63852 },
+  { ilce: "MENTEŞE", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 140309,ilceabonecount: 76036 },
+  { ilce: "MERKEZEFENDİ", isletme: "DENİZLİ MERKEZ isletme", bolge: "DENİZLİ", isletmeabonecount: 423591,ilceabonecount: 194090 },
+  { ilce: "MİLAS", isletme: "MİLAS isletme", bolge: "BODRUM", isletmeabonecount: 115053,ilceabonecount: 115053 },
+  { ilce: "NAZİLLİ", isletme: "NAZİLLİ isletme", bolge: "BODRUM", isletmeabonecount: 193851,ilceabonecount: 103383 },
+  { ilce: "ORTACA", isletme: "ORTACA isletme", bolge: "MUGLA", isletmeabonecount: 112452,ilceabonecount: 42197 },
+  { ilce: "PAMUKKALE", isletme: "DENİZLİ MERKEZ isletme", bolge: "DENİZLİ", isletmeabonecount: 423591,ilceabonecount: 201893 },
+  { ilce: "SARAYKÖY", isletme: "SARAYKOY isletme", bolge: "DENİZLİ", isletmeabonecount: 58951,ilceabonecount: 21272 },
+  { ilce: "SERİNHİSAR", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 128044,ilceabonecount: 10902 },
+  { ilce: "SEYDİKEMER", isletme: "FETHİYE isletme", bolge: "MUGLA", isletmeabonecount: 187945,ilceabonecount: 49559 },
+  { ilce: "SÖKE", isletme: "SOKE isletme", bolge: "AYDIN", isletmeabonecount: 71076,ilceabonecount: 71076 },
+  { ilce: "SULTANHİSAR", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 193851,ilceabonecount: 14751 },
+  { ilce: "TAVAS", isletme: "ACİPAYAM isletme", bolge: "DENİZLİ", isletmeabonecount: 128044,ilceabonecount: 41394 },
+  { ilce: "ULA", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 140309,ilceabonecount: 22988 },
+  { ilce: "YATAĞAN", isletme: "MUGLA MERKEZ isletme", bolge: "MUGLA", isletmeabonecount: 140309,ilceabonecount: 29747 },
+  { ilce: "YENİPAZAR", isletme: "NAZİLLİ isletme", bolge: "AYDIN", isletmeabonecount: 193851,ilceabonecount: 9890 },
 ];
 
 
@@ -288,7 +288,7 @@ allSelectedData = allSelectedData.map(item => {
       ORDER BY MONTH(baslamaTarihi) ASC
     `, [excelData]);
   
-    //console.log("baseData ",baseData)
+    console.log("baseData ",baseData)
     let saidiData = alasql(`
     SELECT 
       ay, isletme,
@@ -362,7 +362,7 @@ allSelectedData = allSelectedData.map(item => {
       
     }
   
-  // console.log("saidi data ",saidiData);
+   console.log("saidi data ",saidiData);
     
     return saidiData;
   };
