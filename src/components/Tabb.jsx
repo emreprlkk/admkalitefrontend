@@ -9,7 +9,7 @@ import DrillDownChart from "./DrillDownChart.jsx";
 const Tab1Component = memo(({ isletme, navbarbolgecount, navbarisletmecount }) => (
   <Typography variant="body1">
     <SaidiSaifiGraph isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} />
-    <SummaryGraph isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} />
+    
   </Typography>
 ));
 
