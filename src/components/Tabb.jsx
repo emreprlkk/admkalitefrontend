@@ -14,9 +14,9 @@ const Tab1Component = memo(({ isletme, navbarbolgecount, navbarisletmecount }) =
 ));
 
 // 🔹 Tab 2: Sadece özet grafik
-const Tab2Component = ({ isletme, navbarbolgecount, navbarisletmecount }) => (
+const Tab2Component = ({ isletme, navbarbolgecount, navbarisletmecount ,directnavbardangelenisletmecount}) => (
   <Typography variant="body1">
-    <SummaryGraph isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} />
+    <SummaryGraph isletme={isletme}  navbarisletmecount={navbarisletmecount} directnavbardangelenisletmecount={directnavbardangelenisletmecount} />
   </Typography>
 );
 
@@ -36,7 +36,7 @@ const Tab4Component = () => (
 );
 
 // 🔹 Ana Tab bileşeni
-const Tabb = ({ isletme, navbarbolgecount, navbarisletmecount }) => {
+const Tabb = ({ isletme, navbarbolgecount, navbarisletmecount,directnavbardangelenisletmecount   }) => {
   const [value, setValue] = useState(0);
 
   const handleChange = useCallback((event, newValue) => {
@@ -45,7 +45,7 @@ const Tabb = ({ isletme, navbarbolgecount, navbarisletmecount }) => {
 
   const tabContent = [
     <Tab1Component key="tab1" isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} />,
-    <Tab2Component key="tab2" isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} />,
+    <Tab2Component key="tab2" isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} directnavbardangelenisletmecount={directnavbardangelenisletmecount}  />,
     <Tab3Component key="tab3" />,
     <Tab4Component key="tab4" />,
   ];

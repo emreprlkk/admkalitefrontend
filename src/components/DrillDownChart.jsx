@@ -303,7 +303,8 @@ const DrillDownChart = () => {
     
     const series = [{
       name: 'Yıllık Değer',
-      data: dataYearsSaidi.map(item => item.value)
+      data: dataYearsSaidi.map(item => item.value),
+      
     }];
     
     return (

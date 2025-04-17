@@ -4,7 +4,7 @@ import { Box, Button, Alert,Snackbar } from '@mui/material';
 
 import alasql from 'alasql';
  
-import NavbarBolge from './NavbarBolge'; 
+//import NavbarBolge from './NavbarBolge'; 
 import Navbarİsletme from './NavbarIsletme';
 import { useData } from './DataContext';
 import ColumnSelector from './ColumnSelector'
@@ -51,6 +51,7 @@ export default function ExcelPreview() {
   const [isletmeName, setIsletmeName] = useState('DENİZLİ MERKEZ isletme');
   const [navbardangelenbolgecount,setnavbardangelenbolgecount]=useState(20);
   const [navbardangelenisletmecount,setnavbardangelenisletmecount]=useState(1);
+  const [directnavbardangelenisletmecount,setdirectnavbardangelenisletmecount]=useState(1);
   const { updateSaidiSaifi } = useData();
   //const [executionCount,SetexecutionCount]=useState(18);
   
@@ -267,7 +268,7 @@ allSelectedData = allSelectedData.map(item => {
     kaynagagore:'',
     sebebegore: '',
     bildirimegore:'',*/
-    console.log(excelData)
+ //   console.log(excelData)
     const baseData = alasql(`
       SELECT 
          isletme,
@@ -362,7 +363,7 @@ allSelectedData = allSelectedData.map(item => {
       
     }
   
-   console.log("saidi data ",saidiData);
+   //console.log("saidi data ",saidiData);
     
     return saidiData;
   };
@@ -389,78 +390,21 @@ allSelectedData = allSelectedData.map(item => {
 
 
   // İlk 20 satırı önizleme
-  //const previewData = excelData.slice(0, 20);
-  const  veridekiİsletmeName=isletmeName
-
-  const handleIsletmeChange = (newIsletmeName,bolgecount,İsletmecount) => {
+  
+  const handleIsletmeChange = (newIsletmeName,bolgecount,İsletmecount,directİsletmecount) => {
     setIsletmeName(newIsletmeName); // isletmeName'i güncelliyoruz
     setnavbardangelenbolgecount(bolgecount);
     setnavbardangelenisletmecount( İsletmecount)
-   /* return new Promise((resolve) => {
-      setnavbardangelencount( sayi)
-      resolve();
-  });*/
-   // console.log("ChangeİsletmeName çalışıyor" ,isletmeName)
-   //console.log("sayix",sayi)
+    
+    setdirectnavbardangelenisletmecount(directİsletmecount)
+   
   };
   // isletmeName değiştiği anda güncellenmiş değeri yakala
   useEffect(() => {
     console.log("Güncellenmiş İşletme Adı:", isletmeName);
     
   }, [isletmeName]); // isletmeName değiştiğinde tetiklenecek.
-//console.log(allSelectedData)
-//console.log(resutlAlaSQL)
-/*
-// Tarih farkı hesaplama fonksiyonu (JavaScript ile)
-const calculateDurationMinutes = (start, end) => {
-  const startDate = new Date(start);
-  const endDate = new Date(end);
-  return (endDate - startDate) / 1000 / 60; // Dakika cinsinden fark
-};
-
-// **İlk alt sorguyu çalıştırarak HX adlı tabloyu oluşturuyoruz**
-const HX = alasql(`
-  SELECT 
-    [isletme] AS isletme,
-    SUM(12 / 24) AS SAIFI
-  FROM ?
-  WHERE 
-    [KESİNTİ BAŞLAMA TARİHİ VE ZAMANI (6)] >= '2024-01-01 00:00:00' 
-    AND [KESİNTİ SONA ERME TARİHİ VE ZAMANI (7)] <= '2024-08-01 00:00:00'
-    AND [KAYNAĞA GÖRE (5A)] != 'İletim'  
-    AND [SÜREYE GÖRE (5B)] != 'Kısa'  
-    AND [SEBEBE GÖRE (5C)] != 'Güvenlik'  
-    AND [SEBEBE GÖRE (5C)] != 'Dışsal'
-    AND [BİLDİRİME GÖRE (5D)] != 'Bildirimli'
-  GROUP BY [isletme]
-`, [allSelectedData]);
-
-// **Ana SQL Sorgusu**
-const result = alasql(`
-  SELECT 
-    db1.[isletme] AS isletme,
-    SUM(
-      DATEDIFF('SECOND', db1.[KESİNTİ BAŞLAMA TARİHİ VE ZAMANI (6)], db1.[KESİNTİ SONA ERME TARİHİ VE ZAMANI (7)])
-      / 60.0 *12 / 24
-    ) AS SAIDI,
-    HX.SAIFI
-  FROM ? AS db1
-  INNER JOIN ? AS HX 
-    ON db1.[isletme] = HX.isletme
-  WHERE 
-    db1.[KESİNTİ BAŞLAMA TARİHİ VE ZAMANI (6)] >= '2024-01-01 00:00:00' 
-    AND db1.[KESİNTİ SONA ERME TARİHİ VE ZAMANI (7)] <= '2024-08-01 00:00:00'
-    AND db1.[KAYNAĞA GÖRE (5A)] != 'İletim'  
-    AND db1.[SÜREYE GÖRE (5B)] != 'Kısa'  
-    AND db1.[SEBEBE GÖRE (5C)] != 'Güvenlik'  
-    AND db1.[BİLDİRİME GÖRE (5D)] != 'Bildirimli'
-  GROUP BY db1.[isletme], HX.SAIFI
-  ORDER BY db1.[isletme]
-`, [allSelectedData, HX]);
-
-// Sonuçları göster
-console.log(result);*/
-console.log(("xx ",navbardangelenisletmecount))
+ 
 
   return (
     
@@ -500,7 +444,7 @@ console.log(("xx ",navbardangelenisletmecount))
     </Box>
         </div>
       )}
-      <div> {< Tabb  isletme={isletmeName} navbarbolgecount={navbardangelenbolgecount} navbarisletmecount={navbardangelenisletmecount}/> }</div>
+      <div> {< Tabb  isletme={isletmeName} navbarbolgecount={navbardangelenbolgecount} navbarisletmecount={navbardangelenisletmecount} directnavbardangelenisletmecount={directnavbardangelenisletmecount}/> }</div>
 
 
     
