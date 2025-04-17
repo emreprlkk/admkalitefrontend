@@ -5,7 +5,7 @@
 body {
   /* styles.css */
 
-  background-color: #1e2022; /* Mavi rengi örnek olarak kullanıyoruz */
+  background-color: hsl(210, 21%, 75%); /* Mavi rengi örnek olarak kullanıyoruz */
   min-height: 100vh;
   margin: 0;
 

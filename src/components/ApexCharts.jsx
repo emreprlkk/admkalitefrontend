@@ -881,7 +881,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       legend: { show: true, onItemClick: { toggleDataSeries: true } }
     });
   }, [title, Y_axis, X_axis, maxValue, dataLabelsEnabled]);
-
+  
   useEffect(() => {
     setChartSeries([
       { name: '2025 HEDEFLER', data: saidiSaifiScoreData },
@@ -889,6 +889,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       { name: '2023 YILI', data: previousData[type === "saidi" ? "saidi23" : "saifi23"] },
       { name: '2024 YILI', data: previousData[type === "saidi" ? "saidi24" : "saifi24"] },
       { name: '2025 YILI', data: calculatedData }
+  
     ]);
    // console.log(" d1 ",previousData[type === "saidi" ? "saidi22" : "saifi22"])
   }, [saidiSaifiScoreData, previousData, calculatedData, type]);
@@ -908,7 +909,8 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       { header: '2025 HEDEFLER', key: 'target2025' },
       { header: '2022 YILI', key: 'year2022' },
       { header: '2023 YILI', key: 'year2023' },
-      { header: '2024 YILI', key: 'year2024' }
+      { header: '2024 YILI', key: 'year2024' },
+      { header: '2025 YILI', key: 'year2025' }
     ];
 
     chartSeries[0]?.data.forEach((_, index) => {
@@ -917,7 +919,8 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
         target2025: chartSeries[0]?.data[index],
         year2022: chartSeries[1]?.data[index],
         year2023: chartSeries[2]?.data[index],
-        year2024: chartSeries[3]?.data[index]
+        year2024: chartSeries[3]?.data[index],
+        year2025: chartSeries[4]?.data[index]
       });
     });
 

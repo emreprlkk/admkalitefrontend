@@ -78,12 +78,11 @@ export default function ExcelPreview() {
   let [allSelectedData, setAllSelectedData] = useState([]);
 
   // Tarih formatlama fonksiyonu (opsiyonel)
-  function parseExcelDate(serialDate) {
+  function parseExcelDate(serialDate ) {
     if (!serialDate) return null;
-    // Excel tarihleri 25569 değeri üzerinden hesaplanır.
-    //console.log("DATE ",new Date((serialDate - 25569) * 86400 * 1000))
-    //console.log("date ",serialDate ,new Date((serialDate - 25569) * 86400 * 1000))
-    return new Date((serialDate - 25569) * 86400 * 1000);
+    // Excel 1904 sistemine göre dönüşüm
+    const ms = (serialDate - 24107) * 86400 * 1000;
+    return new Date(ms);
   }
 
   // Dosya yükleme
@@ -268,6 +267,7 @@ allSelectedData = allSelectedData.map(item => {
     kaynagagore:'',
     sebebegore: '',
     bildirimegore:'',*/
+    console.log(excelData)
     const baseData = alasql(`
       SELECT 
          isletme,
@@ -283,7 +283,7 @@ allSelectedData = allSelectedData.map(item => {
         bitisTarihi,
         MONTH(baslamaTarihi) AS ay
       FROM ?
-     WHERE baslamaTarihi >= new Date('2024-01-01 00:00:00') and bitisTarihi <= new Date('2026-01-01 00:00:00') 
+     WHERE baslamaTarihi >= new Date('2025-02-01 00:00:00') and bitisTarihi <= new Date('2030-01-01 00:00:00') 
       GROUP BY  MONTH(baslamaTarihi),isletme, kesintikodu, kaynagagore, sureyegore, sebebegore, bildirimegore, baslamaTarihi, bitisTarihi, ay,toplamabonesayisi,isletmeabonecount
       ORDER BY MONTH(baslamaTarihi) ASC
     `, [excelData]);

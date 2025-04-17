@@ -1,0 +1,1362 @@
+[
+    {
+        "year": 2023,
+        "value": 780,
+        "monts": [
+            {
+                "mont": "Ocak",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 36.55,
+                "isletmeler":[
+                    {"isletme":"AYDINMERKEZİSLETME","isletme_Saidi":78.88},
+                    {"isletme":"DENİZLİMERKEZİSLETME","isletme_Saidi":98.88}
+                ]
+            },
+            {
+                "mont": "Ocak",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 16.01
+            },
+            {
+                "mont": "Ocak",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 77.05
+            },
+            {
+                "mont": "Ocak",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 72.47
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 27.29
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 52.54
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 23.9
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 49.48
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 28.92
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 20.7
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 79.72
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 41.23
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 36.69
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 19.3
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 43.23
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 54.58
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 33.4
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 50.72
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 60.37
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 42.52
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 52.98
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 76.95
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 51.15
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 78.41
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 93.94
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 100.02
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 39.25
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 174.56
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 33.34
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 120.44
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 47.78
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 54.74
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 61.51
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 86.2
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 56.91
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 79.67
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 35.97
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 27.56
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 89.16
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 62.98
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 138.23
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 336.47
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 54.82
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 173.04
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 42.39
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 25.2
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 146.38
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 87.08
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "value": 710,
+        "monts": [
+            {
+                "mont": "Ocak",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 60.66,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 61.24
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 127.18
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 39.56
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 24.84
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 70.27
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 54.67
+                    }
+                ]
+            },
+            {
+                "mont": "Ocak",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 154.26,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 125.61
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 195.34
+                    }
+                ]
+            },
+            {
+                "mont": "Ocak",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 18.09,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 29.14
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 21.07
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 14.1
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 18.26
+                    }
+                ]
+            },
+            {
+                "mont": "Ocak",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 60.37,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 71.06
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 70.91
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 63.43
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 41.66,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 60.31
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 28.19
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 18.23
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 24.63
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 51.96
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 43.92
+                    }
+                ]
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 128.93,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 147.85
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 101.81
+                    }
+                ]
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 16.2,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 33.57
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 19.28
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 10.5
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 14.79
+                    }
+                ]
+            },
+            {
+                "mont": "Şubat",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 87.65,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 169.11
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 80.49
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 60.82
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 35.03,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 56.68
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 61.85
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 9.69
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 15.54
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 24.82
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 12.2
+                    }
+                ]
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 19.48,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 57.47
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 22.25
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 8.13
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 14.22
+                    }
+                ]
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 98.17,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 95.21
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 102.42
+                    }
+                ]
+            },
+            {
+                "mont": "Mart",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 63.5,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 97.39
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 65.95
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 48.02
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 69.59,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 71.62
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 100.81
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 74.56
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 64.79
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 50.42
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 54.04
+                    }
+                ]
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 101.24,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 73.65
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 140.79
+                    }
+                ]
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 45.64,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 165.15
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 32.3
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 15.19
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 23.84
+                    }
+                ]
+            },
+            {
+                "mont": "Nisan",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 134.48,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 71.01
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 188.85
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 129.53
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 34.76,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 38.65
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 31.3
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 81.6
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 29.72
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 59.9
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 14.84
+                    }
+                ]
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 111.1,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 95.95
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 146.75
+                    }
+                ]
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 28.64,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 88.01
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 27.78
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 11.88
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 29.92
+                    }
+                ]
+            },
+            {
+                "mont": "Mayıs",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 54.76,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 67.0
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 53.48
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 53.27
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 79.21,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 99.29
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 86.03
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 49.15
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 70.56
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 101.94
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 47.06
+                    }
+                ]
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 72.59,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 101.06
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 80.51
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 63.53
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 63.96
+                    }
+                ]
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 112.97,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 92.15
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 142.82
+                    }
+                ]
+            },
+            {
+                "mont": "Haziran",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 96.59,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 68.95
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 143.08
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 69.71
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 126.11,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 159.35
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 188.41
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 53.84
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 86.26
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 72.0
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 116.0
+                    }
+                ]
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 86.93,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 111.61
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 102.07
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 75.77
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 91.0
+                    }
+                ]
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 241.67,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 250.31
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 229.3
+                    }
+                ]
+            },
+            {
+                "mont": "Temmuz",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 150.72,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 105.29
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 167.38
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 171.56
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 53.59,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 42.38
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 67.42
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 37.69
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 74.68
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 54.18
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 39.4
+                    }
+                ]
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 36.5,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 80.68
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 60.19
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 18.01
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 38.07
+                    }
+                ]
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 151.45,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 139.29
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 168.89
+                    }
+                ]
+            },
+            {
+                "mont": "Ağustos",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 95.62,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 48.45
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 127.95
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 123.69
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 52.39,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 85.19
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 20.64
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 46.49
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 45.0
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 46.34
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 33.09
+                    }
+                ]
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 44.27,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 38.1
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 53.11
+                    }
+                ]
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 26.25,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 61.19
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 28.25
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 15.91
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 21.57
+                    }
+                ]
+            },
+            {
+                "mont": "Eylül",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 87.11,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 86.6
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 56.66
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 139.71
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 40.63,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 45.88
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 51.45
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 9.79
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 17.56
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 135.84
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 17.26
+                    }
+                ]
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 18.98,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 38.35
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 23.23
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 12.54
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 16.86
+                    }
+                ]
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 49.21,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 45.43
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 54.62
+                    }
+                ]
+            },
+            {
+                "mont": "Ekim",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 70.09,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 68.35
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 71.64
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 26.43
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 94.6,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 126.35
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 167.92
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 33.47
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 55.94
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 82.93
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 52.64
+                    }
+                ]
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 26.68,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 61.41
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 22.87
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 17.25
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 24.35
+                    }
+                ]
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 159.83,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 141.94
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 185.48
+                    }
+                ]
+            },
+            {
+                "mont": "Kasım",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 157.74,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 77.4
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 179.86
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 142.71
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "AYDIN",
+                "bolge_saidi": 69.87,
+                "isletmeler": [
+                    {
+                        "isletme": "AYDIN MERKEZ İŞLETME",
+                        "isletme_Saidi": 92.55
+                    },
+                    {
+                        "isletme": "DİDİM İŞLETME",
+                        "isletme_Saidi": 108.32
+                    },
+                    {
+                        "isletme": "ÇİNE İŞLETME",
+                        "isletme_Saidi": 31.03
+                    },
+                    {
+                        "isletme": "NAZİLLİ İŞLETME",
+                        "isletme_Saidi": 25.79
+                    },
+                    {
+                        "isletme": "SÖKE İŞLETME",
+                        "isletme_Saidi": 88.78
+                    },
+                    {
+                        "isletme": "KUŞADASI İŞLETME",
+                        "isletme_Saidi": 58.81
+                    }
+                ]
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "BODRUM",
+                "bolge_saidi": 157.74,
+                "isletmeler": [
+                    {
+                        "isletme": "BODRUM İŞLETME",
+                        "isletme_Saidi": 159.84
+                    },
+                    {
+                        "isletme": "MİLAS İŞLETME",
+                        "isletme_Saidi": 154.73
+                    }
+                ]
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "DENİZLİ",
+                "bolge_saidi": 19.15,
+                "isletmeler": [
+                    {
+                        "isletme": "ACIPAYAM İŞLETME ",
+                        "isletme_Saidi": 46.42
+                    },
+                    {
+                        "isletme": "ÇİVRİL İŞLETME",
+                        "isletme_Saidi": 11.78
+                    },
+                    {
+                        "isletme": "DENİZLİ MERKEZ İŞLETME",
+                        "isletme_Saidi": 12.07
+                    },
+                    {
+                        "isletme": "SARAYKÖY İŞLETME",
+                        "isletme_Saidi": 21.51
+                    }
+                ]
+            },
+            {
+                "mont": "Aralık",
+                "bolge_name": "MUĞLA",
+                "bolge_saidi": 182.3,
+                "isletmeler": [
+                    {
+                        "isletme": "MARMARİS İŞLETME",
+                        "isletme_Saidi": 203.24
+                    },
+                    {
+                        "isletme": "FETHİYE İŞLETME",
+                        "isletme_Saidi": 187.19
+                    },
+                    {
+                        "isletme": "MUĞLA MERKEZ İŞLETME",
+                        "isletme_Saidi": 124.83
+                    },
+                    {
+                        "isletme": "ORTACA İŞLETME",
+                        "isletme_Saidi": null
+                    }
+                ]
+            }
+        ]
+    }
+]

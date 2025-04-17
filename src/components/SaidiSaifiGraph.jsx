@@ -2,11 +2,14 @@ import React, { useState, useEffect  } from 'react';
 import ApexCharts from './ApexCharts';
 import { ApaxChartSelect } from './ApaxChartSelect';
 import { useData } from "./DataContext";
+import { Box, Typography, Paper } from '@mui/material'
 
 
 export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> {
   const { datax } = useData();
     const [isletmeName, setIsletmeName] = useState(isletme);
+    const[YıllıkisletmeHedefi2025,setYıllıkisletmeHedefi2025]=useState('')
+    const[YıllıkisletmeHedefiSaifi2025,setYıllıkisletmeHedefiSaifi2025]=useState('')
     const data1_2023_silerisn=[1,2,3,4,88,6,7,8,9,10,11,12];
     // State'ler
   const [saidiData, setSaidiData] = useState({
@@ -33,7 +36,215 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
         'Kasım',
         'Aralık',
           ]
-     const [childataa,setchildata]=useState("");      
+     const [childataa,setchildata]=useState("");  
+     const saidiscoredataTarget2025={
+      9:{
+       //AYDIN MERKEZ 1 
+       //ÇİNE 2
+       //DİDİM 3 
+       //KUŞADASI 4 
+       //NAZİLLİ 5 
+       //SÖKE 6
+
+       1:{
+           ///aylar ve puanlar
+           
+               1: { 1: 814.95, 2: 800.02, 3: 756.24, 4: 713.97, 5: 698.11 },
+             
+             },
+
+
+       2:{    ///aylar ve puanlar
+           1: { 1: 508.32, 2: 484.11, 3: 459.91, 4:435.70, 5: 423.60 },
+       },
+
+       3:{ ///aylar ve puanlar
+           
+           1: { 1: 977.47, 2: 959.57, 3: 907.06, 4: 856.36, 5: 837.33 },
+           },
+   
+       4:{ ///aylar ve puanlar
+       1: { 1: 570.43, 2: 543.27, 3: 511.38, 4: 482.80, 5: 472.07 },
+       },
+
+       5:{  ///aylar ve puanlar
+            1: { 1: 551.79 , 2: 525.51, 3: 499.24, 4: 472.96, 5: 459.82 },
+        },
+
+       6:{  ///aylar ve puanlar
+           1: { 1: 880.36, 2: 838.44, 3: 796.52, 4: 754.59, 5: 733.63 },
+        },
+       
+
+      },
+      20:{
+       //ACIPAYAM 1 
+       //ÇİVRİL 2
+       //DENİZLİ MERKEZ 3 
+       //SARAYKÖY 4
+       1: {
+         1: { 1: 912.73, 2: 869.26, 3: 819.91, 4: 774.08, 5: 756.88},
+        
+       },
+       2: {
+         1: { 1: 473.30, 2: 450.77, 3: 428.23, 4: 405.69, 5: 394.42 },
+        
+       },
+       3: {
+         1: { 1: 284.44, 2: 270.90, 3: 257.35, 4: 243.81, 5: 237.03 },
+        
+       },
+       4: {
+         1: { 1: 396.41, 2:377.53, 3: 358.66, 4: 339.78, 5: 330.34 },
+         
+       },
+       
+      },
+      48:{
+       //FETHİYE 1
+       //MARMARİS 2 
+       //MUĞLA MERKEZ 3 
+       //ORTACA 4 
+
+       1:{
+         1: { 1: 1279.06, 2: 1255.63, 3: 1186.92, 4: 1120.57, 5: 1095.68 },
+         
+       },
+       2:{
+         1: { 1: 1065.75, 2: 1046.23, 3: 988.97, 4: 933.69, 5: 912.95 },
+         
+       },
+       3:{
+         1: { 1: 1108.46, 2: 1088.16, 3: 1028.61, 4: 971.11, 5: 949.54 },
+         
+       },
+       4:{
+         1: { 1: 1109.21, 2: 1188.89, 3: 1029.30, 4: 971.77, 5: 950.18 },
+        
+       },
+    
+      }  ,
+      481:{
+       //BODRUM 1
+       //MİLAS 2 
+
+       1:{
+         1: { 1: 1273.68, 2: 1250.35, 3: 1181.92, 4: 1115.86, 5: 1091.07 },
+          
+       },
+       2:{
+         1: { 1: 1515.36, 2: 1487.61, 3:1406.20, 4: 1327.60, 5: 1298.11 },
+          
+       },
+     
+      }     
+
+     
+     }    
+     const saifiscoredataTarget2025={
+      9:{
+       //AYDIN MERKEZ 1 
+       //ÇİNE 2
+       //DİDİM 3 
+       //KUŞADASI 4 
+       //NAZİLLİ 5 
+       //SÖKE 6
+
+       1:{
+           ///aylar ve puanlar
+           
+               1: { 1: 14.73, 2: 14.46, 3: 13.69, 4: 13.14, 5: 12.46 },
+             
+             },
+
+
+       2:{    ///aylar ve puanlar
+           1: { 1: 8.75, 2: 8.33, 3: 7.91, 4:7.50, 5: 7.29 },
+       },
+
+       3:{ ///aylar ve puanlar
+           
+           1: { 1: 15.30, 2:14.64, 3: 14.21, 4: 13.28, 5: 12.94},
+           },
+   
+       4:{ ///aylar ve puanlar
+       1: { 1: 7.49, 2: 7.14, 3:6.78, 4: 6.42, 5: 6.25 },
+       },
+
+       5:{  ///aylar ve puanlar
+            1: { 1: 14.17 , 2: 13.50, 3: 12.82, 4: 12.21, 5: 11.89 },
+        },
+
+       6:{  ///aylar ve puanlar
+           1: { 1: 12.93, 2: 12.31, 3: 11.70, 4: 11.08, 5: 10.77 },
+        },
+       
+
+      },
+      20:{
+       //ACIPAYAM 1 
+       //ÇİVRİL 2
+       //DENİZLİ MERKEZ 3 
+       //SARAYKÖY 4
+       1: {
+         1: { 1: 26.24, 2: 25.66, 3: 24.89, 4: 23.27, 5: 22.66},
+        
+       },
+       2: {
+         1: { 1: 15.61, 2: 14.87, 3: 14.12, 4: 13.38, 5: 13.01 },
+        
+       },
+       3: {
+         1: { 1: 5.61, 2: 5.35, 3: 5.08, 4: 4.81, 5: 4.68 },
+        
+       },
+       4: {
+         1: { 1: 8.96, 2:8.54, 3: 8.11, 4: 7.68, 5: 7.47 },
+         
+       },
+       
+      },
+      48:{
+       //FETHİYE 1
+       //MARMARİS 2 
+       //MUĞLA MERKEZ 3 
+       //ORTACA 4 
+
+       1:{
+         1: { 1: 26.12, 2: 25.64, 3: 24.27, 4: 22.68, 5: 22.09 },
+         
+       },
+       2:{
+         1: { 1: 20.94, 2: 20.55, 3: 19.45, 4: 18.18, 5: 17.71 },
+         
+       },
+       3:{
+         1: { 1: 19.08, 2: 18.73, 3: 17.72, 4: 16.57, 5: 16.14 },
+         
+       },
+       4:{
+         1: { 1: 22.00, 2: 20.96, 3: 19.91, 4: 19.31, 5: 18.81 },
+        
+       },
+    
+      }  ,
+      481:{
+       //BODRUM 1
+       //MİLAS 2 
+
+       1:{
+         1: { 1: 19.08, 2: 18.73, 3: 17.73, 4: 16.57, 5: 16.14 },
+          
+       },
+       2:{
+         1: { 1: 27.10, 2: 26.61, 3:25.18, 4: 23.54, 5: 22.93 },
+          
+       },
+     
+      }     
+
+     
+     }    
           const saidiscoredata={
            9:{
             //AYDIN MERKEZ 1 
@@ -1105,11 +1316,12 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
 // n'den n + 11'e kadar değerleri okuyup diziye ekleyen kod
 const createArrayScoreSaidi = (z) => {
     const resultArrayScore = [];
-    
+    const valueScoresSaidiTarget=saidiscoredataTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
+    setYıllıkisletmeHedefi2025(valueScoresSaidiTarget);
+      //console.log("valueScoresSaidiTarget ",valueScoresSaidiTarget)
     for (let i = 1; i <= 12; i++) {
       const valueScoresSaidi = saidiscoredata[navbarbolgecount][navbarisletmecount][i]?.[z]; // Belirtilen yoldaki değeri oku
       
-     
       if (valueScoresSaidi !== undefined) { // Eğer değer varsa diziye ekle
         resultArrayScore.push(valueScoresSaidi);
        
@@ -1119,7 +1331,8 @@ const createArrayScoreSaidi = (z) => {
   };
   const createArrayScoreSaiFi = (z) => {
     const resultArrayScore = [];
-    
+    const valueScoresSaifiTarget=saifiscoredataTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
+    setYıllıkisletmeHedefiSaifi2025(valueScoresSaifiTarget);
     for (let i = 1; i <= 12; i++) {
       const valueScoresSaiFi = saifiscoredata[navbarbolgecount][navbarisletmecount][i]?.[z]; // Belirtilen yoldaki değeri oku
       
@@ -1216,6 +1429,8 @@ const createArrayScoreSaidi = (z) => {
     
 
     const handleMessage2=(chartId,childata)=> {
+
+ 
       if(chartId==2 && childataa!=childata) {
           const newarray=createArrayScoreSaiFi(childata)
          
@@ -1239,28 +1454,62 @@ console.log(saiFiData)
           
             <div >
      
-    
-           
-
-                     {/*  */}
-      
             </div>
           
     
     <div className="grid-container">
-               {/*   */}
+               {/*   */}       
                <div className="chart">
-      
+               
+               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
+    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
+      İşletmenin 2025 Yılı SAİDİ Hedefi
+    </Typography>
+    <Typography variant="body1" color="primary">
+      ➡️ {YıllıkisletmeHedefi2025}
+    </Typography>
+  </Paper>
+
+  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
+    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
+    İşletmenin 2025 Yılı Gerçekleşen SAİDİ Değeri
+    </Typography>
+    <Typography variant="body1" color="secondary">
+      ➡️ Veri Yarın Yüklenecek
+    </Typography>
+  </Paper>
+</Box>
       <ApexCharts isletme={veridekiİsletmeName} chartId={1} key={veridekiİsletmeName} width={700} saidiSaifiScoreData={SaidiScoreData}    type="saidi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
   title={`${veridekiİsletmeName.toUpperCase()} SAİDİ`}
        X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
+      
        <div style={{marginBottom:'15px'}}>
      <ApaxChartSelect chartId={1} onSendMessage={handleMessage1} />
      </div>
    </div> 
  
     <div className="chart">
-      
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
+    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
+    İşletmenin 2025 Yılı Gerçekleşen SAİFİ Değeri
+    </Typography>
+    <Typography variant="body1" color="primary">
+      ➡️ {YıllıkisletmeHedefiSaifi2025}
+    </Typography>
+  </Paper>
+
+  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
+    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
+    İşletmenin 2025 Yılı Gerçekleşen SAİFİ Değeri
+    </Typography>
+    <Typography variant="body1" color="secondary">
+      ➡️ Veri Yarın Yüklenecek
+    </Typography>
+  </Paper>
+</Box>
+ 
       <ApexCharts   isletme={veridekiİsletmeName} chartId={2} key={veridekiİsletmeName} width={700} saidiSaifiScoreData={SaiFiScoreData}    type="saifi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
     /*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName.toUpperCase()} SAİFİ`}
        X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
