@@ -1,17 +1,33 @@
 .navbar {
   display: flex;
-  justify-content: flex-start; /* Öğeler arasındaki mesafeyi kontrol etmek için */
   align-items: center;
-  gap: 10px; /* Öğeler arası boşluk */
-  background-color: tomato;
-  padding: 5px;
-  border: 2px solid #000; /* Çerçeve */
-  border-radius: 8px;
-  margin: 10px 0;
-  width: 99%; /* Navbar'ın genişliği (kapsayıcıya göre ayarlanabilir) */
-  max-width: 2000px; /* Maksimum genişlik */
-  height: 60px; /* Navbar'ın yüksekliği */
+  margin-left: 10px;
+  justify-content: space-between; /* Ögeler arasında eşit boşluk bırakır */
+  gap: 10px;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Modern bir gradient arka plan */
+  padding: 0 20px;
+  border-radius: 10px;
+ 
+  width: 99%; /* Navbar genişliği */
+  max-width: 2000px;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
 }
+
+/* Navbar içerisindeki ikonların düzgün ortalanması için */
+.navbar i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.navbar i:hover {
+  transform: scale(1.1); /* Hover'da ikon küçücük bir büyüme efekti */
+}
+
 
   .navbar_bOLGE {
     display: flex;

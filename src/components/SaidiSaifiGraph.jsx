@@ -1,16 +1,18 @@
 import React, { useState, useEffect  } from 'react';
 import ApexCharts from './ApexCharts';
 import { ApaxChartSelect } from './ApaxChartSelect';
-import { useData } from "./DataContext";
+import { use2025SaidiSaifiData } from 'hooks/UseData';
 import { Box, Typography, Paper } from '@mui/material'
 
 
 export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> {
-  const { datax } = useData();
+  const { datax } = use2025SaidiSaifiData();
     const [isletmeName, setIsletmeName] = useState(isletme);
     const[YıllıkisletmeHedefi2025,setYıllıkisletmeHedefi2025]=useState('')
     const[YıllıkisletmeHedefiSaifi2025,setYıllıkisletmeHedefiSaifi2025]=useState('')
     const data1_2023_silerisn=[1,2,3,4,88,6,7,8,9,10,11,12];
+    const [saidiTotal, setSaidiTotal] = useState(0);
+    const [saifiTotal, setSaifiTotal] = useState(0);
     // State'ler
   const [saidiData, setSaidiData] = useState({
     saidi22: data1_2023_silerisn,
@@ -1434,7 +1436,7 @@ const createArrayScoreSaidi = (z) => {
       if(chartId==2 && childataa!=childata) {
           const newarray=createArrayScoreSaiFi(childata)
          
-console.log(saiFiData)
+//console.log(saiFiData)
       //const value = saidiscoredata[9][1][4][5]; // aydın , aydın merkez,nisan ayı 5. puan 
     //  console.log(newarray); // 50.62
       SetSaiFiScoreData(newarray);
@@ -1461,26 +1463,29 @@ console.log(saiFiData)
                {/*   */}       
                <div className="chart">
                
-               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
-    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
+               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+  <Paper elevation={3} sx={{ p: 1.5, borderRadius: 1.5 }}>
+    <Typography variant="subtitle2" fontWeight="bold" gutterBottom>
       İşletmenin 2025 Yılı SAİDİ Hedefi
     </Typography>
-    <Typography variant="body1" color="primary">
+    <Typography variant="body2" color="primary">
       ➡️ {YıllıkisletmeHedefi2025}
     </Typography>
   </Paper>
 
-  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
-    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
-    İşletmenin 2025 Yılı Gerçekleşen SAİDİ Değeri
+  <Paper elevation={3} sx={{ p: 1.5, borderRadius: 1.5 }}>
+    <Typography variant="subtitle2" fontWeight="bold" gutterBottom>
+      İşletmenin 2025 Yılı Gerçekleşen SAİDİ Değeri
     </Typography>
-    <Typography variant="body1" color="secondary">
-      ➡️ Veri Yarın Yüklenecek
+    <Typography variant="body2" color="secondary">
+      ➡️ {saidiTotal.toFixed(2)}
     </Typography>
   </Paper>
 </Box>
-      <ApexCharts isletme={veridekiİsletmeName} chartId={1} key={veridekiİsletmeName} width={700} saidiSaifiScoreData={SaidiScoreData}    type="saidi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
+
+      <ApexCharts onTotalSaidi={setSaidiTotal} isletme={veridekiİsletmeName} chartId={1} key={veridekiİsletmeName}
+       width={700} saidiSaifiScoreData={SaidiScoreData}   
+        type="saidi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
   title={`${veridekiİsletmeName.toUpperCase()} SAİDİ`}
        X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
       
@@ -1490,27 +1495,29 @@ console.log(saiFiData)
    </div> 
  
     <div className="chart">
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
-    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
-    İşletmenin 2025 Yılı Gerçekleşen SAİFİ Değeri
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+  <Paper elevation={3} sx={{ p: 1.5, borderRadius: 1.5 }}>
+    <Typography variant="subtitle2" fontWeight="bold" gutterBottom>
+      İşletmenin 2025 Yılı SAİFİ Hedefi
     </Typography>
-    <Typography variant="body1" color="primary">
+    <Typography variant="body2" color="primary">
       ➡️ {YıllıkisletmeHedefiSaifi2025}
     </Typography>
   </Paper>
 
-  <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
-    <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
-    İşletmenin 2025 Yılı Gerçekleşen SAİFİ Değeri
+  <Paper elevation={3} sx={{ p: 1.5, borderRadius: 1.5 }}>
+    <Typography variant="subtitle2" fontWeight="bold" gutterBottom>
+      İşletmenin 2025 Yılı Gerçekleşen SAİFİ Değeri
     </Typography>
-    <Typography variant="body1" color="secondary">
-      ➡️ Veri Yarın Yüklenecek
+    <Typography variant="body2" color="secondary">
+      ➡️ {saifiTotal.toFixed(2)}
     </Typography>
   </Paper>
 </Box>
+
  
-      <ApexCharts   isletme={veridekiİsletmeName} chartId={2} key={veridekiİsletmeName} width={700} saidiSaifiScoreData={SaiFiScoreData}    type="saifi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
+      <ApexCharts   onTotalSaidi={setSaifiTotal} isletme={veridekiİsletmeName} chartId={2} key={veridekiİsletmeName} width={700} saidiSaifiScoreData={SaiFiScoreData} 
+         type="saifi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
     /*  data1_2024={data2_2024_AG_KESİNTİ_SAYISI}*/ title={`${veridekiİsletmeName.toUpperCase()} SAİFİ`}
        X_axis={categories_Aylik} isletmeName_props={veridekiİsletmeName}/>
         <div style={{marginBottom:'15px'}}>

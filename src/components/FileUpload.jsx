@@ -27,6 +27,8 @@ const FileUpload = ({ handleFileChange }) => {
         textAlign: "center",
         maxWidth: "400px",
         margin: "auto",
+        marginTop:"10px",
+            marginBottom:"10px"
       }}
     >
       <input

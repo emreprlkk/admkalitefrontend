@@ -1,12 +1,13 @@
-import React, { useState, useEffect, useCallback,useContext,createContext } from 'react';
+import React, { useState, useEffect, useCallback,useMemo} from 'react';
 import * as XLSX from 'xlsx';
 import { Box, Button, Alert,Snackbar } from '@mui/material';
-
+import { formatKesintiVerisi } from './Loadash';
 import alasql from 'alasql';
  
 //import NavbarBolge from './NavbarBolge'; 
 import Navbarİsletme from './NavbarIsletme';
-import { useData } from './DataContext';
+import {use2025SaidiSaifiData} from 'hooks/UseData'
+import { useExcelJsonData } from 'hooks/UseExceLjsonData';
 import ColumnSelector from './ColumnSelector'
 import FileUpload from './FileUpload';
 import Tabb from './Tabb.jsx'
@@ -16,43 +17,25 @@ import Tabb from './Tabb.jsx'
 // Türkçe karakterleri temizleyen fonksiyon
 function removeTurkishCharacters(str) {
   if (!str) return str;
-  return str
-    .replace(/Ğ/g, 'G')
-    .replace(/Ü/g, 'U')
-    .replace(/Ş/g, 'S')
-    .replace(/İ/g, 'I')
-    .replace(/Ö/g, 'O')
-    .replace(/Ç/g, 'C')
-    .replace(/ğ/g, 'g')
-    .replace(/ü/g, 'u')
-    .replace(/ş/g, 's')
-    .replace(/ı/g, 'i')
-    .replace(/ö/g, 'o')
-    .replace(/ç/g, 'c');
+
+  const charMap = {
+    'Ğ': 'G', 'Ü': 'U', 'Ş': 'S', 'İ': 'I', 'Ö': 'O', 'Ç': 'C',
+    'ğ': 'g', 'ü': 'u', 'ş': 's', 'ı': 'i', 'ö': 'o', 'ç': 'c'
+  };
+
+  return str.replace(/[ĞÜŞİÖÇğüşıöç]/g, (char) => charMap[char] || char);
 }
-const categories_Aylik= [
-  'Ocak',
-  'Şubat',
-  'Mart',
-  'Nisan',
-  'Mayıs',
-  'Haziran',
-  'Temmuz',
-  'Ağustos',
-  'Eylül',
-  'Ekim',
-  'Kasım',
-  'Aralık',
-    ]
+
 export default function ExcelPreview() {
  
   const [excelData, setExcelData] = useState([]);
-  const [excelColumns, setExcelColumns] = useState([]);
+  const [excelColumns, setExcelColumns] = useState([]); // UPLOAD EDİLEN EXCEL=>JSON A ÇEVRİLİR OBJECTKEYSLER TÜRKÇE KARAKTERDEN ARINDIRILIR VE ARINDIRILAN İLK SATIRIN OBJECTKEYLERİ BU STATE TE TUTULUR
   const [isletmeName, setIsletmeName] = useState('DENİZLİ MERKEZ isletme');
   const [navbardangelenbolgecount,setnavbardangelenbolgecount]=useState(20);
   const [navbardangelenisletmecount,setnavbardangelenisletmecount]=useState(1);
   const [directnavbardangelenisletmecount,setdirectnavbardangelenisletmecount]=useState(1);
-  const { updateSaidiSaifi } = useData();
+  const { DataHandle } = use2025SaidiSaifiData();
+  const {updateSetExcelJsonData}=useExcelJsonData();
   //const [executionCount,SetexecutionCount]=useState(18);
   
 
@@ -63,8 +46,9 @@ export default function ExcelPreview() {
 
 
   // Başlangıçta istediğiniz property'ler:
-  const [columnMapping, setColumnMapping] = useState({
+  const [ExcelColumnToObjectName, setExcelColumnToObjectName] = useState({
     kesintikodu:'',
+    sebekeunsuru:'',
     il: '',
     ilce: '',
     sureyegore:'',
@@ -85,7 +69,24 @@ export default function ExcelPreview() {
     const ms = (serialDate - 24107) * 86400 * 1000;
     return new Date(ms);
   }
+  ///excel verisi json a dönüştükten sonra işleneceği fonksiyon kodu
+  const CloumNameReplaceJsonData = (jsonData) => {
+    if (!jsonData || jsonData.length === 0) return [];
+     // İlk satırdaki key'leri al, Türkçe karakterlerden arındır
+  const originalKeys = Object.keys(jsonData[0]);
+  const sanitizedKeys = originalKeys.map(removeTurkishCharacters);
 
+  // Her bir satır için sadece sanitized key'lere göre yeni nesne oluştur
+  return jsonData.map((row) =>
+    Object.fromEntries(
+      sanitizedKeys.map((sanitizedKey, index) => [
+        sanitizedKey,
+        row[originalKeys[index]]
+      ])
+    )
+  );
+};
+  
   // Dosya yükleme
   const handleFileChange = useCallback(async (e) => {
     const file = e.target.files[0];
@@ -97,21 +98,15 @@ export default function ExcelPreview() {
       const sheetName = workbook.SheetNames[0];
       const worksheet = workbook.Sheets[sheetName];
       const jsonData = XLSX.utils.sheet_to_json(worksheet, { defval: null });
-
+      //console.log("json data ",jsonData)
       // 1) Excel'den gelen kolon isimlerini ("key"lerini) sanitize ediyoruz.
-      const sanitizedData = jsonData.map((row) => {
-        const newRow = {};
-        for (const key in row) {
-          const sanitizedKey = removeTurkishCharacters(key);
-          newRow[sanitizedKey] = row[key];
-        }
-        return newRow;
-      });
+      const sanitizedData = CloumNameReplaceJsonData(jsonData);
+      //console.log(sanitizedData)
 
       // 2) Kolon isimleri dizisini de alıp temizliyoruz.
       if (sanitizedData.length > 0) {
-        const firstRowKeys = Object.keys(sanitizedData[0]);
-        setExcelColumns(firstRowKeys); // Zaten sanitize edilmiş.
+        const firstRowKeys = Object.keys(sanitizedData[0]); //TÜRKÇE KARAKTERLERDEN KURTULMIU KOLON İSİMLERİNİ ALIR
+        setExcelColumns(firstRowKeys); 
       }
 
       setExcelData(sanitizedData);
@@ -119,11 +114,12 @@ export default function ExcelPreview() {
       console.error('Excel dosyası okunamadı:', err);
     }
   }, []);
+  //console.log("excel to json data " ,excelData)
 
   // Kullanıcının kolon seçimini güncelliyor.
   // Burada seçilen excel kolonunu da sanitize ederek saklıyoruz.
   const handleMappingChange = (mappingKey, excelCol) => {
-    setColumnMapping((prev) => ({
+    setExcelColumnToObjectName((prev) => ({
       ...prev,
       [mappingKey]: removeTurkishCharacters(excelCol)
     }));
@@ -139,7 +135,7 @@ export default function ExcelPreview() {
  const entireSelectedData = excelData.map((row) => {
    const selectedRow = {}; 
  // Tüm mapping key'lerini ("il", "ilce" vs.) gez 
- for (let mappingKey in columnMapping) { const excelColName = columnMapping[mappingKey];
+ for (let mappingKey in ExcelColumnToObjectName) { const excelColName = ExcelColumnToObjectName[mappingKey];
    if (excelColName) { 
     selectedRow[mappingKey] = row[excelColName]; } 
    else { selectedRow[mappingKey] = null; } }
@@ -158,7 +154,7 @@ export default function ExcelPreview() {
       }); 
         //console.log("entireSelectedData ",entireSelectedData)
         setAllSelectedData(entireSelectedData); },
-         [columnMapping, excelData]);
+         [ExcelColumnToObjectName, excelData]);
 
 
 
@@ -230,30 +226,12 @@ allSelectedData = allSelectedData.map(item => {
   };
 });
 
-// Sonucu Konsolda Göster
-//console.log(allSelectedData);
-
-  // Örnek sorgu
-  const resutlAlaSQL = alasql(
-    `
-    SELECT  isletme,COUNT(*) AS sayi FROM ?
-    GROUP BY isletme
-    ORDER By isletme ASC
-    `,
-    [allSelectedData]
-  );
-  //console.log(allSelectedData);
 
 
 
 
-  const executeAlasqlQuery = (excelData) => {
-  //  console.log("finksiyona girdi!",executionCount);
-    
-
-    //SetexecutionCount(-3); // Çalışma sayısını artır.
-    //console.log( executionCount)
-  // console.log("excel data ", excelData)
+  const executeAlasqlSadiSaifiQuery = (excelData) => {
+  
     if (!excelData || excelData.length === 0) {
       console.log("Excel verisi boş!");
       return [];
@@ -289,7 +267,7 @@ allSelectedData = allSelectedData.map(item => {
       ORDER BY MONTH(baslamaTarihi) ASC
     `, [excelData]);
   
-    console.log("baseData ",baseData)
+    //console.log("baseData ",baseData)
     let saidiData = alasql(`
     SELECT 
       ay, isletme,
@@ -349,31 +327,51 @@ allSelectedData = allSelectedData.map(item => {
   `, [baseData]);
       console.log("saidi data lenght ",saidiData.length)
     if (saidiData.length > 0 ) {
-      const filteredAndSortedData = saidiData
-        .filter(row => row.isletme === isletmeName)
-        .sort((a, b) => a.ay - b.ay);
+      // const filteredAndSortedData = saidiData
+      //   .filter(row => row.isletme === isletmeName)
+      //   .sort((a, b) => a.ay - b.ay);
   
-      saidi_verisi = filteredAndSortedData.map(row => row.saidi_isletme);
-      saifi_verisi = filteredAndSortedData.map(row => row.saifi_isletme);
-      ort_og_ariza_giderme_suresi_verisi=filteredAndSortedData.map(row => row.ort_og_ariza_giderme_suresi);
-      ort_ag_ariza_giderme_suresi_verisi=filteredAndSortedData.map(row => row.ort_ag_ariza_giderme_suresi);
-      toplam_uzun_og_ariza_sayisi_verisi=filteredAndSortedData.map(row => row.toplam_uzun_og_ariza_sayisi);
-      toplam_uzun_ag_ariza_sayisi_verisi=filteredAndSortedData.map(row => row.toplam_uzun_ag_ariza_sayisi);
-      toplam__kisa_og_ariza_sayisi_verisi=filteredAndSortedData.map(row => row.toplam__kisa_og_ariza_sayisi);
+      // saidi_verisi = filteredAndSortedData.map(row => row.saidi_isletme);
+      // saifi_verisi = filteredAndSortedData.map(row => row.saifi_isletme);
+      // ort_og_ariza_giderme_suresi_verisi=filteredAndSortedData.map(row => row.ort_og_ariza_giderme_suresi);
+      // ort_ag_ariza_giderme_suresi_verisi=filteredAndSortedData.map(row => row.ort_ag_ariza_giderme_suresi);
+      // toplam_uzun_og_ariza_sayisi_verisi=filteredAndSortedData.map(row => row.toplam_uzun_og_ariza_sayisi);
+      // toplam_uzun_ag_ariza_sayisi_verisi=filteredAndSortedData.map(row => row.toplam_uzun_ag_ariza_sayisi);
+      // toplam__kisa_og_ariza_sayisi_verisi=filteredAndSortedData.map(row => row.toplam__kisa_og_ariza_sayisi);
       
     }
   
-   //console.log("saidi data ",saidiData);
+ console.log("saidi data ",saidiData);
     
     return saidiData;
   };
-  
+
+
+
+   /* il: '',
+    ilce: '',
+    sureyegore:'',
+    kaynagagore:'',
+    sebebegore: '',
+    bildirimegore:'',*/
+ //   console.log(excelData)
+  // useMemo ile hesaplama sadece data değişince yapılır
+
+ 
   // **Kullanım Örneği**
-  const queryResults = executeAlasqlQuery(allSelectedData);
-  
+  const queryResultsSaidiSaifi = executeAlasqlSadiSaifiQuery(allSelectedData);
+  console.log(queryResultsSaidiSaifi)
+  console.log("allSelectedData ",allSelectedData)
+  const grupluVeri = useMemo(() => formatKesintiVerisi(allSelectedData), [allSelectedData]);
+  console.log("grupluVeri ",grupluVeri)
+  // **AlaSQL işlemleri**
+ // const queryResultsDailyHeatmap = executeAlaSQLDailyHeatMapQuery(allSelectedData);
+  //console.log("queryResultsSaidiSaifi ",queryResultsSaidiSaifi)
+//console.log("queryResultsDailyHeatmap ",queryResultsDailyHeatmap)
   // Verileri state'e set et
   const dd = () => {
-    updateSaidiSaifi(queryResults);
+    DataHandle(queryResultsSaidiSaifi);
+    updateSetExcelJsonData(grupluVeri);
     console.log("güncellendi stateler");
        // Alert'i aç
        setOpen(true);
@@ -414,13 +412,15 @@ allSelectedData = allSelectedData.map(item => {
        <Navbarİsletme onIsletmeChange={handleIsletmeChange} /> {/* handleIsletmeChange fonksiyonunu prop olarak geçiyoruz */} {/* Navbar'ı burada render ediyoruz */}
      
 
-       <FileUpload handleFileChange={handleFileChange}/>
+      { <FileUpload handleFileChange={handleFileChange}/>}
       
       {excelData.length > 0 && (
         <div >
  
 
-         <ColumnSelector columnMapping={columnMapping} excelColumns={excelColumns} handleMappingChange={handleMappingChange}/>
+         <ColumnSelector columnMapping={ExcelColumnToObjectName}
+          excelColumns={excelColumns} 
+          handleMappingChange={handleMappingChange}/>
          <Box
       sx={{
         display: "flex",
@@ -444,7 +444,12 @@ allSelectedData = allSelectedData.map(item => {
     </Box>
         </div>
       )}
-      <div> {< Tabb  isletme={isletmeName} navbarbolgecount={navbardangelenbolgecount} navbarisletmecount={navbardangelenisletmecount} directnavbardangelenisletmecount={directnavbardangelenisletmecount}/> }</div>
+      <div> 
+        {< Tabb  isletme={isletmeName}
+         navbarbolgecount={navbardangelenbolgecount}
+          navbarisletmecount={navbardangelenisletmecount} 
+          directnavbardangelenisletmecount={directnavbardangelenisletmecount}/> 
+          }</div>
 
 
     

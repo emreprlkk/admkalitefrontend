@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Box,
+  
   Card,
   CardContent,
   FormControl,
@@ -9,13 +9,13 @@ import {
   Select,
   Stack,
   Typography,
-  Alert 
+   
 } from "@mui/material";
 
 
 const ColumnSelector = ({ columnMapping, excelColumns, handleMappingChange }) => {
   return (
-    <Card sx={{ maxWidth: 600, mx: "auto", my: 3, boxShadow: 3 }}>
+    <Card sx={{ maxWidth: 1000, mx: "auto", my: 3, boxShadow: 3 }}>
       <CardContent>
         {/* Başlık */}
         <Typography variant="h6" gutterBottom sx={{ textAlign: "center", fontWeight: "bold" }}>
@@ -37,11 +37,13 @@ const ColumnSelector = ({ columnMapping, excelColumns, handleMappingChange }) =>
                 value={columnMapping[key]}
                 onChange={(e) => handleMappingChange(key, e.target.value)}
               >
-                {excelColumns.map((col) => (
+                {excelColumns.map(
+                  (col) => (
                   <MenuItem key={col} value={col}>
                     {col}
                   </MenuItem>
-                ))}
+                )
+                )}
               </Select>
             </FormControl>
           ))}

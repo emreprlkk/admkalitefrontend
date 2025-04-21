@@ -1,12 +1,13 @@
 
-import React, { useState, useEffect, useMemo, useCallback, useContext } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import Chart from 'react-apexcharts';
 import ExcelJS from 'exceljs';
 import { saveAs } from 'file-saver';
 import '../App.css';
-import { DataContext } from './DataContext';
+import { use2025SaidiSaifiData } from 'hooks/UseData';
 
 const ApexCharts = ({
+  onTotalSaidi,
   isletme,
   chartId,
   width = "100%",
@@ -14,18 +15,19 @@ const ApexCharts = ({
   saidiSaifiScoreData = [],
   previousyearsaididata = { saidi22: [], saidi23: [], saidi24: [] },
   previoussaifidata = { saifi22: [], saifi23: [], saifi24: [] },
-  Y_axis = "Y Ekseni",
+  Y_axis = "SAİDİ DEĞERİ (DAKİKA)",
   X_axis = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", 
            "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
   //saidi_hedef_24 = "0.000",
   type //= "saidi" // "saidi" veya "saifi" seçimi
 }) => {
 //console.log("geçen poprs ",type)
-  const dataxx = useContext(DataContext);
+  const {Datax } = use2025SaidiSaifiData();
+//console.log("apexcharta gelen Datax",Datax)
 // Veri tipine göre önceki yılların verilerini seç
 const previousData = type === "saidi" ? previousyearsaididata : previoussaifidata;
 
-//console.log("previousData ",previousData)
+ 
   const UploadFileSaidiAndSaifi = useCallback((nestedObject, text,type) => {
     const textToIndexMap = new Map([
       ["ACİPAYAM isletme", 1],
@@ -47,15 +49,17 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
     ]);
 
     const targetIndex = textToIndexMap.get(text);
+     
     const vtValues = [];
     
     if (typeof targetIndex === 'number') {
+     
    // 12 ay için döngü
   for (let month = 1; month <= 12; month++) {
     const monthData = nestedObject[month];
+ 
     if (monthData && monthData[targetIndex]) {
-      // `type` parametresine göre SAİDİ veya SAİFİ değerini oku
-     // console.log("fonksiyon içerisinteki type ",type)
+   
       const value = type ==="saidi"
 
       //console.log("tipi ",value)
@@ -68,13 +72,24 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
     }
   }
     }
-    //console.log("emree buraya bi bak ",vtValues)
+     
     return vtValues;
   }, []);
 
   const calculatedData = useMemo(() => 
-    UploadFileSaidiAndSaifi(dataxx.data, isletme,type)
-  , [dataxx.data, isletme,UploadFileSaidiAndSaifi]);
+    UploadFileSaidiAndSaifi(Datax, isletme,type)
+  , [Datax, isletme,UploadFileSaidiAndSaifi]);
+  
+  /* 🔹 2025 toplamını hesapla */
+  const totalSaidi2025 = useMemo(
+    () => calculatedData.reduce((s, v) => s + v, 0),
+    [calculatedData]
+  );
+
+  /* 🔹 Parent’a bildir */
+  useEffect(() => {
+    if (onTotalSaidi) onTotalSaidi(totalSaidi2025);
+  }, [totalSaidi2025, onTotalSaidi]);
 
   const allData = useMemo(() => {
     const validData1 = Array.isArray(saidiSaifiScoreData) ? saidiSaifiScoreData : [];
@@ -131,7 +146,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       grid: { borderColor: '#e7e7e7', row: { colors: ['#f3f3f3', 'transparent'], opacity: 0.5 }},
       title: { text: title, align: 'center', margin: 60, style: { fontSize: '14px', fontWeight: 'bold', color: 'black' }},
       yaxis: {
-        title: { text: Y_axis },
+        title: { text:    type==="saidi" ? Y_axis :"SAİFİ DEGERİ"},
         labels: {
           style: { fontWeight: 'bold', fontSize: '14px' },
           formatter: (value) => (typeof value === 'number' ? value.toFixed(3) : '0.000')
