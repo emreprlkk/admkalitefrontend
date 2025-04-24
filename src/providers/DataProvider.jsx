@@ -43,7 +43,7 @@ const initialState2025 = {
       },
       3: {
        1:  {name:"ACİPAYAM isletme" ,SAİDİ:33.01, SAİFİ: 1.1 },
-       2 : {name: "AYDİN MERKEZ isletme", SAİDİ:937.68, SAİFİ: 0.98 },
+       2 : {name: "AYDİN MERKEZ isletme", SAİDİ:42.34, SAİFİ: 0.96 },
        3:  {name:"BODRUM isletme",SAİDİ:68.09, SAİFİ: 1.26 },
        4: {name: "CİNE isletme",SAİDİ:38.51, SAİFİ: 0.59 },
        5: {name:"CİVRİL isletme", SAİDİ:20.69, SAİFİ: 0.65 },

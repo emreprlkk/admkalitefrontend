@@ -679,7 +679,7 @@
   •  DataGrid’de “Kesinti Kodu” kolonu tıklanabilir link
 *****************************************************************/
 
-import React, { useState, useCallback, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import {
   Paper,
