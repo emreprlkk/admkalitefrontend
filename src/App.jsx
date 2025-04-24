@@ -17,7 +17,7 @@ function App() {
     <MergeProvider>
     <div className='main-container'>
        
-     <h1 style={{color:"tomato"}}> DEMO DASHBOARD </h1>
+     <h1 style={{color:"tomato"}}> ADM DASHBOARD </h1>
            <h2 style={{color:"tomato" } }>  Sistem İşletme Müdürlüğü </h2>
          {/*<div style={{color:"tomato" } }> Developer By Emre PARLAK </div> */}  
    
