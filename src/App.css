@@ -2,17 +2,19 @@
   box-sizing: border-box;
 }
 
-body {
-  /* styles.css */
+ 
+  
 
-  background-color: hsl(210, 21%, 75%); /* Mavi rengi örnek olarak kullanıyoruz */
-  min-height: 100vh;
-  margin: 0;
+  
 
-
-  margin: 150;
-  font-family: Arial, sans-serif;
-}
+  body {
+   /* styles.css */
+  background: linear-gradient(180deg, #c9cedd, hsl(218, 60%, 35%));
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
 /* HD Ready monitörler (1280x720) */
 @media only screen and (min-width: 1920px) and (max-width: 3839px) {
   /* Stil kuralları buraya */
@@ -26,8 +28,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin: 0 auto; /* sağ-sol otomatik boşluk bırak, ortala */
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
