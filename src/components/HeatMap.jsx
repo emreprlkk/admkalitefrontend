@@ -826,9 +826,10 @@ const Heatmap = () => {
               { from: 0.5, to: 3, color: "#00ff7f" },
               { from: 3, to: 5, color: "#ffc0cb" },
               { from: 5, to: 8, color: "#db7093" },
-              { from: 8, to: 10, color: "#ff4500" },
-              { from: 10, to: 50, color: "#b22222" }
-            ]
+              { from: 8, to: 10, color: "#EA7300" },
+              { from: 10, to: 50, color: "#F7374F" },
+              {from:50 , to:100, color:'#AF2655'}
+            ]      //AF2655
           }
         }
       },
