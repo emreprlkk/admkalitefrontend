@@ -251,24 +251,88 @@ const initialState2025 = {
           "SAİFİ": 0.98
       }
   },
-      4: {
-       1:  {name:"ACİPAYAM isletme" ,SAİDİ:0, SAİFİ: 0 },
-       2 : {name: "AYDİN MERKEZ isletme", SAİDİ:0, SAİFİ: 0 },
-       3:  {name:"BODRUM isletme",SAİDİ:0, SAİFİ: 0 },
-       4: {name: "CİNE isletme",SAİDİ:0, SAİFİ: 0 },
-       5: {name:"CİVRİL isletme", SAİDİ:0, SAİFİ: 0 },
-       6: {name:"DENİZLİ MERKEZ isletme", SAİDİ:0, SAİFİ: 0 },
-       7:{ name: "DİDİM isletme", SAİDİ:0, SAİFİ: 0 },
-       8:{name:"FETHİYE isletme", SAİDİ:0, SAİFİ: 0 },  
-       9:{ name: "KUSADASİ isletme", SAİDİ:0, SAİFİ: 0 },
-      10:{ name:"MARMARİS isletme", SAİDİ:0, SAİFİ: 0 },
-      11:{  name:"MİLAS isletme", SAİDİ:0, SAİFİ: 0 },
-      12:{ name:"MUGLA MERKEZ isletme", SAİDİ:0, SAİFİ: 0 },
-      13:{ name :"NAZİLLİ isletme", SAİDİ:0, SAİFİ: 0 },
-      14:{ name: "ORTACA isletme",SAİDİ:0, SAİFİ: 0 },
-      15:{ name:"SARAYKOY isletme", SAİDİ:0, SAİFİ: 0 },
-      16:{ name:"SOKE isletme", SAİDİ:0, SAİFİ: 0 },
-      },
+      "4": {
+        "1": {
+            "name": "ACİPAYAM isletme",
+            "SAİDİ": 25.97,
+            "SAİFİ": 1.02
+        },
+        "2": {
+            "name": "AYDİN MERKEZ isletme",
+            "SAİDİ": 49.08,
+            "SAİFİ": 1.14
+        },
+        "3": {
+            "name": "BODRUM isletme",
+            "SAİDİ": 35.27,
+            "SAİFİ": 0.59
+        },
+        "4": {
+            "name": "CİNE isletme",
+            "SAİDİ": 61.97,
+            "SAİFİ": 0.99
+        },
+        "5": {
+            "name": "CİVRİL isletme",
+            "SAİDİ": 44.17,
+            "SAİFİ": 1.07
+        },
+        "6": {
+            "name": "DENİZLİ MERKEZ isletme",
+            "SAİDİ": 13.65,
+            "SAİFİ": 0.37
+        },
+        "7": {
+            "name": "DİDİM isletme",
+            "SAİDİ": 24.2,
+            "SAİFİ": 0.87
+        },
+        "8": {
+            "name": "FETHİYE isletme",
+            "SAİDİ": 117.89,
+            "SAİFİ": 2.0
+        },
+        "9": {
+            "name": "KUSADASİ isletme",
+            "SAİDİ": 9.99,
+            "SAİFİ": 0.2
+        },
+        "10": {
+            "name": "MARMARİS isletme",
+            "SAİDİ": 80.07,
+            "SAİFİ": 2.37
+        },
+        "11": {
+            "name": "MİLAS isletme",
+            "SAİDİ": 117.92,
+            "SAİFİ": 2.5
+        },
+        "12": {
+            "name": "MUGLA MERKEZ isletme",
+            "SAİDİ": 132.25,
+            "SAİFİ": 2.83
+        },
+        "13": {
+            "name": "NAZİLLİ isletme",
+            "SAİDİ": 30.58,
+            "SAİFİ": 0.96
+        },
+        "14": {
+            "name": "ORTACA isletme",
+            "SAİDİ": 61.7,
+            "SAİFİ": 1.59
+        },
+        "15": {
+            "name": "SARAYKOY isletme",
+            "SAİDİ": 30.52,
+            "SAİFİ": 0.65
+        },
+        "16": {
+            "name": "SOKE isletme",
+            "SAİDİ": 37.56,
+            "SAİFİ": 0.63
+        }
+    },
       5: {
        1:  {name:"ACİPAYAM isletme" ,SAİDİ:0, SAİFİ: 0 },
        2 : {name: "AYDİN MERKEZ isletme", SAİDİ:0, SAİFİ: 0 },
