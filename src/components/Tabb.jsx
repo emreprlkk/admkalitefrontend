@@ -3,13 +3,14 @@ import { Tabs, Tab, Box, Typography } from "@mui/material";
 import { SummaryGraph } from "./SummaryGraph.jsx";
 import HeatMap from "./HeatMap.jsx";
 import { SaidiSaifiGraph } from "./SaidiSaifiGraph.jsx";
+import { SaidiSaifiGraphEdas } from "./SaidiSaifiGraphEdas.jsx";
 import DrillDownChart from "./DrillDownChart.jsx";
 
 // 🔹 Tab 1: Saidi + Summary
 const Tab1Component = memo(({ isletme, navbarbolgecount, navbarisletmecount }) => (
   <Typography variant="body1">
     <SaidiSaifiGraph isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} />
-    
+    <SaidiSaifiGraphEdas   />
   </Typography>
 ));
 
