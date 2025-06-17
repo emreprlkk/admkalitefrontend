@@ -67,3 +67,63 @@
     background-color: white;
   }
   
+
+  /* Navbar.css */
+
+/* Yeni Navbar */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;          /* Satır taşınca alt satıra iner */
+  justify-content: center;  /* Her satırı ortala */
+  align-items: center;
+  gap: 30px;                /* Gruplar arası boşluk */
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 99%;
+  max-width: 2000px;
+  height: auto;             /* Yükseklik sabit olmasın */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-group-title {
+  display: inline-flex;  /* Metin + ikon birlikte hizalanır */
+  align-items: center;   /* Dikey ortalama */
+  gap: 4px;              /* İkon ile metin arası boşluk */
+  font-weight: bold;
+  color: white;          /* örnek */
+}
+
+.inline-icon {
+  display: inline-flex;  /* İkon kendi içinde de ortalansın */
+  vertical-align: middle; /* Yedek hizalama */
+}
+.nav-group a {
+  text-decoration: none;
+  margin: 2px 0;
+  color: #333;
+}
+
+.nav-group a:hover {
+  text-decoration: underline;
+}
+
+/* Grup içinde inline akış */
+.nav-group-inline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Grup kendi içinde de kırılabilir */
+  gap: 10px;
+  /* opsiyonel: genişlik limiti */
+  max-width: 100%; 
+}
+
+.nav-group-title {
+  font-weight: bold;
+  color: white;
+}
