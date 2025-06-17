@@ -17,7 +17,9 @@ const ApexChartsEdas = ({
 
   /** ───────────── 1.  TOPLAM’ı gösterip göstermeme anahtarı ───────────── */
   const [showTotals, setShowTotals] = useState(false);
+  
   const toggleTotals = useCallback(() => setShowTotals(prev => !prev), []);
+  
 
   /** ───────────── 2.  Dinamik kategoriler ───────────── */
   const categories = useMemo(
@@ -26,9 +28,10 @@ const ApexChartsEdas = ({
   );
 
   const colors21 = [
+    '#ff7f0e','#ffc93c',
     '#1f77b4', '#393b79', '#2ca02c', '#d62728', '#9467bd',
     '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
-    '#ff7f0e', '#637939', '#ffc93c', '#843c39', '#7b4173',
+     '#637939',  '#843c39', '#7b4173',
     '#3182bd', '#31a354', '#756bb1', '#636363', '#e6550d',
     '#969696'
   ];
@@ -44,6 +47,8 @@ const ApexChartsEdas = ({
         group: '2025',                            // grouped-stacked
         color: colors21[idx]                      // her seriye benzersiz renk
       })),
+
+      
     [edaslarSaidiOrSaifi, showTotals]
   );
   
@@ -109,6 +114,8 @@ const ApexChartsEdas = ({
       >
         {showTotals ? 'TOPLAM Gizle' : 'TOPLAM Göster'}
       </button>
+
+     
 
       <Chart
         options={chartOptions}

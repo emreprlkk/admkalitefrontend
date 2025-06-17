@@ -1,14 +1,15 @@
-import React, { useState, useEffect  } from 'react';
+import React, { useState  } from 'react';
 import ApexChartEdas from './ApexChartEdas';
+
  
-import { Box, Typography, Paper } from '@mui/material'
+import { Button } from '@mui/material'
 
 
 export  const SaidiSaifiGraphEdas=()=> {
  
    
  
-    const [saidiTotal, setSaidiTotal] = useState(0);
+   
  
  
  
@@ -28,8 +29,345 @@ export  const SaidiSaifiGraphEdas=()=> {
        // 'Toplam'
           ]
  
-   
+          const electricityDataSaidi2025 = {
+            "ADM EDAŞ": {
+              "Ocak": 48.55,
+              "Şubat": 45.21,
+              "Mart": 34.31,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 128.07
+            },
+            "GDZ EDAŞ": {
+              "Ocak": 55.42,
+              "Şubat": 54.13,
+              "Mart": 42.62,
+              "Nisan": 38.76,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 190.92
+            },
+            "Akdeniz EDAŞ": {
+              "Ocak": 0.00,
+              "Şubat": 0.00,
+              "Mart": 0.00,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 0.00
+            },
+            "Akedaş": {
+              "Ocak": 76.45,
+              "Şubat": 76.75,
+              "Mart": 129.43,
+              "Nisan": 123.15,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 405.78
+            },
+            "Aras EDAŞ": {
+              "Ocak": 47.72,
+              "Şubat": 55.37,
+              "Mart": 79.08,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 182.17
+            },
+            // Diğer şirketler aynı şekilde devam ediyor...
+            "Çoruh EDAŞ": {
+              "Ocak": 51.33,
+              "Şubat": 157.43,
+              "Mart": 128.55,
+              "Nisan": 87.28,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 424.58
+            },
+            "Fırat EDAŞ": {
+              "Ocak": 34.69,
+              "Şubat": 65.97,
+              "Mart": 64.04,
+              "Nisan": 63.48,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 228.18
+            },
+          
+            "Meram EDAŞ": {
+              "Ocak": 19.09,
+              "Şubat": 25.89,
+              "Mart": 39.38,
+              "Nisan": 43.84,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 128.20
+            },
+            "Osmangazi EDAŞ": {
+              "Ocak": 61.13,
+              "Şubat": 45.56,
+              "Mart": 82.99,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 189.68
+            },
+            // Tüm değerleri 0 olan şirketler için kısa gösterim
+            "Ayedaş": createZeroData(),
+            "Başkent EDAŞ": createZeroData(),
+            "Boğaziçi EDAŞ": createZeroData(),
+            "Çamlıbel EDAŞ": createZeroData(),
+            "Dicle EDAŞ": createZeroData(),
+            "Kayseri ve Civarı EDAŞ": createZeroData(),
+            "Sakarya EDAŞ": createZeroData(),
+            "Toroslar EDAŞ": createZeroData(),
+            "Tredaş": createZeroData(),
+            "Uludağ EDAŞ": createZeroData(),
+            "Vangölü EDAŞ": createZeroData(),
+            "Yeşilırmak EDAŞ": createZeroData()
+          };
+          const electricityDataSaifi2025 = {
+            "ADM EDAŞ": {
+              "Ocak": 1.05,
+              "Şubat": 0.95,
+              "Mart": 0.89,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 2.89
+            },
+            "GDZ EDAŞ": {
+              "Ocak": 0.85,
+              "Şubat": 0.74,
+              "Mart": 0.74,
+              "Nisan": 0.70,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 3.03
+            },
+            "Akdeniz EDAŞ": createZeroData(),
+            "Akedaş": {
+              "Ocak": 1.87,
+              "Şubat": 1.71,
+              "Mart": 3.22,
+              "Nisan": 2.97,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 9.77
+            },
+            "Aras EDAŞ": {
+              "Ocak": 0.73,
+              "Şubat": 0.77,
+              "Mart": 1.01,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 2.50
+            },
+            "Ayedaş": createZeroData(),
+            "Başkent EDAŞ": createZeroData(),
+            "Boğaziçi EDAŞ": createZeroData(),
+            "Çamlıbel EDAŞ": createZeroData(),
+            "Çoruh EDAŞ": {
+              "Ocak": 0.97,
+              "Şubat": 2.07,
+              "Mart": 1.85,
+              "Nisan": 1.47,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 6.36
+            },
+            "Dicle EDAŞ": createZeroData(),
+            "Fırat EDAŞ": {
+              "Ocak": 0.84,
+              "Şubat": 1.01,
+              "Mart": 1.43,
+              "Nisan": 1.36,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 4.64
+            },
+        
+            "Kayseri ve Civarı EDAŞ": createZeroData(),
+            "Meram EDAŞ": {
+              "Ocak": 0.37,
+              "Şubat": 0.43,
+              "Mart": 0.68,
+              "Nisan": 0.76,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 2.25
+            },
+            "Osmangazi EDAŞ": {
+              "Ocak": 1.53,
+              "Şubat": 1.10,
+              "Mart": 2.17,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 4.79
+            },
+            "Sakarya EDAŞ": createZeroData(),
+            "Toroslar EDAŞ": createZeroData(),
+            "Tredaş": createZeroData(),
+            "Uludağ EDAŞ": createZeroData(),
+            "Vangölü EDAŞ": createZeroData(),
+            "Yeşilırmak EDAŞ": createZeroData()
+          };
+          
+          // Helper function for companies with all zero values
+          function createZeroData() {
+            return {
+              "Ocak": 0.00,
+              "Şubat": 0.00,
+              "Mart": 0.00,
+              "Nisan": 0.00,
+              "Mayıs": 0.00,
+              "Haziran": 0.00,
+              "Temmuz": 0.00,
+              "Ağustos": 0.00,
+              "Eylül": 0.00,
+              "Ekim": 0.00,
+              "Kasım": 0.00,
+              "Aralık": 0.00,
+              "Toplam": 0.00
+            };
+          }
+       
            const electricityDataSaidi24 = {
+            "ADM EDAŞ": {
+              "1": 58.83,
+              "2": 54.60,
+              "3": 44.17,
+              "4": 80.76,
+              "5": 46.34,
+              "6": 85.08,
+              "7": 133.45,
+              "8": 69.37,
+              "9": 51.49,
+              "10": 41.82,
+              "11": 88.59,
+              "12": 83.74,
+              "13": 838.24
+            },
+            "GDZ EDAŞ": {
+              "1": 56.29,
+              "2": 40.87,
+              "3": 44.64,
+              "4": 38.05,
+              "5": 41.01,
+              "6": 82.79,
+              "7": 151.51,
+              "8": 74.36,
+              "9": 75.71,
+              "10": 46.74,
+              "11": 80.19,
+              "12": 88.99,
+              "13": 821.30
+            },
             "Dicle EDAŞ": {
               "1": 232.82,
               "2": 220.67,
@@ -180,21 +518,7 @@ export  const SaidiSaifiGraphEdas=()=> {
               "12": 68.44,
               "13": 866.39
             },
-            "ADM EDAŞ": {
-              "1": 58.83,
-              "2": 54.60,
-              "3": 44.17,
-              "4": 80.76,
-              "5": 46.34,
-              "6": 85.08,
-              "7": 133.45,
-              "8": 69.37,
-              "9": 51.49,
-              "10": 41.82,
-              "11": 88.59,
-              "12": 83.74,
-              "13": 838.24
-            },
+           
             "Çamlıbel EDAŞ": {
               "1": 25.69,
               "2": 18.16,
@@ -210,21 +534,7 @@ export  const SaidiSaifiGraphEdas=()=> {
               "12": 107.95,
               "13": 828.78
             },
-            "GDZ EDAŞ": {
-              "1": 56.29,
-              "2": 40.87,
-              "3": 44.64,
-              "4": 38.05,
-              "5": 41.01,
-              "6": 82.79,
-              "7": 151.51,
-              "8": 74.36,
-              "9": 75.71,
-              "10": 46.74,
-              "11": 80.19,
-              "12": 88.99,
-              "13": 821.30
-            },
+            
             "Boğaziçi EDAŞ": {
               "1": 53.95,
               "2": 39.50,
@@ -347,6 +657,36 @@ export  const SaidiSaifiGraphEdas=()=> {
             }
           };
         const electricityDataSaifi24 = {
+          "ADM EDAŞ": {
+            "1": 1.02,
+            "2": 1.00,
+            "3": 1.07,
+            "4": 1.22,
+            "5": 1.21,
+            "6": 1.66,
+            "7": 2.16,
+            "8": 1.46,
+            "9": 1.20,
+            "10": 1.07,
+            "11": 1.64,
+            "12": 1.24,
+            "13": 15.95
+          },
+          "GDZ EDAŞ": {
+            "1": 0.91,
+            "2": 0.55,
+            "3": 0.75,
+            "4": 0.61,
+            "5": 0.68,
+            "6": 1.15,
+            "7": 1.72,
+            "8": 1.01,
+            "9": 0.98,
+            "10": 0.72,
+            "11": 1.06,
+            "12": 1.16,
+            "13": 11.30
+          },
             "Dicle EDAŞ": {
               "1": 3.63,
               "2": 3.30,
@@ -499,21 +839,7 @@ export  const SaidiSaifiGraphEdas=()=> {
               "13": 12.24
             },
            
-            "ADM EDAŞ": {
-              "1": 1.02,
-              "2": 1.00,
-              "3": 1.07,
-              "4": 1.22,
-              "5": 1.21,
-              "6": 1.66,
-              "7": 2.16,
-              "8": 1.46,
-              "9": 1.20,
-              "10": 1.07,
-              "11": 1.64,
-              "12": 1.24,
-              "13": 15.95
-            },
+           
             "Yeşilırmak EDAŞ": {
               "1": 0.00,
               "2": 0.00,
@@ -529,21 +855,7 @@ export  const SaidiSaifiGraphEdas=()=> {
               "12": 0.00,
               "13": 11.45
             },
-            "GDZ EDAŞ": {
-              "1": 0.91,
-              "2": 0.55,
-              "3": 0.75,
-              "4": 0.61,
-              "5": 0.68,
-              "6": 1.15,
-              "7": 1.72,
-              "8": 1.01,
-              "9": 0.98,
-              "10": 0.72,
-              "11": 1.06,
-              "12": 1.16,
-              "13": 11.30
-            },
+           
             "Çamlıbel EDAŞ": {
               "1": 0.38,
               "2": 0.34,
@@ -672,7 +984,22 @@ export  const SaidiSaifiGraphEdas=()=> {
           //console.log("tab from data",fromtabdata)
 // n'den n + 11'e kadar değerleri okuyup diziye ekleyen kod
  
- 
+const [currentYear, setCurrentYear] = useState(2025);
+const [currentDataSaidi, setCurrentDataSaidi] = useState(electricityDataSaidi24);
+const [currentDataSaifi, setCurrentDataSaifi] = useState(electricityDataSaifi24);
+
+ // Butona tıklanınca yapılacak işlem
+ const handleToggleData = () => {
+  if (currentYear === 2024) {
+    setCurrentYear(2025);
+    setCurrentDataSaidi(electricityDataSaidi2025);
+    setCurrentDataSaifi(electricityDataSaifi2025)
+  } else {
+    setCurrentYear(2024);
+    setCurrentDataSaidi(electricityDataSaidi24);
+    setCurrentDataSaifi(electricityDataSaifi24)
+  }
+};
 
  
 
@@ -698,33 +1025,27 @@ export  const SaidiSaifiGraphEdas=()=> {
                {/*   */}       
                <div className="chart">
                
-        {/*   <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-  <Paper elevation={3} sx={{ p: 1.5, borderRadius: 1.5 }}>
-    <Typography variant="subtitle2" fontWeight="bold" gutterBottom>
-      2024 YILI EDAŞLAR- SAİDİ Hedefi
-    </Typography>
-    <Typography variant="body2" color="primary">
-      ➡️ {12}
-    </Typography>
-  </Paper>
-
-  <Paper elevation={3} sx={{ p: 1.5, borderRadius: 1.5 }}>
-    <Typography variant="subtitle2" fontWeight="bold" gutterBottom>
-    2024 YILI EDAŞLAR- SAİDİ Hedefi Gerçekleşen SAİDİ Değeri
-    </Typography>
-    <Typography variant="body2" color="secondary">
-      ➡️ {saidiTotal.toFixed(2)}
-    </Typography>
-  </Paper>
-</Box>  */}            
-
+     
+   <div  style={{ 
+          display: 'flex', 
+          justifyContent: 'flex-end', 
+          alignItems: 'center', 
+          height: '50px', // örnek sabit yükseklik
+          marginBottom: '10px' 
+        }}>
+        <Button variant="contained" onClick={handleToggleData}>
+          {currentYear === 2024 ? "2025 Verisini Göster" : "2024 Verisini Göster"}
+        </Button>
+      </div>
       <ApexChartEdas  
+   
         chartId={1}
-       width={1400} edaslarSaidiOrSaifi={electricityDataSaidi24}   
+       width={1400} 
+       edaslarSaidiOrSaifi={currentDataSaidi}  
         type="saidi"  
-  title={` 2024 YILI EDAŞ SAİDİ VERİLERİ`}
+        title={`${currentYear} YILI EDAŞ SAİDİ VERİLERİ`}
        X_axis={categories_Aylik}  />
-      
+   
       { /* <div style={{marginBottom:'15px'}}>
      <ApaxChartSelect chartId={1} onSendMessage={handleMessage1} />
      </div> */}
@@ -733,12 +1054,26 @@ export  const SaidiSaifiGraphEdas=()=> {
     <div className="chart">
    
 
-    <ApexChartEdas  
+    <div  style={{ 
+          display: 'flex', 
+          justifyContent: 'flex-end', 
+          alignItems: 'center', 
+          height: '50px', // örnek sabit yükseklik
+          marginBottom: '10px' 
+        }}>
+        <Button variant="contained" onClick={handleToggleData}>
+          {currentYear === 2024 ? "2025 Verisini Göster" : "2024 Verisini Göster"}
+        </Button>
+      </div>
+      <ApexChartEdas  
+   
         chartId={1}
-       width={1400} edaslarSaidiOrSaifi={electricityDataSaifi24}   
-        type="saidi"  
-  title={` 2024 YILI EDAŞ SAİFİ VERİLERİ`}
+       width={1400} 
+       edaslarSaidiOrSaifi={currentDataSaifi}  
+        type="saifi"  
+        title={`${currentYear} YILI EDAŞ SAİFİ VERİLERİ`}
        X_axis={categories_Aylik}  />
+   
  
 { /* <div style={{marginBottom:'15px'}}>
 <ApaxChartSelect chartId={1} onSendMessage={handleMessage2} />
