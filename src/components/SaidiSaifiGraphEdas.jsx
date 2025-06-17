@@ -985,8 +985,8 @@ export  const SaidiSaifiGraphEdas=()=> {
 // n'den n + 11'e kadar değerleri okuyup diziye ekleyen kod
  
 const [currentYear, setCurrentYear] = useState(2025);
-const [currentDataSaidi, setCurrentDataSaidi] = useState(electricityDataSaidi24);
-const [currentDataSaifi, setCurrentDataSaifi] = useState(electricityDataSaifi24);
+const [currentDataSaidi, setCurrentDataSaidi] = useState(electricityDataSaidi2025);
+const [currentDataSaifi, setCurrentDataSaifi] = useState(electricityDataSaifi2025);
 
  // Butona tıklanınca yapılacak işlem
  const handleToggleData = () => {
