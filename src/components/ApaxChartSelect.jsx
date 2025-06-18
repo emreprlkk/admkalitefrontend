@@ -6,7 +6,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 export const  ApaxChartSelect=({chartId,onSendMessage})=> {
- const [selectedvalue,setselectedvalue]=useState(1);
+ const [selectedvalue,setselectedvalue]=useState(3);
 // `
   const handleChange =(e)=> {
      const newValue = e.target.value;

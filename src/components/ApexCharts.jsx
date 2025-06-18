@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState,  useEffect, useMemo, useCallback } from 'react';
 import Chart from 'react-apexcharts';
 import ExcelJS from 'exceljs';
 import { saveAs } from 'file-saver';
@@ -115,12 +115,69 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
   const [dataLabelsEnabled, setDataLabelsEnabled] = useState(false);
   const [chartOptions, setChartOptions] = useState({});
   const [chartSeries, setChartSeries] = useState([]);
+ 
+ 
+/* 1 ▸ modern rozet stilleri */
+const redBadge  = {
+  background : "#e53935",
+  color      : "#fff",
+  fontSize   : "11px",
+  fontWeight : 600,
+  borderRadius : 6,
+  padding    : { left: 6, right: 6, top: 2, bottom: 2 },
+  shadow     : "0 1px 3px rgba(0,0,0,.3)"
+};
 
+const greenBadge = {
+  ...redBadge,
+  background : "#43a047"               // yeşil
+};
+
+/* 2 ▸ nokta anotasyonları */
+const crossAnnotations = useMemo(() =>
+  X_axis.map((cat, idx) => {
+    const target = Number(saidiSaifiScoreData[idx]);  // 2025 HEDEFLER
+    const actual = Number(calculatedData[idx]);       // 2025 YILI
+   
+    // 🔸 EN ÖNEMLİ KISIM → 0 veya NaN ise atla
+    if (
+      !isFinite(target) || !isFinite(actual) ||        // sayı değilse
+      target === 0      || actual === 0                // değer 0’sa
+    ) return null;
+
+    const base = {
+      x: cat,        // kategorik eksen
+      y: actual,     // nokta üzerine bindir
+      marker: { size: 0 }
+    };
+
+    return actual >= target
+      ? {             // ★ hedefi karşıladı / geçti   → kırmızı çarpı
+          ...base,
+          label: {
+            text : "✖",
+            offsetY: -12,
+            style  : redBadge
+          }
+        }
+      : {             // ★ hedefin altında kaldı       → yeşil tik
+          ...base,
+          label: {
+            text : "✓",
+            offsetY: -12,
+            style  : greenBadge
+          }
+        };
+  }).filter(Boolean),
+[ X_axis, saidiSaifiScoreData, calculatedData ]);
+  
   useEffect(() => {
     setChartOptions({
       chart: {
         id: chartId,
+      
         type: 'line',
+        
         stacked: false,
         dropShadow: { enabled: true, color: '#000', top: 18, left: 7, blur: 10, opacity: 1.0 },
         zoom: {
@@ -134,6 +191,9 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
           }
         },
         toolbar: { autoSelected: 'zoom' },
+      },
+      annotations: {
+        points: crossAnnotations             // 👈 yeni ek
       },
       dataLabels: {
         enabled: dataLabelsEnabled,
@@ -169,14 +229,14 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       },
       legend: { show: true, onItemClick: { toggleDataSeries: true } }
     });
-  }, [title, Y_axis, X_axis, maxValue, dataLabelsEnabled]);
+  }, [title, Y_axis, X_axis, maxValue, dataLabelsEnabled, crossAnnotations]);
   
   useEffect(() => {
     setChartSeries([
       { name: '2025 HEDEFLER', data: saidiSaifiScoreData },
-      { name: '2022 YILI', data: previousData[type === "saidi" ? "saidi22" : "saifi22"] },
-      { name: '2023 YILI', data: previousData[type === "saidi" ? "saidi23" : "saifi23"] },
-      { name: '2024 YILI', data: previousData[type === "saidi" ? "saidi24" : "saifi24"] },
+      { name: '2022 YILI', data: previousData[type === "saidi" ? "saidi22" : "saifi22"],hidden: true },
+      { name: '2023 YILI', data: previousData[type === "saidi" ? "saidi23" : "saifi23"] ,hidden: true},
+      { name: '2024 YILI', data: previousData[type === "saidi" ? "saidi24" : "saifi24"],hidden: true },
       { name: '2025 YILI', data: calculatedData }
   
     ]);
@@ -271,6 +331,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
         2025 HEDEFİ {saidi_hedef_24}
       </div>*/}
       <Chart
+        
         options={chartOptions}
         series={chartSeries}
         type="line"

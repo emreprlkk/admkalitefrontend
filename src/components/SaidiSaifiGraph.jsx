@@ -6,7 +6,7 @@ import { Box, Typography, Paper } from '@mui/material'
 
 
 export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> {
-  const { datax } = use2025SaidiSaifiData();
+  //const { datax } = use2025SaidiSaifiData();
     const [isletmeName, setIsletmeName] = useState(isletme);
     const[YıllıkisletmeHedefi2025,setYıllıkisletmeHedefi2025]=useState('')
     const[YıllıkisletmeHedefiSaifi2025,setYıllıkisletmeHedefiSaifi2025]=useState('')
@@ -1401,8 +1401,8 @@ const createArrayScoreSaidi = (z) => {
   setIsletmeName(isletme)
   const newDataSaidi = createArraySaidiPrevious();
   const newDataSaiFi = createArraySaiFiPrevious();
-  const newDataScoreSaidi=  createArrayScoreSaidi(1);
-  const newDataScoreSaiFi=  createArrayScoreSaiFi(1);
+  const newDataScoreSaidi=  createArrayScoreSaidi(3);
+  const newDataScoreSaiFi=  createArrayScoreSaiFi(3);
  // console.log("saidisaifigraphtan okuduğum saiddddddddi ",newDataSaidi)
   //console.log("saidisaifigraphtan okuduğum saiffi ",newDataSaiFi)
   
