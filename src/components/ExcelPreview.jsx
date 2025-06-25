@@ -30,7 +30,7 @@ export default function ExcelPreview() {
  
   const [excelData, setExcelData] = useState([]);
   const [excelColumns, setExcelColumns] = useState([]); // UPLOAD EDİLEN EXCEL=>JSON A ÇEVRİLİR OBJECTKEYSLER TÜRKÇE KARAKTERDEN ARINDIRILIR VE ARINDIRILAN İLK SATIRIN OBJECTKEYLERİ BU STATE TE TUTULUR
-  const [isletmeName, setIsletmeName] = useState('DENİZLİ MERKEZ isletme');
+  const [isletmeName, setIsletmeName] = useState('ADM');
   const [navbardangelenbolgecount,setnavbardangelenbolgecount]=useState(20);
   const [navbardangelenisletmecount,setnavbardangelenisletmecount]=useState(1);
   const [directnavbardangelenisletmecount,setdirectnavbardangelenisletmecount]=useState(1);
