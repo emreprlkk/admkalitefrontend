@@ -50,6 +50,7 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       ["DENIZLI BOLGE", 18],
       ["MUGLA BOLGE", 19],
       ["BODRUM BOLGE", 20],
+       ["ADM", 21],
     ]);
 
     const targetIndex = textToIndexMap.get(text);
