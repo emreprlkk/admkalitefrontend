@@ -10,7 +10,7 @@ function NavbarIsletme({ onIsletmeChange }) {
       <span className="nav-group-title">ADM & BÖLGE  <EastSharpIcon className="inline-icon" color="primary" fontSize="medium" /> </span>
       <a href="#ADM" onClick={() => onIsletmeChange('ADM', 920481, 1, 1)}>ADM </a>
       <a href="#AYDINBOLGE" onClick={() => onIsletmeChange("AYDIN BOLGE", 9, 7, 17)}>AYDIN BÖLGE</a>
-      <a href="#DENIZLIBOLGE" onClick={() => onIsletmeChange("DENIZLI BOLGE", 20, 18, 18)}>DENİZLİ BÖLGE</a>
+      <a href="#DENIZLIBOLGE" onClick={() => onIsletmeChange("DENIZLI BOLGE", 20, 5, 18)}>DENİZLİ BÖLGE</a>
       <a href="#MUGLABOLGE" onClick={() => onIsletmeChange("MUGLA BOLGE", 48, 5, 19)}>MUĞLA BÖLGE</a>
       <a href="#BODRUMBOLGE" onClick={() => onIsletmeChange("BODRUM BOLGE", 481, 3, 20)}>BODRUM BÖLGE</a>
     </div>
