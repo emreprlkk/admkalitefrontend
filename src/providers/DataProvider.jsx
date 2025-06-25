@@ -85,7 +85,29 @@ const initialState2025 = {
             "name": "SOKE isletme",
             "SAİDİ": 126.23,
             "SAİFİ": 0.93
-        }
+        },
+        "17": {
+            "name": "AYDIN BOLGE",
+            "SAİDİ": 53.13 ,
+            "SAİFİ":  4.95
+        },
+        "18": {
+            "name": "DENIZLI BOLGE",
+            "SAİDİ": 11.55 ,
+            "SAİFİ":  1.82
+        },
+        "19": {
+            "name": "MUGLA BOLGE",
+            "SAİDİ": 69.22 ,
+            "SAİFİ":  7.24
+        },
+        "20": {
+            "name": "BODRUM BOLGE",
+            "SAİDİ": 87.5 ,
+            "SAİFİ":  3.14
+        },
+
+
     },
     "2": {
         "1": {
@@ -167,7 +189,27 @@ const initialState2025 = {
             "name": "SOKE isletme",
             "SAİDİ": 30.64,
             "SAİFİ": 0.5
-        }
+        },
+        "17": {
+            "name": "AYDIN BOLGE",
+            "SAİDİ":27.05 ,
+            "SAİFİ":  4.09
+        },
+        "18": {
+            "name": "DENIZLI BOLGE",
+            "SAİDİ": 13.45 ,
+            "SAİFİ":  2.09
+        },
+        "19": {
+            "name": "MUGLA BOLGE",
+            "SAİDİ": 89.24 ,
+            "SAİFİ":  6.36
+        },
+        "20": {
+            "name": "BODRUM BOLGE",
+            "SAİDİ": 95.2 ,
+            "SAİFİ":  2.68
+        },
     },
     "3": {
         "1": {
@@ -249,7 +291,27 @@ const initialState2025 = {
             "name": "SOKE isletme",
             "SAİDİ": 38.1,
             "SAİFİ": 0.97
-        }
+        },
+        "17": {
+            "name": "AYDIN BOLGE",
+            "SAİDİ":31.68 ,
+            "SAİFİ":  4.13
+        },
+        "18": {
+            "name": "DENIZLI BOLGE",
+            "SAİDİ": 17.94 ,
+            "SAİFİ":  3.17
+        },
+        "19": {
+            "name": "MUGLA BOLGE",
+            "SAİDİ": 89.24 ,
+            "SAİFİ":  6.36
+        },
+        "20": {
+            "name": "BODRUM BOLGE",
+            "SAİDİ": 52.13 ,
+            "SAİFİ": 2.31
+        },
     },
     "4": {
         "1": {
@@ -331,7 +393,27 @@ const initialState2025 = {
             "name": "SOKE isletme",
             "SAİDİ": 45.08,
             "SAİFİ": 0.82
-        }
+        },
+        "17": {
+            "name": "AYDIN BOLGE",
+            "SAİDİ":35.13 ,
+            "SAİFİ":  4.86
+        },
+        "18": {
+            "name": "DENIZLI BOLGE",
+            "SAİDİ": 18.71 ,
+            "SAİFİ":  3.03
+        },
+        "19": {
+            "name": "MUGLA BOLGE",
+            "SAİDİ": 94.19 ,
+            "SAİFİ":  8.62
+        },
+        "20": {
+            "name": "BODRUM BOLGE",
+            "SAİDİ": 65.65 ,
+            "SAİFİ": 3.27
+        },
     },
      "5": {
         "1": {
@@ -413,7 +495,28 @@ const initialState2025 = {
             "name": "SOKE isletme",
             "SAİDİ": 49.11,
             "SAİFİ": 0.67
-        }
+        },
+        "17": {
+            "name": "AYDIN BOLGE",
+            "SAİDİ":31.17,
+            "SAİFİ":  6.94
+        },
+        "18": {
+            "name": "DENIZLI BOLGE",
+            "SAİDİ": 18.48 ,
+            "SAİFİ": 2.6
+        },
+        "19": {
+            "name": "MUGLA BOLGE",
+            "SAİDİ": 71.57 ,
+            "SAİFİ": 7.62
+        },
+        "20": {
+            "name": "BODRUM BOLGE",
+            "SAİDİ": 65.95 ,
+            "SAİFİ": 3.77
+        },
+
     },
       6: {
        1:  {name:"ACİPAYAM isletme" ,SAİDİ:0, SAİFİ: 0 },

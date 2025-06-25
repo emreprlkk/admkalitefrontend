@@ -39,7 +39,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
         'Aralık',
           ]
      const [childataa,setchildata]=useState("");  
-     const saidiscoredataTarget2025={
+     const saidiscoredataYearsTarget2025={
       9:{
        //AYDIN MERKEZ 1 
        //ÇİNE 2
@@ -47,6 +47,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        //KUŞADASI 4 
        //NAZİLLİ 5 
        //SÖKE 6
+       // AYDIN BÖLGE 7
 
        1:{
            ///aylar ve puanlar
@@ -76,7 +77,14 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        6:{  ///aylar ve puanlar
            1: { 1: 880.36, 2: 838.44, 3: 796.52, 4: 754.59, 5: 733.63 },
         },
+       7:{
+        1:{ 1: 723.69,
+          2: 700.87,
+          3: 663.17,
+          4: 626.78,
+          5: 611.77}
        
+      },
 
       },
       20:{
@@ -84,6 +92,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        //ÇİVRİL 2
        //DENİZLİ MERKEZ 3 
        //SARAYKÖY 4
+       //DENİZLİ BÖLGE 5
        1: {
          1: { 1: 912.73, 2: 869.26, 3: 819.91, 4: 774.08, 5: 756.88},
         
@@ -100,6 +109,14 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
          1: { 1: 396.41, 2:377.53, 3: 358.66, 4: 339.78, 5: 330.34 },
          
        },
+       5:{
+        1:{ 1: 433.03,
+          2: 412.41,
+          3: 390.71,
+          4: 369.65,
+          5: 360.17}
+       
+      },
        
       },
       48:{
@@ -107,7 +124,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        //MARMARİS 2 
        //MUĞLA MERKEZ 3 
        //ORTACA 4 
-
+        // MUĞLA BÖLGE 5
        1:{
          1: { 1: 1279.06, 2: 1255.63, 3: 1186.92, 4: 1120.57, 5: 1095.68 },
          
@@ -124,12 +141,22 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
          1: { 1: 1109.21, 2: 1188.89, 3: 1029.30, 4: 971.77, 5: 950.18 },
         
        },
+       5:{
+        //BODRUM BÖLGE 5
+     1:{  1: 1160.33,
+      2: 1139.08,
+      3: 1076.74,
+      4: 1016.55,
+      5: 993.97}
+        
+        
+      }
     
       }  ,
       481:{
        //BODRUM 1
        //MİLAS 2 
-
+        // BODRUM BÖLGE 3
        1:{
          1: { 1: 1273.68, 2: 1250.35, 3: 1181.92, 4: 1115.86, 5: 1091.07 },
           
@@ -138,12 +165,26 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
          1: { 1: 1515.36, 2: 1487.61, 3:1406.20, 4: 1327.60, 5: 1298.11 },
           
        },
+     3:{
+      1:{1: 1372.99,
+        2: 1347.84,
+        3: 1274.08,
+        4: 1202.87,
+        5: 1176.14}
+      }
+      },
+      920481:{
+        //ADM YILLIK HEDEF 
+        1:{
+          1: { 1: 819, 2: 804, 3: 760, 4: 717.52, 5: 701.58 },
+           
+        },
+      }
      
-      }     
 
      
      }    
-     const saifiscoredataTarget2025={
+     const saifiscoredataYearsTarget2025={
       9:{
        //AYDIN MERKEZ 1 
        //ÇİNE 2
@@ -151,6 +192,8 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        //KUŞADASI 4 
        //NAZİLLİ 5 
        //SÖKE 6
+       //AYDIN BÖLGE 7
+       
 
        1:{
            ///aylar ve puanlar
@@ -180,7 +223,14 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        6:{  ///aylar ve puanlar
            1: { 1: 12.93, 2: 12.31, 3: 11.70, 4: 11.08, 5: 10.77 },
         },
-       
+       7:{
+        //AYDIN BÖLGE 7
+        1:{ 1: 12.95,
+          2: 12.48,
+          3: 11.89,
+          4: 11.30,
+          5: 10.90}
+       }
 
       },
       20:{
@@ -188,6 +238,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
        //ÇİVRİL 2
        //DENİZLİ MERKEZ 3 
        //SARAYKÖY 4
+       //DENİZLİ BÖLGE 5
        1: {
          1: { 1: 26.24, 2: 25.66, 3: 24.89, 4: 23.27, 5: 22.66},
         
@@ -204,14 +255,23 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
          1: { 1: 8.96, 2:8.54, 3: 8.11, 4: 7.68, 5: 7.47 },
          
        },
-       
+       5:{
+        //DENİZLİ BÖLGE 5 
+        1:{
+          1: 10.92,
+        2: 10.54,
+        3: 10.11,
+        4: 9.52,
+        5: 9.26
+        }
+        }
       },
       48:{
        //FETHİYE 1
        //MARMARİS 2 
        //MUĞLA MERKEZ 3 
        //ORTACA 4 
-
+      // MUĞLA BÖLGE 5 
        1:{
          1: { 1: 26.12, 2: 25.64, 3: 24.27, 4: 22.68, 5: 22.09 },
          
@@ -228,12 +288,21 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
          1: { 1: 22.00, 2: 20.96, 3: 19.91, 4: 19.31, 5: 18.81 },
         
        },
-    
+       5:{
+        //MUĞLA BÖLGE
+        1:{
+          1: 22.47,
+        2: 21.92,
+        3: 20.76,
+        4: 19.56,
+        5: 19.05
+        }
+          }
       }  ,
       481:{
        //BODRUM 1
        //MİLAS 2 
-
+        // BODRUM BÖLGE 3
        1:{
          1: { 1: 19.08, 2: 18.73, 3: 17.73, 4: 16.57, 5: 16.14 },
           
@@ -242,8 +311,21 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
          1: { 1: 27.10, 2: 26.61, 3:25.18, 4: 23.54, 5: 22.93 },
           
        },
-     
-      }     
+       3:{ //BODRUM BÖLGE 3
+        1:{ 1: 22.38,
+          2: 21.97,
+          3: 20.79,
+          4: 19.43,
+          5: 18.93}
+       }
+      }     ,
+      920481:{
+        //ADM YILLIK HEDEF 
+        1:{
+          1: { 1: 16.34, 2: 16.04, 3: 15.18, 4: 14.19, 5: 13.82 },
+           
+        },
+      }
 
      
      }    
@@ -255,7 +337,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
             //KUŞADASI 4 
             //NAZİLLİ 5 
             //SÖKE 6
-
+            // AYDIN BÖLGE 7
             1:{
                 ///aylar ve puanlar
                 
@@ -344,7 +426,92 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
             10: { 1: 82.65, 2: 78.71, 3: 74.78, 4: 70.84, 5: 68.87 },
             11: { 1: 146.85, 2: 139.86, 3: 132.87, 4: 125.87, 5: 122.38 },
             12: { 1: 86.51, 2: 82.39, 3: 78.27, 4: 74.15, 5: 72.09 }},
-            
+            7:{   // AYDIN BÖLGE 
+              1: { // January
+                1: 55.70,
+                2: 53.94,
+                3: 51.04,
+                4: 48.24,
+                5: 47.08
+              },
+              2: { // February
+                1: 44.02,
+                2: 42.63,
+                3: 40.34,
+                4: 38.12,
+                5: 37.21
+              },
+              3: { // March
+                1: 37.49,
+                2: 36.30,
+                3: 34.35,
+                4: 32.47,
+                5: 31.69
+              },
+              4: { // April
+                1: 57.22,
+                2: 55.42,
+                3: 52.44,
+                4: 49.56,
+                5: 48.37
+              },
+              5: { // May
+                1: 41.01,
+                2: 39.72,
+                3: 37.58,
+                4: 35.52,
+                5: 34.67
+              },
+              6: { // June
+                1: 79.87,
+                2: 77.35,
+                3: 73.19,
+                4: 69.18,
+                5: 67.52
+              },
+              7: { // July
+                1: 105.99,
+                2: 102.64,
+                3: 97.12,
+                4: 91.79,
+                5: 89.59
+              },
+              8: { // August
+                1: 44.59,
+                2: 43.18,
+                3: 40.86,
+                4: 38.62,
+                5: 37.69
+              },
+              9: { // September
+                1: 52.43,
+                2: 50.78,
+                3: 48.05,
+                4: 45.41,
+                5: 44.32
+              },
+              10: { // October
+                1: 35.27,
+                2: 34.16,
+                3: 32.32,
+                4: 30.55,
+                5: 29.82
+              },
+              11: { // November
+                1: 106.99,
+                2: 103.61,
+                3: 98.04,
+                4: 92.66,
+                5: 90.44
+              },
+              12: { // December
+                1: 63.12,
+                2: 61.13,
+                3: 57.84,
+                4: 54.66,
+                5: 53.35
+              }
+            }
 
            },
            20:{
@@ -352,6 +519,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
             //ÇİVRİL 2
             //DENİZLİ MERKEZ 3 
             //SARAYKÖY 4
+            //DENİZLİ BÖLGE 5
             1: {
               1: { 1: 51.32, 2: 48.87, 3: 46.10, 4: 43.52, 5: 42.55 },
               2: { 1: 40.25, 2: 38.34, 3: 36.16, 4: 34.14, 5: 33.38 },
@@ -408,6 +576,94 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               11: { 1: 44.48, 2: 42.36, 3: 40.24, 4: 38.12, 5: 37.06 },
               12: { 1: 25.17, 2: 23.97, 3: 22.77, 4: 21.57, 5: 20.98 }
             },
+            5:{    //DENİZLİ BÖLGE  
+            
+                1: { // Ocak
+                  1: 22.92,
+                  2: 21.83,
+                  3: 20.68,
+                  4: 19.56,
+                  5: 19.06
+                },
+                2: { // Şubat
+                  1: 21.78,
+                  2: 20.74,
+                  3: 19.65,
+                  4: 18.59,
+                  5: 18.11
+                },
+                3: { // Mart
+                  1: 37.87,
+                  2: 36.06,
+                  3: 34.16,
+                  4: 32.32,
+                  5: 31.50
+                },
+                4: { // Nisan
+                  1: 34.52,
+                  2: 32.88,
+                  3: 31.15,
+                  4: 29.47,
+                  5: 28.72
+                },
+                5: { // Mayıs
+                  1: 40.95,
+                  2: 39.00,
+                  3: 36.95,
+                  4: 34.96,
+                  5: 34.06
+                },
+                6: { // Haziran
+                  1: 54.41,
+                  2: 51.82,
+                  3: 49.10,
+                  4: 46.45,
+                  5: 45.26
+                },
+                7: { // Temmuz
+                  1: 52.03,
+                  2: 49.55,
+                  3: 46.94,
+                  4: 44.41,
+                  5: 43.27
+                },
+                8: { // Ağustos
+                  1: 45.37,
+                  2: 43.21,
+                  3: 40.93,
+                  4: 38.73,
+                  5: 37.74
+                },
+                9: { // Eylül
+                  1: 35.69,
+                  2: 33.99,
+                  3: 32.20,
+                  4: 30.47,
+                  5: 29.69
+                },
+                10: { // Ekim
+                  1: 24.20,
+                  2: 23.05,
+                  3: 21.83,
+                  4: 20.66,
+                  5: 20.13
+                },
+                11: { // Kasım
+                  1: 37.74,
+                  2: 35.95,
+                  3: 34.05,
+                  4: 32.22,
+                  5: 31.39
+                },
+                12: { // Aralık
+                  1: 25.55,
+                  2: 24.33,
+                  3: 23.05,
+                  4: 21.81,
+                  5: 21.25
+                }
+              
+            }
             
            },
            48:{
@@ -415,7 +671,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
             //MARMARİS 2 
             //MUĞLA MERKEZ 3 
             //ORTACA 4 
-
+            // MUĞLA BÖLGE 5
             1:{
               1: { 1: 102.88, 2: 100.99, 3: 95.47, 4: 90.13, 5: 88.13 },
               2: { 1: 73.67, 2: 72.32, 3: 68.36, 4: 64.54, 5: 63.11 },
@@ -472,12 +728,97 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               11: { 1: 147.77, 2: 145.06, 3: 137.12, 4: 129.46, 5: 126.58 },
               12: { 1: 178.71, 2: 175.43, 3: 165.83, 4: 156.56, 5: 153.08 }
             },
-         
+            5:{   // MUĞLA BÖLGE
+              1: { // Ocak
+                1: 92.20,
+                2: 90.51,
+                3: 85.56,
+                4: 80.78,
+                5: 78.98
+              },
+              2: { // Şubat
+                1: 74.84,
+                2: 73.47,
+                3: 69.45,
+                4: 65.57,
+                5: 64.11
+              },
+              3: { // Mart
+                1: 72.27,
+                2: 70.95,
+                3: 67.06,
+                4: 63.31,
+                5: 61.91
+              },
+              4: { // Nisan
+                1: 98.57,
+                2: 96.76,
+                3: 91.47,
+                4: 86.35,
+                5: 84.44
+              },
+              5: { // Mayıs
+                1: 52.87,
+                2: 51.90,
+                3: 49.06,
+                4: 46.32,
+                5: 45.29
+              },
+              6: { // Haziran
+                1: 102.76,
+                2: 100.88,
+                3: 95.36,
+                4: 90.03,
+                5: 88.03
+              },
+              7: { // Temmuz
+                1: 146.48,
+                2: 143.79,
+                3: 135.92,
+                4: 128.33,
+                5: 125.48
+              },
+              8: { // Ağustos
+                1: 85.42,
+                2: 83.86,
+                3: 79.27,
+                4: 74.84,
+                5: 73.18
+              },
+              9: { // Eylül
+                1: 79.08,
+                2: 77.63,
+                3: 73.38,
+                4: 69.28,
+                5: 67.74
+              },
+              10: { // Ekim
+                1: 70.80,
+                2: 69.50,
+                3: 65.70,
+                4: 62.03,
+                5: 60.65
+              },
+              11: { // Kasım
+                1: 155.90,
+                2: 153.04,
+                3: 144.67,
+                4: 136.58,
+                5: 133.55
+              },
+              12: { // Aralık
+                1: 129.13,
+                2: 126.77,
+                3: 119.83,
+                4: 113.13,
+                5: 110.62
+              }
+            },
            }  ,
            481:{
             //BODRUM 1
             //MİLAS 2 
-
+            // BODRUM BÖLGE 3
             1:{
               1: { 1: 119.20, 2: 117.01, 3: 110.61, 4: 104.43, 5: 102.11 },
               2: { 1: 113.54, 2: 111.46, 3: 105.36, 4: 99.47, 5: 97.26 },
@@ -506,8 +847,183 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               11: { 1: 249.56, 2: 244.99, 3: 231.58, 4: 218.64, 5: 213.78 },
               12: { 1: 152.92, 2: 150.12, 3: 141.91, 4: 133.97, 5: 131.00 }
             },
-          
-           }     
+            3:{  // MUĞLA BÖLGE
+              1: { // Ocak
+                1: 117.56,
+                2: 115.40,
+                3: 109.09,
+                4: 102.99,
+                5: 100.70
+              },
+              2: { // Şubat
+                1: 97.91,
+                2: 96.12,
+                3: 90.86,
+                4: 85.78,
+                5: 83.87
+              },
+              3: { // Mart
+                1: 92.34,
+                2: 90.65,
+                3: 85.69,
+                4: 80.90,
+                5: 79.10
+              },
+              4: { // Nisan
+                1: 84.08,
+                2: 82.54,
+                3: 78.02,
+                4: 73.66,
+                5: 72.02
+              },
+              5: { // Mayıs
+                1: 79.14,
+                2: 77.69,
+                3: 73.44,
+                4: 69.34,
+                5: 67.80
+              },
+              6: { // Haziran
+                1: 98.92,
+                2: 97.11,
+                3: 91.79,
+                4: 86.66,
+                5: 84.74
+              },
+              7: { // Temmuz
+                1: 149.58,
+                2: 146.84,
+                3: 138.80,
+                4: 131.04,
+                5: 128.13
+              },
+              8: { // Ağustos
+                1: 137.82,
+                2: 135.29,
+                3: 127.89,
+                4: 120.74,
+                5: 118.06
+              },
+              9: { // Eylül
+                1: 61.11,
+                2: 59.99,
+                3: 56.70,
+                4: 53.53,
+                5: 52.34
+              },
+              10: { // Ekim
+                1: 67.82,
+                2: 66.58,
+                3: 62.94,
+                4: 59.42,
+                5: 58.10
+              },
+              11: { // Kasım
+                1: 240.84,
+                2: 236.43,
+                3: 223.49,
+                4: 211.00,
+                5: 206.31
+              },
+              12: { // Aralık
+                1: 145.87,
+                2: 143.20,
+                3: 135.37,
+                4: 127.80,
+                5: 124.96
+              }
+            }
+           }  ,
+           920481:{
+            //ADM 1
+           1:{  
+            1: { // Ocak
+            1: 61.70,
+            2: 60.57,
+            3: 57.26,
+            4: 54.06,
+            5: 52.86
+          },
+          2: { // Şubat
+            1: 51.07,
+            2: 50.13,
+            3: 47.39,
+            4: 44.74,
+            5: 43.75
+          },
+          3: { // Mart
+            1: 52.73,
+            2: 51.77,
+            3: 48.93,
+            4: 46.20,
+            5: 45.17
+          },
+          4: { // Nisan
+            1: 63.38,
+            2: 62.22,
+            3: 58.82,
+            4: 55.53,
+            5: 54.30
+          },
+          5: { // Mayıs
+            1: 49.09,
+            2: 48.19,
+            3: 45.55,
+            4: 43.00,
+            5: 42.05
+          },
+          6: { // Haziran
+            1: 80.44,
+            2: 78.97,
+            3: 74.64,
+            4: 70.47,
+            5: 68.91
+          },
+          7: { // Temmuz
+            1: 104.81,
+            2: 102.89,
+            3: 97.26,
+            4: 91.82,
+            5: 89.78
+          },
+          8: { // Ağustos
+            1: 66.10,
+            2: 64.89,
+            3: 61.34,
+            4: 57.91,
+            5: 56.63
+          },
+          9: { // Eylül
+            1: 54.94,
+            2: 53.94,
+            3: 50.98,
+            4: 48.14,
+            5: 47.07
+          },
+          10: { // Ekim
+            1: 44.17,
+            2: 43.36,
+            3: 40.99,
+            4: 38.69,
+            5: 37.84
+          },
+          11: { // Kasım
+            1: 113.65,
+            2: 111.57,
+            3: 105.47,
+            4: 99.57,
+            5: 97.36
+          },
+          12: { // Aralık
+            1: 76.91,
+            2: 75.50,
+            3: 71.37,
+            4: 67.38,
+            5: 65.88
+          }}
+            
+            
+           }   
 
           
           }
@@ -519,6 +1035,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
              //KUŞADASI 4 
              //NAZİLLİ 5 
              //SÖKE 6
+             //AYDIN BÖLGE 7
  
              1:{
                  ///aylar ve puanlar
@@ -612,7 +1129,21 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               11: { 1: 1.80, 2: 1.71, 3: 1.63, 4: 1.54, 5: 1.50 },
               12: { 1: 0.97, 2: 0.92, 3: 0.88, 4: 0.83, 5: 0.81 }
                  },
-             
+             7:{ //AYDIN BÖLGE 
+              1: { 1: 0.98, 2: 0.94, 3: 0.90, 4: 0.85, 5: 0.82 },
+              2: { 1: 0.85, 2: 0.81, 3: 0.78, 4: 0.74, 5: 0.71 },
+              3: { 1: 0.90, 2: 0.86, 3: 0.82, 4: 0.78, 5: 0.75 },
+              4: { 1: 0.92, 2: 0.88, 3: 0.84, 4: 0.80, 5: 0.77 },
+              5: { 1: 0.92, 2: 0.88, 3: 0.84, 4: 0.80, 5: 0.77 },
+              6: { 1: 1.49, 2: 1.43, 3: 1.36, 4: 1.30, 5: 1.25 },
+              7: { 1: 1.66, 2: 1.60, 3: 1.52, 4: 1.45, 5: 1.40 },
+              8: { 1: 0.90, 2: 0.87, 3: 0.83, 4: 0.79, 5: 0.76 },
+              9: { 1: 1.05, 2: 1.01, 3: 0.96, 4: 0.91, 5: 0.88 },
+              10: { 1: 0.70, 2: 0.67, 3: 0.64, 4: 0.61, 5: 0.59 },
+              11: { 1: 1.65, 2: 1.59, 3: 1.51, 4: 1.44, 5: 1.39 },
+              12: { 1: 0.96, 2: 0.92, 3: 0.88, 4: 0.84, 5: 0.81 }
+            
+            }
  
             },
             20:{
@@ -620,6 +1151,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
              //ÇİVRİL 2
              //DENİZLİ MERKEZ 3 
              //SARAYKÖY 4
+             //DENİZLİ BÖLGE 5
              1: {
                       //AYLAR VE PUANLAR 
               1: { 1: 1.34, 2: 1.31, 3: 1.27, 4: 1.19, 5: 1.16 },
@@ -680,14 +1212,28 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
                    11: { 1: 0.82, 2: 0.78, 3: 0.74, 4: 0.70, 5: 0.68 },
                    12: { 1: 0.73, 2: 0.69, 3: 0.66, 4: 0.62, 5: 0.61 }
              },
-             
+             5:{
+              1: { 1: 0.57, 2: 0.55, 3: 0.53, 4: 0.50, 5: 0.48 },
+              2: { 1: 0.48, 2: 0.46, 3: 0.44, 4: 0.42, 5: 0.41 },
+              3: { 1: 0.77, 2: 0.74, 3: 0.71, 4: 0.67, 5: 0.65 },
+              4: { 1: 0.83, 2: 0.80, 3: 0.77, 4: 0.72, 5: 0.71 },
+              5: { 1: 1.07, 2: 1.04, 3: 0.99, 4: 0.94, 5: 0.91 },
+              6: { 1: 1.48, 2: 1.43, 3: 1.37, 4: 1.29, 5: 1.26 },
+              7: { 1: 1.27, 2: 1.22, 3: 1.17, 4: 1.10, 5: 1.07 },
+              8: { 1: 1.05, 2: 1.02, 3: 0.97, 4: 0.92, 5: 0.89 },
+              9: { 1: 1.05, 2: 1.01, 3: 0.97, 4: 0.91, 5: 0.89 },
+              10: { 1: 0.78, 2: 0.75, 3: 0.72, 4: 0.68, 5: 0.66 },
+              11: { 1: 0.95, 2: 0.91, 3: 0.88, 4: 0.83, 5: 0.80 },
+              12: { 1: 0.63, 2: 0.61, 3: 0.58, 4: 0.55, 5: 0.54 }
+            
+            }
             },
             48:{
              //FETHİYE 1
              //MARMARİS 2 
              //MUĞLA MERKEZ 3 
              //ORTACA 4 
- 
+              // MUĞLA BÖLGE 5
              1:{
               1: { 1: 1.81, 2: 1.77, 3: 1.68, 4: 1.57, 5: 1.53 },
               2: { 1: 1.49, 2: 1.46, 3: 1.38, 4: 1.29, 5: 1.26 },
@@ -744,11 +1290,97 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               11: { 1: 3.04, 2: 2.90, 3: 2.75, 4: 2.67, 5: 2.60 },
               12: { 1: 2.79, 2: 2.66, 3: 2.53, 4: 2.45, 5: 2.39 }
              },
-          
+             5:{ //MUĞLA BÖLGE
+              1: { // January
+                1: 1.63,
+                2: 1.59,
+                3: 1.51,
+                4: 1.42,
+                5: 1.38
+              },
+              2: { // February
+                1: 1.35,
+                2: 1.32,
+                3: 1.25,
+                4: 1.18,
+                5: 1.15
+              },
+              3: { // March
+                1: 1.54,
+                2: 1.50,
+                3: 1.42,
+                4: 1.34,
+                5: 1.30
+              },
+              4: { // April
+                1: 1.68,
+                2: 1.64,
+                3: 1.55,
+                4: 1.46,
+                5: 1.43
+              },
+              5: { // May
+                1: 1.29,
+                2: 1.26,
+                3: 1.20,
+                4: 1.13,
+                5: 1.10
+              },
+              6: { // June
+                1: 2.24,
+                2: 2.19,
+                3: 2.07,
+                4: 1.95,
+                5: 1.90
+              },
+              7: { // July
+                1: 2.31,
+                2: 2.25,
+                3: 2.13,
+                4: 2.01,
+                5: 1.95
+              },
+              8: { // August
+                1: 1.89,
+                2: 1.84,
+                3: 1.74,
+                4: 1.64,
+                5: 1.60
+              },
+              9: { // September
+                1: 1.92,
+                2: 1.88,
+                3: 1.78,
+                4: 1.67,
+                5: 1.63
+              },
+              10: { // October
+                1: 1.81,
+                2: 1.77,
+                3: 1.67,
+                4: 1.58,
+                5: 1.54
+              },
+              11: { // November
+                1: 2.76,
+                2: 2.70,
+                3: 2.55,
+                4: 2.40,
+                5: 2.34
+              },
+              12: { // December
+                1: 2.04,
+                2: 1.99,
+                3: 1.88,
+                4: 1.77,
+                5: 1.73
+              }
+            }
             }  ,
             481:{
              //BODRUM 1
              //MİLAS 2 
+             // BODRUM BÖLGE 3
  
              1:{
               1: { 1: 1.95, 2: 1.91, 3: 1.81, 4: 1.69, 5: 1.65 },
@@ -778,8 +1410,182 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               11: { 1: 3.39, 2: 3.33, 3: 3.15, 4: 2.95, 5: 2.87 },
               12: { 1: 2.31, 2: 2.27, 3: 2.15, 4: 2.01, 5: 1.95 }
              },
-           
-            }     
+           3:{ 
+            1: { // January
+              1: 1.84,
+              2: 1.80,
+              3: 1.71,
+              4: 1.60,
+              5: 1.55
+            },
+            2: { // February
+              1: 1.21,
+              2: 1.19,
+              3: 1.13,
+              4: 1.05,
+              5: 1.03
+            },
+            3: { // March
+              1: 1.48,
+              2: 1.45,
+              3: 1.37,
+              4: 1.28,
+              5: 1.25
+            },
+            4: { // April
+              1: 1.42,
+              2: 1.39,
+              3: 1.32,
+              4: 1.23,
+              5: 1.20
+            },
+            5: { // May
+              1: 1.72,
+              2: 1.69,
+              3: 1.60,
+              4: 1.49,
+              5: 1.45
+            },
+            6: { // June
+              1: 1.68,
+              2: 1.65,
+              3: 1.56,
+              4: 1.46,
+              5: 1.42
+            },
+            7: { // July
+              1: 2.05,
+              2: 2.01,
+              3: 1.90,
+              4: 1.78,
+              5: 1.73
+            },
+            8: { // August
+              1: 2.46,
+              2: 2.42,
+              3: 2.29,
+              4: 2.14,
+              5: 2.08
+            },
+            9: { // September
+              1: 1.33,
+              2: 1.31,
+              3: 1.24,
+              4: 1.16,
+              5: 1.13
+            },
+            10: { // October
+              1: 1.55,
+              2: 1.52,
+              3: 1.44,
+              4: 1.34,
+              5: 1.31
+            },
+            11: { // November
+              1: 3.16,
+              2: 3.10,
+              3: 2.94,
+              4: 2.75,
+              5: 2.67
+            },
+            12: { // December
+              1: 2.48,
+              2: 2.43,
+              3: 2.30,
+              4: 2.15,
+              5: 2.09
+            }
+          },
+            }    ,
+            920481:{
+         1:{    //ADM 
+          1: { // January
+            1: 1.15,
+            2: 1.13,
+            3: 1.07,
+            4: 1.00,
+            5: 0.98
+          },
+          2: { // February
+            1: 0.93,
+            2: 0.92,
+            3: 0.87,
+            4: 0.81,
+            5: 0.79
+          },
+          3: { // March
+            1: 1.12,
+            2: 1.10,
+            3: 1.04,
+            4: 0.97,
+            5: 0.95
+          },
+          4: { // April
+            1: 1.18,
+            2: 1.15,
+            3: 1.09,
+            4: 1.02,
+            5: 1.00
+          },
+          5: { // May
+            1: 1.20,
+            2: 1.18,
+            3: 1.12,
+            4: 1.05,
+            5: 1.02
+          },
+          6: { // June
+            1: 1.76,
+            2: 1.73,
+            3: 1.64,
+            4: 1.53,
+            5: 1.49
+          },
+          7: { // July
+            1: 1.81,
+            2: 1.78,
+            3: 1.68,
+            4: 1.57,
+            5: 1.53
+          },
+          8: { // August
+            1: 1.42,
+            2: 1.40,
+            3: 1.32,
+            4: 1.23,
+            5: 1.20
+          },
+          9: { // September
+            1: 1.34,
+            2: 1.31,
+            3: 1.24,
+            4: 1.16,
+            5: 1.13
+          },
+          10: { // October
+            1: 1.13,
+            2: 1.10,
+            3: 1.05,
+            4: 0.98,
+            5: 0.95
+          },
+          11: { // November
+            1: 1.95,
+            2: 1.92,
+            3: 1.81,
+            4: 1.69,
+            5: 1.65
+          },
+          12: { // December
+            1: 1.34,
+            2: 1.32,
+            3: 1.25,
+            4: 1.17,
+            5: 1.13
+          }}
+             
+            } 
+
  
            
            }
@@ -1318,7 +2124,8 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
 // n'den n + 11'e kadar değerleri okuyup diziye ekleyen kod
 const createArrayScoreSaidi = (z) => {
     const resultArrayScore = [];
-    const valueScoresSaidiTarget=saidiscoredataTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
+    console.log("navbar bölge , isletme " ,navbarbolgecount,navbarisletmecount )
+    const valueScoresSaidiTarget=saidiscoredataYearsTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
     setYıllıkisletmeHedefi2025(valueScoresSaidiTarget);
       //console.log("valueScoresSaidiTarget ",valueScoresSaidiTarget)
     for (let i = 1; i <= 12; i++) {
@@ -1333,7 +2140,7 @@ const createArrayScoreSaidi = (z) => {
   };
   const createArrayScoreSaiFi = (z) => {
     const resultArrayScore = [];
-    const valueScoresSaifiTarget=saifiscoredataTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
+    const valueScoresSaifiTarget=saifiscoredataYearsTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
     setYıllıkisletmeHedefiSaifi2025(valueScoresSaifiTarget);
     for (let i = 1; i <= 12; i++) {
       const valueScoresSaiFi = saifiscoredata[navbarbolgecount][navbarisletmecount][i]?.[z]; // Belirtilen yoldaki değeri oku
@@ -1483,7 +2290,8 @@ const createArrayScoreSaidi = (z) => {
   </Paper>
 </Box>
 
-      <ApexCharts onTotalSaidi={setSaidiTotal} isletme={veridekiİsletmeName} chartId={1} key={veridekiİsletmeName}
+      <ApexCharts onTotalSaidi={setSaidiTotal} isletme={veridekiİsletmeName} chartId={1}
+       key={veridekiİsletmeName}
        width={700} saidiSaifiScoreData={SaidiScoreData}   
         type="saidi" previousyearsaididata={saidiData}  previoussaifidata={saiFiData} 
   title={`${veridekiİsletmeName.toUpperCase()} SAİDİ`}

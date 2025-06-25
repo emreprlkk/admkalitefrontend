@@ -30,6 +30,13 @@
   align-items: center;
   margin: 0 auto; /* sağ-sol otomatik boşluk bırak, ortala */
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* donutlar ile başlık arası boşluk */
+}
+
 
 .grid-container {
   display: grid;
@@ -111,4 +118,38 @@
   .table1 {
       grid-column: span 1;
   }
+}
+
+
+.header-row {
+  display: flex;
+  flex-direction: row; /* doğru: sütun için */
+  align-items: center; /* ortala */
+  justify-content: center;
+  gap: 0px; /* Donutlar ve başlık arası mesafe */
+}
+
+.titles {
+  display: flex;             /* Alt alta yapmak için flex + column */
+  flex-direction: column;    /* ALT ALTA */
+  align-items: center;       /* Metinleri ortala */
+  text-align: center;
+}
+/* App.css */
+
+.donut-slider-container {
+  padding: 2rem;
+  width: 1200px; /* Genişletmek için örnek */
+  margin: 0 auto;    /* Ortala */
+}
+
+.titles h1,
+.titles h2 {
+  color: tomato;
+  margin: 0;                 /* İstenirse margin ayarla */
+}
+
+ 
+.content {
+  margin-top: 40px;
 }

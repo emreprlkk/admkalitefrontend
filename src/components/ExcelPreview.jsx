@@ -38,11 +38,7 @@ export default function ExcelPreview() {
   const {updateSetExcelJsonData}=useExcelJsonData();
   //const [executionCount,SetexecutionCount]=useState(18);
   
-
-  let saidi_verisi=[],saifi_verisi=[],ort_og_ariza_giderme_suresi_verisi=[],
-  ort_ag_ariza_giderme_suresi_verisi=[],toplam_uzun_og_ariza_sayisi_verisi=[],
-  toplam_uzun_ag_ariza_sayisi_verisi=[],
-  toplam__kisa_og_ariza_sayisi_verisi=[]
+ 
 
 
   // Başlangıçta istediğiniz property'ler:

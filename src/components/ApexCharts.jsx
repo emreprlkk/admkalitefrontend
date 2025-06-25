@@ -45,7 +45,11 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       ["NAZİLLİ isletme", 13],
       ["ORTACA isletme", 14],
       ["SARAYKOY isletme", 15],
-      ["SOKE isletme", 16]
+      ["SOKE isletme", 16],
+      ["AYDIN BOLGE", 17],
+      ["DENIZLI BOLGE", 18],
+      ["MUGLA BOLGE", 19],
+      ["BODRUM BOLGE", 20],
     ]);
 
     const targetIndex = textToIndexMap.get(text);
@@ -151,7 +155,7 @@ const crossAnnotations = useMemo(() =>
       marker: { size: 0 }
     };
 
-    return actual >= target
+    return actual > target
       ? {             // ★ hedefi karşıladı / geçti   → kırmızı çarpı
           ...base,
           label: {
