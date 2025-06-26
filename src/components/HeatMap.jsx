@@ -719,6 +719,13 @@ const MONTHS = [
   { key: "11", name: "Kasım" },
   { key: "12", name: "Aralık" }
 ];
+// 0-tabanlı ay → gün sayısı (Şubat sabit 28, ama artık yıl kontrolüyle 29’a çıkacak)
+const DAYS_IN_MONTH = {
+  0: 31, 1: 28, 2: 31, 3: 30, 4: 31, 5: 30,
+  6: 31, 7: 31, 8: 30, 9: 31, 10: 30, 11: 31
+};
+const isLeap = (y) =>
+  (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
 
 /* Tek SAIDI değeri seçici  ----------------------------------- */
 const getDailySaidi = (dayBlock) => {
@@ -762,43 +769,50 @@ const Heatmap = () => {
   const [openModal, setOpenModal] = useState(false);
 
   /* ---------- Ay pozisyon listesi (useMemo) ---------- */
-  const monthPositions = useMemo(() => {
-    if (top5Mode)
-      return Object.keys(ExcelJsonDatax || {})
-        .map((k) => Number(k) - 1)
-        .filter((i) => i >= 0 && i < 12)
-        .sort((a, b) => a - b);
-    return [...Array(12).keys()]; // 0‒11
-  }, [top5Mode, ExcelJsonDatax]);
+ /* Ay indeks listesi */
+ const monthList = useMemo(() => {
+  if (top5Mode) {
+    return Object.keys(ExcelJsonDatax || {})
+      .map((k) => Number(k) - 1)
+      .filter((i) => i >= 0 && i < 12)
+      .sort((a, b) => a - b);
+  }
+  return [...Array(12).keys()];
+}, [top5Mode, ExcelJsonDatax]);
 
   /* ---------- Heatmap dizisi ---------- */
-  const heatmaps = useMemo(() => {
-    return monthPositions.map((pos) => {
-      const { key: mKey, name } = MONTHS[pos];
-      const src = top5Mode
-        ? ExcelJsonDatax?.[mKey] || {}
-        : data24?.[year]?.[mKey] || {};
+/* Heatmap verisi */
+const heatmaps = useMemo(() => {
+  return monthList.map((pos) => {
+    // ← **SADECE BURASI DEĞİŞTİ**: 30 sabiti yerine ayın gerçek gün sayısı
+    const dayCount =
+      pos === 1 ? (isLeap(year) ? 29 : 28) : DAYS_IN_MONTH[pos];
 
-      const series = Object.entries(src).map(([isletme, days]) => ({
-        name: isletme.trim(),
-        data: [...Array(30)].map((_, d) => {
-          const day = `${d + 1}`;
-          return {
-            x: day,
-            y: getDailySaidi(days[day]),
-            meta: { outages: days[day] || [] }
-          };
-        })
-      }));
+    const { key: mKey, name } = MONTHS[pos];
+    const src = top5Mode
+      ? ExcelJsonDatax?.[mKey] || {}
+      : data24?.[year]?.[mKey] || {};
 
-      return {
-        title: `GÜNLÜK SAIDI DEĞERLERİ - ${
-          top5Mode ? "Yüklenen Verideki" : year
-        } ${name} Ayı`,
-        series
-      };
-    });
-  }, [monthPositions, top5Mode, year, ExcelJsonDatax]);
+    const series = Object.entries(src).map(([plant, days]) => ({
+      name: plant.trim(),
+      data: [...Array(dayCount)].map((_, d) => {
+        const day = `${d + 1}`;
+        return {
+          x: day,
+          y: getDailySaidi(days[day]),
+          meta: { outages: days[day] || [] }
+        };
+      })
+    }));
+
+    return {
+      title: `GÜNLÜK SAIDI DEĞERLERİ - ${
+        top5Mode ? "Yüklenen Verideki" : year
+      } ${name} Ayı`,
+      series
+    };
+  });
+}, [monthList, top5Mode, year, ExcelJsonDatax]);
 
   /* ---------- Apex options (useMemo) ---------- */
   const chartOptions = useMemo(() => {
