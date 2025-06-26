@@ -793,17 +793,19 @@ const heatmaps = useMemo(() => {
       ? ExcelJsonDatax?.[mKey] || {}
       : data24?.[year]?.[mKey] || {};
 
-    const series = Object.entries(src).map(([plant, days]) => ({
-      name: plant.trim(),
-      data: [...Array(dayCount)].map((_, d) => {
-        const day = `${d + 1}`;
-        return {
-          x: day,
-          y: getDailySaidi(days[day]),
-          meta: { outages: days[day] || [] }
-        };
-      })
-    }));
+      const series   = Object.entries(src).map(([plant, days]) => {
+        // önce günlük hücreleri üret
+        const points = [...Array(dayCount)].map((_, d) => ({
+          x: `${d+1}`,
+          y: getDailySaidi(days[String(d+1)]),
+          meta: { outages: days[String(d+1)] || [] }
+        }));
+        // toplamı hesapla
+        const total = points.reduce((s, p) => s + p.y, 0);
+        // "Toplam" sütunu olarak ekle
+        points.push({ x: "Toplam", y: total, meta: { outages: [] } });
+        return { name: plant.trim(), data: points };
+      });
 
     return {
       title: `GÜNLÜK SAIDI DEĞERLERİ - ${
