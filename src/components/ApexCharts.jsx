@@ -47,9 +47,9 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
       ["SARAYKOY isletme", 15],
       ["SOKE isletme", 16],
       ["AYDIN BOLGE", 17],
-      ["DENIZLI BOLGE", 18],
-      ["MUGLA BOLGE", 19],
-      ["BODRUM BOLGE", 20],
+      ["DENIZLI BOLGE", 19],
+      ["MUGLA BOLGE", 20],
+      ["BODRUM BOLGE", 18],
        ["ADM", 21],
     ]);
 
