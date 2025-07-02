@@ -1595,6 +1595,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
             //ÇİVRİL 2
             //DENİZLİ MERKEZ 3 
             //SARAYKÖY 4
+            // DENİZLİ BÖLGE 5
  
              1:{
               1: { 24: 29.14, 23: 33.38, 22: 62.35 },
@@ -1651,6 +1652,20 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
               10: { 24: 16.86, 23: 23.61, 22: 42.54 },
               11: { 24: 24.36, 23: 65.67, 22: 38.88 },
               12: { 24: 21.51, 23: 22.71, 22: 28.74 }
+            },
+            5:{
+              1: { 24: 18.09, 23: 0, 22: 0 },
+              2: { 24: 16.2, 23: 0, 22: 0 },
+              3: { 24:  19.48, 23: 0, 22: 0 },
+              4: { 24: 45.64, 23: 0, 22: 0 },
+              5: { 24: 28.64, 23: 0, 22: 0 },
+              6: { 24: 72.59, 23: 0, 22: 0 },
+              7: { 24: 86.93, 23: 0, 22: 0 },
+              8: { 24: 36.5, 23: 0, 22: 0 },
+              9: { 24: 26.25, 23: 0, 22: 0},
+              10: { 24: 18.98, 23: 0, 22: 0 },
+              11: { 24: 23.97, 23: 0, 22: 0 },
+              12: { 24: 19.12, 23: 0, 22: 0}
             },
            
             },  
@@ -1845,7 +1860,22 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
                   12: { 24: 129.78, 23: 110.16, 22: 163.21 }
               },
             
-             }     
+             }  ,
+             920481:{
+              1:{
+              1: { 24: 58.83, 23: 0, 22: 0 },
+              2: { 24:  54.6, 23: 0, 22: 0 },
+              3: { 24:  44.17, 23: 0, 22: 0 },
+              4: { 24:  80.76, 23: 0, 22: 0 },
+              5: { 24:  46.33, 23: 0, 22: 0 },
+              6: { 24:  85.08, 23: 0, 22: 0 },
+              7: { 24:  133.45, 23: 0, 22: 0 },
+              8: { 24:  69.36, 23: 0, 22: 0 },
+              9: { 24:  51.48, 23: 0, 22: 0 },
+              10: { 24:  41.82, 23: 0, 22: 0 },
+              11: { 24:  88.59, 23: 0, 22: 0 },
+              12: { 24:  83.74, 23: 0, 22: 0 }
+                          }}   
  
            
            }
@@ -2124,7 +2154,7 @@ export  const SaidiSaifiGraph=({isletme,navbarbolgecount,navbarisletmecount})=> 
 // n'den n + 11'e kadar değerleri okuyup diziye ekleyen kod
 const createArrayScoreSaidi = (z) => {
     const resultArrayScore = [];
-    console.log("navbar bölge , isletme " ,navbarbolgecount,navbarisletmecount )
+ //   console.log("navbar bölge , isletme " ,navbarbolgecount,navbarisletmecount )
     const valueScoresSaidiTarget=saidiscoredataYearsTarget2025[navbarbolgecount][navbarisletmecount][1]?.[z];
     setYıllıkisletmeHedefi2025(valueScoresSaidiTarget);
       //console.log("valueScoresSaidiTarget ",valueScoresSaidiTarget)

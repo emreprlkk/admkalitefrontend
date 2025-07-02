@@ -100,7 +100,8 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
     const validData1 = Array.isArray(saidiSaifiScoreData) ? saidiSaifiScoreData : [];
     const validPrevious22 = Array.isArray(previousData[type === "saidi" ? "saidi22" : "saifi22"]) ? previousData[type === "saidi" ? "saidi22" : "saifi22"] : [];
     const validPrevious23 = Array.isArray(previousData[type === "saidi" ? "saidi23" : "saifi23"]) ? previousData[type === "saidi" ? "saidi23" : "saifi23"] : [];
-    const validPrevious24 = Array.isArray(previousData[type === "saidi" ? "saidi24" : "saifi24"]) ? previousData[type === "saidi" ? "saidi24" : "saifi24"] : [];
+    const validPrevious24 = Array.isArray(previousData[type === "saidi" ? "saidi24" : "saifi24"]) ?
+     previousData[type === "saidi" ? "saidi24" : "saifi24"] : [];
     const validCalculated = Array.isArray(calculatedData) ? calculatedData : [];
    
     return [
