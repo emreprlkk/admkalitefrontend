@@ -209,6 +209,11 @@ const initialState2025 = {
             "SAİDİ": 13.45,
             "SAİFİ": 0.43
         },
+         "20": {
+            "name": "MUGLA",
+            "SAİDİ": 89.24,
+            "SAİFİ": 1.75
+        },
         "21": {
             "name": "ADM",
             "SAİDİ": 45.2,
