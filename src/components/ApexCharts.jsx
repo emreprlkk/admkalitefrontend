@@ -27,7 +27,7 @@ const ApexCharts = ({
 // Veri tipine göre önceki yılların verilerini seç
 const previousData = type === "saidi" ? previousyearsaididata : previoussaifidata;
 
- 
+ /// SERİ İÇİN GRAPHA DİZİ DÖNER 
   const UploadFileSaidiAndSaifi = useCallback((nestedObject, text,type) => {
     const textToIndexMap = new Map([
       ["ACİPAYAM isletme", 1],
@@ -64,23 +64,36 @@ const previousData = type === "saidi" ? previousyearsaididata : previoussaifidat
     const monthData = nestedObject[month];
  
     if (monthData && monthData[targetIndex]) {
-   
-      const value = type ==="saidi"
+   let value;
 
-      //console.log("tipi ",value)
-      ? monthData[targetIndex].SAİDİ || 0
-      : monthData[targetIndex].SAİFİ || 0;
-      vtValues.push(value);
-    } else {
-      console.log(`Ay ${month} içinde ${targetIndex}. nesne veya VT değeri bulunamadı.`);
-      vtValues.push(0); // Eğer veri yoksa varsayılan olarak 0 ekle
+if (type === "saidi") {
+    value = monthData[targetIndex].SAİDİ || 0;
+} else if (type === "saifi") {
+    value = monthData[targetIndex].SAİFİ || 0;
+} else if (type === "ode") {
+    value = monthData[targetIndex].ODE || 0;
+} else {
+    value = 0;  // Beklenmeyen bir durum için güvenlik önlemi
+}
+
+vtValues.push(value);
+
+      
+    } 
+   
+    else {
+      
+vtValues.push(0);
     }
+    
   }
     }
      
     return vtValues;
-  }, []);
+  }, []
+);
 
+ 
   const calculatedData = useMemo(() => 
     UploadFileSaidiAndSaifi(Datax, isletme,type)
   , [Datax, isletme,UploadFileSaidiAndSaifi]);
