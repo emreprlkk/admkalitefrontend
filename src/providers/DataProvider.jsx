@@ -435,10 +435,10 @@ const initialState2025 = {
             "SAİFİ": 1.11
         }
     },
-    "5": {
+   "5": {
         "1": {
             "name": "ACİPAYAM isletme",
-            "SAİDİ": 29.04,
+            "SAİDİ": 29.21,
             "SAİFİ": 0.96
         },
         "2": {
@@ -448,17 +448,17 @@ const initialState2025 = {
         },
         "3": {
             "name": "BODRUM isletme",
-            "SAİDİ": 64.86,
+            "SAİDİ": 65.25,
             "SAİFİ": 1.74
         },
         "4": {
             "name": "CİNE isletme",
-            "SAİDİ": 85.92,
+            "SAİDİ": 86.13,
             "SAİFİ": 2.67
         },
         "5": {
             "name": "CİVRİL isletme",
-            "SAİDİ": 22.54,
+            "SAİDİ": 22.7,
             "SAİFİ": 0.83
         },
         "6": {
@@ -468,8 +468,8 @@ const initialState2025 = {
         },
         "7": {
             "name": "DİDİM isletme",
-            "SAİDİ": 45.15,
-            "SAİFİ": 1.41
+            "SAİDİ": 41.29,
+            "SAİFİ": 1.23
         },
         "8": {
             "name": "FETHİYE isletme",
@@ -483,18 +483,18 @@ const initialState2025 = {
         },
         "10": {
             "name": "MARMARİS isletme",
-            "SAİDİ": 102.15,
-            "SAİFİ": 2.17
+            "SAİDİ": 103.9,
+            "SAİFİ": 2.18
         },
         "11": {
             "name": "MİLAS isletme",
-            "SAİDİ": 67.23,
+            "SAİDİ": 67.26,
             "SAİFİ": 2.03
         },
         "12": {
             "name": "MUGLA MERKEZ isletme",
-            "SAİDİ": 63.57,
-            "SAİFİ": 1.9
+            "SAİDİ": 59.34,
+            "SAİFİ": 1.88
         },
         "13": {
             "name": "NAZİLLİ isletme",
@@ -508,60 +508,61 @@ const initialState2025 = {
         },
         "15": {
             "name": "SARAYKOY isletme",
-            "SAİDİ": 22.77,
+            "SAİDİ": 22.75,
             "SAİFİ": 0.5
         },
         "16": {
             "name": "SOKE isletme",
             "SAİDİ": 49.11,
             "SAİFİ": 0.67
-        },
+        }
+        ,
         "17": {
             "name": "AYDİN",
-            "SAİDİ": 30.84,
-            "SAİFİ": 0.97
+            "SAİDİ": 30.3,
+            "SAİFİ": 0.94
         },
         "18": {
             "name": "BODRUM",
-            "SAİDİ": 65.84,
+            "SAİDİ": 66.08,
             "SAİFİ": 1.86
         },
         "19": {
             "name": "DENİZLİ",
-            "SAİDİ": 18.48,
+            "SAİDİ": 18.53,
             "SAİFİ": 0.5
         },
         "20": {
             "name": "MUGLA",
-            "SAİDİ": 70.58,
+            "SAİDİ": 69.78,
             "SAİFİ": 1.84
         },
         "21": {
             "name": "ADM",
-            "SAİDİ": 40.34,
-            "SAİFİ": 1.13
-        }
+            "SAİDİ": 40.01,
+            "SAİFİ":1.12
+        },
     },
     "6": {
         "1": {
             "name": "ACİPAYAM isletme",
-            "SAİDİ": 20.74,
-            "SAİFİ": 0.88
+            "SAİDİ": 20.17,
+            "SAİFİ": 0.81
         },
         "2": {
             "name": "AYDİN MERKEZ isletme",
-            "SAİDİ": 55.64,
-            "SAİFİ": 1.52
+            "SAİDİ": 51.54,
+            "SAİFİ": 1.51
         },
         "3": {
             "name": "BODRUM isletme",
-            "SAİDİ": 47.57,
-            "SAİFİ": 1.05
+            "SAİDİ": 32.46,
+            "SAİFİ": 0.88
         },
         "4": {
             "name": "CİNE isletme",
-            "SAİDİ": 81.38,
-            "SAİFİ": 1.85
+            "SAİDİ": 79.51,
+            "SAİFİ": 1.32
         },
         "5": {
             "name": "CİVRİL isletme",
@@ -570,47 +571,47 @@ const initialState2025 = {
         },
         "6": {
             "name": "DENİZLİ MERKEZ isletme",
-            "SAİDİ": 17.02,
-            "SAİFİ": 0.64
+            "SAİDİ": 14.2,
+            "SAİFİ": 0.44
         },
         "7": {
             "name": "DİDİM isletme",
-            "SAİDİ": 74.12,
-            "SAİFİ": 1.47
+            "SAİDİ": 52.64,
+            "SAİFİ": 1.24
         },
         "8": {
             "name": "FETHİYE isletme",
-            "SAİDİ": 55.75,
-            "SAİFİ": 1.9
+            "SAİDİ": 52.72,
+            "SAİFİ": 1.87
         },
         "9": {
             "name": "KUSADASİ isletme",
-            "SAİDİ": 47.99,
-            "SAİFİ": 0.44
+            "SAİDİ": 31.68,
+            "SAİFİ": 0.49
         },
         "10": {
             "name": "MARMARİS isletme",
-            "SAİDİ": 31.28,
-            "SAİFİ": 0.54
+            "SAİDİ": 31.11,
+            "SAİFİ": 0.53
         },
         "11": {
             "name": "MİLAS isletme",
-            "SAİDİ": 107.34,
-            "SAİFİ": 2.96
+            "SAİDİ": 77.04,
+            "SAİFİ": 2.63
         },
         "12": {
             "name": "MUGLA MERKEZ isletme",
-            "SAİDİ": 68.61,
-            "SAİFİ": 2.12
+            "SAİDİ": 49.85,
+            "SAİFİ": 1.72
         },
         "13": {
             "name": "NAZİLLİ isletme",
-            "SAİDİ": 21.96,
+            "SAİDİ": 21.6,
             "SAİFİ": 1.18
         },
         "14": {
             "name": "ORTACA isletme",
-            "SAİDİ": 46.84,
+            "SAİDİ": 46.57,
             "SAİFİ": 1.27
         },
         "15": {
@@ -620,33 +621,33 @@ const initialState2025 = {
         },
         "16": {
             "name": "SOKE isletme",
-            "SAİDİ": 28.2,
-            "SAİFİ": 0.64
+            "SAİDİ": 27.42,
+            "SAİFİ": 0.47
         },
         "17": {
             "name": "AYDİN",
-            "SAİDİ": 48.37,
-            "SAİFİ": 1.19
+            "SAİDİ": 40.93,
+            "SAİFİ": 1.12
         },
         "18": {
             "name": "BODRUM",
-            "SAİDİ": 72.26,
-            "SAİFİ": 1.84
+            "SAİDİ": 50.88,
+            "SAİFİ": 1.6
         },
         "19": {
             "name": "DENİZLİ",
-            "SAİDİ": 20.5,
-            "SAİFİ": 0.76
+            "SAİDİ": 18.68,
+            "SAİFİ": 0.63
         },
         "20": {
             "name": "MUGLA",
-            "SAİDİ": 52.94,
-            "SAİFİ": 1.58
+            "SAİDİ": 46.86,
+            "SAİFİ": 1.47
         },
         "21": {
             "name": "ADM",
-            "SAİDİ": 43.99,
-            "SAİFİ":1.23
+            "SAİDİ": 36.87,
+            "SAİFİ":1.11
         }
     },
       7: {
