@@ -64,6 +64,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.87
+        },
+         "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.71
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.4
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode":0.29
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.42
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "2": {
@@ -130,6 +155,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 1.46
+        },
+          "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.65
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.53
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.43
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.05
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
       "3": {
@@ -196,6 +246,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.42
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.47
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.01
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.44
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.62
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
      "4": {
@@ -262,6 +337,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.28
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.57
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.43
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.31
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.16
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
      "5": {
@@ -328,6 +428,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.46
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.41
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.56
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.37
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.36
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "6": {
@@ -394,6 +519,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.56
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.63
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.75
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.75
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.22
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "7": {
@@ -460,6 +610,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
    "8": {
@@ -526,6 +701,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
      "9": {
@@ -592,6 +792,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
      "10": {
@@ -658,6 +883,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
      "11": {
@@ -724,6 +974,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
      "12": {
@@ -790,6 +1065,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     }
 
@@ -860,6 +1160,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.54
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "2": {
@@ -926,6 +1251,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.5
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "1": {
@@ -992,6 +1342,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.75
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "11": {
@@ -1058,6 +1433,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.97
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "6": {
@@ -1124,6 +1524,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.77
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "5": {
@@ -1190,6 +1615,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.58
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "7": {
@@ -1256,6 +1706,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.71
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "8": {
@@ -1322,6 +1797,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.8
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "9": {
@@ -1388,6 +1888,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.58
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "4": {
@@ -1454,6 +1979,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.57
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "12": {
@@ -1520,6 +2070,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 0.81
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     },
     "10": {
@@ -1586,6 +2161,31 @@
         "16": {
             "name": "SOKE isletme",
             "isletme_ode": 1.6
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 0
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
         }
     }
 }
