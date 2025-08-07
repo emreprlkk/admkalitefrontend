@@ -1096,89 +1096,89 @@
 
    } ,
    "2024":{
-    "3": {
+    "1": {
         "1": {
             "name": "ACİPAYAM isletme",
-            "isletme_ode": 1.82
+            "isletme_ode": 1.07
         },
         "2": {
             "name": "AYDİN MERKEZ isletme",
-            "isletme_ode": 2.66
+            "isletme_ode": 4.06
         },
         "3": {
             "name": "BODRUM isletme",
-            "isletme_ode": 2.34
+            "isletme_ode": 1.6
         },
         "4": {
             "name": "CİNE isletme",
-            "isletme_ode": 0.32
+            "isletme_ode": 0.43
         },
         "5": {
             "name": "CİVRİL isletme",
-            "isletme_ode": 2.14
+            "isletme_ode": 1.38
         },
         "6": {
             "name": "DENİZLİ MERKEZ isletme",
-            "isletme_ode": 0.94
+            "isletme_ode": 0.75
         },
         "7": {
             "name": "DİDİM isletme",
-            "isletme_ode": 0.74
+            "isletme_ode": 0.86
         },
         "8": {
             "name": "FETHİYE isletme",
-            "isletme_ode": 2.31
+            "isletme_ode": 1.75
         },
         "9": {
             "name": "KUSADASİ isletme",
-            "isletme_ode": 0.15
+            "isletme_ode": 0.44
         },
         "10": {
             "name": "MARMARİS isletme",
-            "isletme_ode": 2.22
+            "isletme_ode": 1.47
         },
         "11": {
             "name": "MİLAS isletme",
-            "isletme_ode": 1.24
+            "isletme_ode": 2.53
         },
         "12": {
             "name": "MUGLA MERKEZ isletme",
-            "isletme_ode": 2.01
+            "isletme_ode": 2.2
         },
         "13": {
             "name": "NAZİLLİ isletme",
-            "isletme_ode": 1.43
+            "isletme_ode": 7.57
         },
         "14": {
             "name": "ORTACA isletme",
-            "isletme_ode": 1.36
+            "isletme_ode": 1.08
         },
         "15": {
             "name": "SARAYKOY isletme",
-            "isletme_ode": 1.33
+            "isletme_ode": 1.62
         },
         "16": {
             "name": "SOKE isletme",
-            "isletme_ode": 0.54
+            "isletme_ode": 0.75
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.78
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 1.98
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.25
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 0.66
            
         },
         "21": {
@@ -1254,22 +1254,22 @@
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.6
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 2.42
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.27
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.27
            
         },
         "21": {
@@ -1278,180 +1278,89 @@
            
         }
     },
-    "1": {
+    "3": {
         "1": {
             "name": "ACİPAYAM isletme",
-            "isletme_ode": 1.07
+            "isletme_ode": 1.82
         },
         "2": {
             "name": "AYDİN MERKEZ isletme",
-            "isletme_ode": 4.06
+            "isletme_ode": 2.66
         },
         "3": {
             "name": "BODRUM isletme",
-            "isletme_ode": 1.6
+            "isletme_ode": 2.34
         },
         "4": {
             "name": "CİNE isletme",
-            "isletme_ode": 0.43
+            "isletme_ode": 0.32
         },
         "5": {
             "name": "CİVRİL isletme",
-            "isletme_ode": 1.38
-        },
-        "6": {
-            "name": "DENİZLİ MERKEZ isletme",
-            "isletme_ode": 0.75
-        },
-        "7": {
-            "name": "DİDİM isletme",
-            "isletme_ode": 0.86
-        },
-        "8": {
-            "name": "FETHİYE isletme",
-            "isletme_ode": 1.75
-        },
-        "9": {
-            "name": "KUSADASİ isletme",
-            "isletme_ode": 0.44
-        },
-        "10": {
-            "name": "MARMARİS isletme",
-            "isletme_ode": 1.47
-        },
-        "11": {
-            "name": "MİLAS isletme",
-            "isletme_ode": 2.53
-        },
-        "12": {
-            "name": "MUGLA MERKEZ isletme",
-            "isletme_ode": 2.2
-        },
-        "13": {
-            "name": "NAZİLLİ isletme",
-            "isletme_ode": 7.57
-        },
-        "14": {
-            "name": "ORTACA isletme",
-            "isletme_ode": 1.08
-        },
-        "15": {
-            "name": "SARAYKOY isletme",
-            "isletme_ode": 1.62
-        },
-        "16": {
-            "name": "SOKE isletme",
-            "isletme_ode": 0.75
-        },
-           "17": {
-            "name": "AYDİN",
-            "isletme_ode":0
-           
-        },
-        "18": {
-            "name": "BODRUM",
-            "isletme_ode": 0
-         
-        },
-        "19": {
-            "name": "DENİZLİ",
-            "isletme_ode": 0
-           
-        },
-        "20": {
-            "name": "MUGLA",
-            "isletme_ode": 0
-           
-        },
-        "21": {
-            "name": "ADM",
-            "isletme_ode": 0
-           
-        }
-    },
-    "11": {
-        "1": {
-            "name": "ACİPAYAM isletme",
             "isletme_ode": 2.14
         },
-        "2": {
-            "name": "AYDİN MERKEZ isletme",
-            "isletme_ode": 4.46
-        },
-        "3": {
-            "name": "BODRUM isletme",
-            "isletme_ode": 3.76
-        },
-        "4": {
-            "name": "CİNE isletme",
-            "isletme_ode": 0.42
-        },
-        "5": {
-            "name": "CİVRİL isletme",
-            "isletme_ode": 2.62
-        },
         "6": {
             "name": "DENİZLİ MERKEZ isletme",
-            "isletme_ode": 1.51
+            "isletme_ode": 0.94
         },
         "7": {
             "name": "DİDİM isletme",
-            "isletme_ode": 1.07
+            "isletme_ode": 0.74
         },
         "8": {
             "name": "FETHİYE isletme",
-            "isletme_ode": 2.32
+            "isletme_ode": 2.31
         },
         "9": {
             "name": "KUSADASİ isletme",
-            "isletme_ode": 0.96
+            "isletme_ode": 0.15
         },
         "10": {
             "name": "MARMARİS isletme",
-            "isletme_ode": 1.74
+            "isletme_ode": 2.22
         },
         "11": {
             "name": "MİLAS isletme",
-            "isletme_ode": 1.86
+            "isletme_ode": 1.24
         },
         "12": {
             "name": "MUGLA MERKEZ isletme",
-            "isletme_ode": 6.71
+            "isletme_ode": 2.01
         },
         "13": {
             "name": "NAZİLLİ isletme",
-            "isletme_ode": 3.12
+            "isletme_ode": 1.43
         },
         "14": {
             "name": "ORTACA isletme",
-            "isletme_ode": 3.11
+            "isletme_ode": 1.36
         },
         "15": {
             "name": "SARAYKOY isletme",
-            "isletme_ode": 0.83
+            "isletme_ode": 1.33
         },
         "16": {
             "name": "SOKE isletme",
-            "isletme_ode": 0.97
+            "isletme_ode": 0.54
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.4
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 1.89
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.32
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 0.83
            
         },
         "21": {
@@ -1460,54 +1369,54 @@
            
         }
     },
-    "6": {
+     "4": {
         "1": {
             "name": "ACİPAYAM isletme",
-            "isletme_ode": 2.85
+            "isletme_ode": 5.83
         },
         "2": {
             "name": "AYDİN MERKEZ isletme",
-            "isletme_ode": 3.04
+            "isletme_ode": 2.37
         },
         "3": {
             "name": "BODRUM isletme",
-            "isletme_ode": 1.98
+            "isletme_ode": 1.47
         },
         "4": {
             "name": "CİNE isletme",
-            "isletme_ode": 1.25
+            "isletme_ode": 0.7
         },
         "5": {
             "name": "CİVRİL isletme",
-            "isletme_ode": 3.83
+            "isletme_ode": 2.85
         },
         "6": {
             "name": "DENİZLİ MERKEZ isletme",
-            "isletme_ode": 1.72
+            "isletme_ode": 1.65
         },
         "7": {
             "name": "DİDİM isletme",
-            "isletme_ode": 0.5
+            "isletme_ode": 1.55
         },
         "8": {
             "name": "FETHİYE isletme",
-            "isletme_ode": 1.81
+            "isletme_ode": 1.66
         },
         "9": {
             "name": "KUSADASİ isletme",
-            "isletme_ode": 1.03
+            "isletme_ode": 1.0
         },
         "10": {
             "name": "MARMARİS isletme",
-            "isletme_ode": 1.35
+            "isletme_ode": 4.72
         },
         "11": {
             "name": "MİLAS isletme",
-            "isletme_ode": 1.59
+            "isletme_ode": 1.52
         },
         "12": {
             "name": "MUGLA MERKEZ isletme",
-            "isletme_ode": 1.86
+            "isletme_ode": 6.64
         },
         "13": {
             "name": "NAZİLLİ isletme",
@@ -1515,34 +1424,34 @@
         },
         "14": {
             "name": "ORTACA isletme",
-            "isletme_ode": 2.56
+            "isletme_ode": 1.96
         },
         "15": {
             "name": "SARAYKOY isletme",
-            "isletme_ode": 2.87
+            "isletme_ode": 4.72
         },
         "16": {
             "name": "SOKE isletme",
-            "isletme_ode": 0.77
+            "isletme_ode": 0.57
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.76
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 1.49
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.67
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.29
            
         },
         "21": {
@@ -1618,22 +1527,22 @@
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":1.36
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 3.05
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.84
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.54
            
         },
         "21": {
@@ -1642,6 +1551,98 @@
            
         }
     },
+    "6": {
+        "1": {
+            "name": "ACİPAYAM isletme",
+            "isletme_ode": 2.85
+        },
+        "2": {
+            "name": "AYDİN MERKEZ isletme",
+            "isletme_ode": 3.04
+        },
+        "3": {
+            "name": "BODRUM isletme",
+            "isletme_ode": 1.98
+        },
+        "4": {
+            "name": "CİNE isletme",
+            "isletme_ode": 1.25
+        },
+        "5": {
+            "name": "CİVRİL isletme",
+            "isletme_ode": 3.83
+        },
+        "6": {
+            "name": "DENİZLİ MERKEZ isletme",
+            "isletme_ode": 1.72
+        },
+        "7": {
+            "name": "DİDİM isletme",
+            "isletme_ode": 0.5
+        },
+        "8": {
+            "name": "FETHİYE isletme",
+            "isletme_ode": 1.81
+        },
+        "9": {
+            "name": "KUSADASİ isletme",
+            "isletme_ode": 1.03
+        },
+        "10": {
+            "name": "MARMARİS isletme",
+            "isletme_ode": 1.35
+        },
+        "11": {
+            "name": "MİLAS isletme",
+            "isletme_ode": 1.59
+        },
+        "12": {
+            "name": "MUGLA MERKEZ isletme",
+            "isletme_ode": 1.86
+        },
+        "13": {
+            "name": "NAZİLLİ isletme",
+            "isletme_ode": 4.44
+        },
+        "14": {
+            "name": "ORTACA isletme",
+            "isletme_ode": 2.56
+        },
+        "15": {
+            "name": "SARAYKOY isletme",
+            "isletme_ode": 2.87
+        },
+        "16": {
+            "name": "SOKE isletme",
+            "isletme_ode": 0.77
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.69
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 1.82
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.57
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 0.74
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
+        }
+    },
+    
     "7": {
         "1": {
             "name": "ACİPAYAM isletme",
@@ -1709,22 +1710,22 @@
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":1.13
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 5.0
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.84
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 2.3
            
         },
         "21": {
@@ -1800,22 +1801,22 @@
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.72
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 3.77
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.56
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.53
            
         },
         "21": {
@@ -1891,22 +1892,22 @@
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.65
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 1.47
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.44
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.23
            
         },
         "21": {
@@ -1915,89 +1916,89 @@
            
         }
     },
-    "4": {
+     "10": {
         "1": {
             "name": "ACİPAYAM isletme",
-            "isletme_ode": 5.83
+            "isletme_ode": 8.54
         },
         "2": {
             "name": "AYDİN MERKEZ isletme",
-            "isletme_ode": 2.37
+            "isletme_ode": 2.14
         },
         "3": {
             "name": "BODRUM isletme",
-            "isletme_ode": 1.47
+            "isletme_ode": 1.22
         },
         "4": {
             "name": "CİNE isletme",
-            "isletme_ode": 0.7
+            "isletme_ode": 2.79
         },
         "5": {
             "name": "CİVRİL isletme",
-            "isletme_ode": 2.85
+            "isletme_ode": 4.76
         },
         "6": {
             "name": "DENİZLİ MERKEZ isletme",
-            "isletme_ode": 1.65
+            "isletme_ode": 2.07
         },
         "7": {
             "name": "DİDİM isletme",
-            "isletme_ode": 1.55
+            "isletme_ode": 0.67
         },
         "8": {
             "name": "FETHİYE isletme",
-            "isletme_ode": 1.66
+            "isletme_ode": 3.64
         },
         "9": {
             "name": "KUSADASİ isletme",
-            "isletme_ode": 1.0
+            "isletme_ode": 0.65
         },
         "10": {
             "name": "MARMARİS isletme",
-            "isletme_ode": 4.72
+            "isletme_ode": 2.34
         },
         "11": {
             "name": "MİLAS isletme",
-            "isletme_ode": 1.52
+            "isletme_ode": 1.13
         },
         "12": {
             "name": "MUGLA MERKEZ isletme",
-            "isletme_ode": 6.64
+            "isletme_ode": 1.01
         },
         "13": {
             "name": "NAZİLLİ isletme",
-            "isletme_ode": 4.44
+            "isletme_ode": 1.89
         },
         "14": {
             "name": "ORTACA isletme",
-            "isletme_ode": 1.96
+            "isletme_ode": 3.3
         },
         "15": {
             "name": "SARAYKOY isletme",
-            "isletme_ode": 4.72
+            "isletme_ode": 1.68
         },
         "16": {
             "name": "SOKE isletme",
-            "isletme_ode": 0.57
+            "isletme_ode": 1.6
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":0.61
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 1.19
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.82
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.14
            
         },
         "21": {
@@ -2006,6 +2007,99 @@
            
         }
     },
+    "11": {
+        "1": {
+            "name": "ACİPAYAM isletme",
+            "isletme_ode": 2.14
+        },
+        "2": {
+            "name": "AYDİN MERKEZ isletme",
+            "isletme_ode": 4.46
+        },
+        "3": {
+            "name": "BODRUM isletme",
+            "isletme_ode": 3.76
+        },
+        "4": {
+            "name": "CİNE isletme",
+            "isletme_ode": 0.42
+        },
+        "5": {
+            "name": "CİVRİL isletme",
+            "isletme_ode": 2.62
+        },
+        "6": {
+            "name": "DENİZLİ MERKEZ isletme",
+            "isletme_ode": 1.51
+        },
+        "7": {
+            "name": "DİDİM isletme",
+            "isletme_ode": 1.07
+        },
+        "8": {
+            "name": "FETHİYE isletme",
+            "isletme_ode": 2.32
+        },
+        "9": {
+            "name": "KUSADASİ isletme",
+            "isletme_ode": 0.96
+        },
+        "10": {
+            "name": "MARMARİS isletme",
+            "isletme_ode": 1.74
+        },
+        "11": {
+            "name": "MİLAS isletme",
+            "isletme_ode": 1.86
+        },
+        "12": {
+            "name": "MUGLA MERKEZ isletme",
+            "isletme_ode": 6.71
+        },
+        "13": {
+            "name": "NAZİLLİ isletme",
+            "isletme_ode": 3.12
+        },
+        "14": {
+            "name": "ORTACA isletme",
+            "isletme_ode": 3.11
+        },
+        "15": {
+            "name": "SARAYKOY isletme",
+            "isletme_ode": 0.83
+        },
+        "16": {
+            "name": "SOKE isletme",
+            "isletme_ode": 0.97
+        },
+           "17": {
+            "name": "AYDİN",
+            "isletme_ode":0.79
+           
+        },
+        "18": {
+            "name": "BODRUM",
+            "isletme_ode": 2.98
+         
+        },
+        "19": {
+            "name": "DENİZLİ",
+            "isletme_ode": 0.44
+           
+        },
+        "20": {
+            "name": "MUGLA",
+            "isletme_ode": 1.22
+           
+        },
+        "21": {
+            "name": "ADM",
+            "isletme_ode": 0
+           
+        }
+    },
+    
+   
     "12": {
         "1": {
             "name": "ACİPAYAM isletme",
@@ -2073,113 +2167,22 @@
         },
            "17": {
             "name": "AYDİN",
-            "isletme_ode":0
+            "isletme_ode":1.02
            
         },
         "18": {
             "name": "BODRUM",
-            "isletme_ode": 0
+            "isletme_ode": 1.9
          
         },
         "19": {
             "name": "DENİZLİ",
-            "isletme_ode": 0
+            "isletme_ode": 0.45
            
         },
         "20": {
             "name": "MUGLA",
-            "isletme_ode": 0
-           
-        },
-        "21": {
-            "name": "ADM",
-            "isletme_ode": 0
-           
-        }
-    },
-    "10": {
-        "1": {
-            "name": "ACİPAYAM isletme",
-            "isletme_ode": 8.54
-        },
-        "2": {
-            "name": "AYDİN MERKEZ isletme",
-            "isletme_ode": 2.14
-        },
-        "3": {
-            "name": "BODRUM isletme",
-            "isletme_ode": 1.22
-        },
-        "4": {
-            "name": "CİNE isletme",
-            "isletme_ode": 2.79
-        },
-        "5": {
-            "name": "CİVRİL isletme",
-            "isletme_ode": 4.76
-        },
-        "6": {
-            "name": "DENİZLİ MERKEZ isletme",
-            "isletme_ode": 2.07
-        },
-        "7": {
-            "name": "DİDİM isletme",
-            "isletme_ode": 0.67
-        },
-        "8": {
-            "name": "FETHİYE isletme",
-            "isletme_ode": 3.64
-        },
-        "9": {
-            "name": "KUSADASİ isletme",
-            "isletme_ode": 0.65
-        },
-        "10": {
-            "name": "MARMARİS isletme",
-            "isletme_ode": 2.34
-        },
-        "11": {
-            "name": "MİLAS isletme",
-            "isletme_ode": 1.13
-        },
-        "12": {
-            "name": "MUGLA MERKEZ isletme",
-            "isletme_ode": 1.01
-        },
-        "13": {
-            "name": "NAZİLLİ isletme",
-            "isletme_ode": 1.89
-        },
-        "14": {
-            "name": "ORTACA isletme",
-            "isletme_ode": 3.3
-        },
-        "15": {
-            "name": "SARAYKOY isletme",
-            "isletme_ode": 1.68
-        },
-        "16": {
-            "name": "SOKE isletme",
-            "isletme_ode": 1.6
-        },
-           "17": {
-            "name": "AYDİN",
-            "isletme_ode":0
-           
-        },
-        "18": {
-            "name": "BODRUM",
-            "isletme_ode": 0
-         
-        },
-        "19": {
-            "name": "DENİZLİ",
-            "isletme_ode": 0
-           
-        },
-        "20": {
-            "name": "MUGLA",
-            "isletme_ode": 0
+            "isletme_ode": 1.72
            
         },
         "21": {
@@ -2188,5 +2191,6 @@
            
         }
     }
+   
 }
 }
