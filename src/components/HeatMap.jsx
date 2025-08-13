@@ -784,7 +784,6 @@ const Heatmap = () => {
 /* Heatmap verisi */
 const heatmaps = useMemo(() => {
   return monthList.map((pos) => {
-    // ← **SADECE BURASI DEĞİŞTİ**: 30 sabiti yerine ayın gerçek gün sayısı
     const dayCount =
       pos === 1 ? (isLeap(year) ? 29 : 28) : DAYS_IN_MONTH[pos];
 
@@ -793,19 +792,21 @@ const heatmaps = useMemo(() => {
       ? ExcelJsonDatax?.[mKey] || {}
       : data24?.[year]?.[mKey] || {};
 
-      const series   = Object.entries(src).map(([plant, days]) => {
-        // önce günlük hücreleri üret
-        const points = [...Array(dayCount)].map((_, d) => ({
-          x: `${d+1}`,
-          y: getDailySaidi(days[String(d+1)]),
-          meta: { outages: days[String(d+1)] || [] }
-        }));
-        // toplamı hesapla
-        const total = points.reduce((s, p) => s + p.y, 0);
-        // "Toplam" sütunu olarak ekle
-        points.push({ x: "Toplam", y: total, meta: { outages: [] } });
-        return { name: plant.trim(), data: points };
+    const series = Object.entries(src).map(([plant, days]) => {
+      const points = [...Array(dayCount)].map((_, d) => ({
+        x: `${d + 1}`,
+        y: getDailySaidi(days[String(d + 1)]),
+        meta: { outages: days[String(d + 1)] || [], isTotal: false }
+      }));
+      const total = points.reduce((s, p) => s + p.y, 0);
+      // Toplam sütununa sentinel değer (999999) veriyoruz ki renk beyaz olsun
+      points.push({
+        x: "Toplam",
+        y: 999999,
+        meta: { outages: [], isTotal: true, totalValue: total }
       });
+      return { name: plant.trim(), data: points };
+    });
 
     return {
       title: `GÜNLÜK SAIDI DEĞERLERİ - ${
@@ -817,63 +818,71 @@ const heatmaps = useMemo(() => {
 }, [monthList, top5Mode, year, ExcelJsonDatax]);
 
   /* ---------- Apex options (useMemo) ---------- */
-  const chartOptions = useMemo(() => {
-    const current = heatmaps[heatmapIdx];
-    return {
-      chart: {
-        type: "heatmap",
-        height: isMobile ? 300 : 500,
-        events: {
-          dataPointSelection: (_, __, { seriesIndex, dataPointIndex }) => {
-            const pt =
-              current?.series[seriesIndex]?.data[dataPointIndex];
-            setGridRows(pt?.meta.outages || []);
-            setOpenModal(true);
-          }
+const chartOptions = useMemo(() => {
+  const current = heatmaps[heatmapIdx];
+  return {
+    chart: {
+      type: "heatmap",
+      height: isMobile ? 300 : 500,
+      events: {
+        dataPointSelection: (_, __, { seriesIndex, dataPointIndex }) => {
+          const pt = current?.series[seriesIndex]?.data[dataPointIndex];
+          setGridRows(pt?.meta.outages || []);
+          setOpenModal(true);
         }
-      },
-      plotOptions: {
-        heatmap: {
-          radius: 20,
-          enableShades: false,
-          colorScale: {
-            ranges: [
-              { from: 0, to: 0.5, color: "#f8f8ff" }, //ghostwhite
-              { from: 0.5, to: 3, color: "#00ff7f" },
-              { from: 3, to: 5, color: "#ffc0cb" },
-              { from: 5, to: 8, color: "#db7093" },
-              { from: 8, to: 10, color: "#EA7300" },
-              { from: 10, to: 50, color: "#F7374F" },
-              {from:50 , to:100, color:'#AF2655'}
-            ]      //AF2655
-          }
-        }
-      },
-      dataLabels: {
-        enabled: true,
-        formatter: (v) => v.toFixed(2),
-        style: { colors: ["black"] }
-      },
-      xaxis: {
-        categories: current?.series[0]?.data.map((d) => d.x) || [],
-        title: { text: "Günler", style: { fontSize: "14px" } }
-      },
-      yaxis: {
-        labels: {
-          style: {
-            fontSize: "12px",
-            colors: [theme.palette.text.primary]
-          },
-          formatter: (v) => v
-        }
-      },
-      title: {
-        text: current?.title || "",
-        align: "center",
-        style: { fontSize: "18px" }
       }
-    };
-  }, [heatmaps, heatmapIdx, isMobile, theme.palette.text.primary]);
+    },
+    plotOptions: {
+      heatmap: {
+        radius: 20,
+        enableShades: false,
+        colorScale: {
+          ranges: [
+            // Beyaz renk: sentinel değer 999999
+            { from: 999999, to: 999999, color: "#FFFFFF" },
+            { from: 0, to: 0.5, color: "#f8f8ff" },
+            { from: 0.5, to: 3, color: "#00ff7f" },
+            { from: 3, to: 5, color: "#ffc0cb" },
+            { from: 5, to: 8, color: "#db7093" },
+            { from: 8, to: 10, color: "#EA7300" },
+            { from: 10, to: 50, color: "#F7374F" },
+            { from: 50, to: 100, color: "#AF2655" }
+          ]
+        }
+      }
+    },
+    dataLabels: {
+      enabled: true,
+      formatter: (v, { seriesIndex, dataPointIndex }) => {
+        const pt = current?.series[seriesIndex]?.data[dataPointIndex];
+        if (pt?.meta.isTotal) {
+          // Sentinel yerine gerçek toplamı göster
+          return pt.meta.totalValue.toFixed(2);
+        }
+        return v.toFixed(2);
+      },
+      style: { colors: ["black"] }
+    },
+    xaxis: {
+      categories: current?.series[0]?.data.map((d) => d.x) || [],
+      title: { text: "Günler", style: { fontSize: "14px" } }
+    },
+    yaxis: {
+      labels: {
+        style: {
+          fontSize: "12px",
+          colors: [theme.palette.text.primary]
+        },
+        formatter: (v) => v
+      }
+    },
+    title: {
+      text: current?.title || "",
+      align: "center",
+      style: { fontSize: "18px" }
+    }
+  };
+}, [heatmaps, heatmapIdx, isMobile, theme.palette.text.primary]);
 
   /* ---------- DataGrid kolonları (useMemo) ---------- */
   const columns = useMemo(() => {

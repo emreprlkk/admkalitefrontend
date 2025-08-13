@@ -10,7 +10,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 const fallback = [
   { id:'v1.3.0', title:'SAİDİ SAİFİ VERİLERİ', body:'TABLO 1 VERİLERİNE GÖRE GÜNCELLENDİ', date:'2025-08-01T13:00:00Z', tag:'Veri Güncelleme', icon:'🌙' },
   { id:'v1.2.2', title:'ODE VERİLERİ SİTEYE EKLENDİ', body:'2024 VE 2025 ODE VERİLERİ', date:'2025-08-02T14:30:00Z', tag:'Yeni Eklenti', icon:'🛠️' },
-//  { id:'v1.2.0', title:'Bildirim Rozeti', body:'Okunmamışlar sayılıyor.', date:'2025-07-20T08:00:00Z', tag:'Geliştirme', icon:'🔔' },
+ { id:'v1.2.0', title:'ÖZET GRAFİKLER GÜNCELLENDİ', body:'2025 Temmuz a kadar güncel veri', date:'2025-08-13T14:10:00Z', tag:'Veri Güncelleme', icon:'🕵️‍♀️' },
 ];
 
 function timeAgoTR(iso){
