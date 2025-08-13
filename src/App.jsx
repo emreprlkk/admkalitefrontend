@@ -4,13 +4,14 @@ import React from 'react';
 //import DataTable from './components/DataTable';
 
 import ExcelPreview from './components/ExcelPreview';
-import ApexDonutChart  from './components/ApexDonutChart';
- import DonutSlider from 'components/DonutSlider';
-
+//import ApexDonutChart  from './components/ApexDonutChart';
+ //import DonutSlider from 'components/DonutSlider';
+import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+import Announcements from 'components/Announcements';
 
 import { MergeProvider } from './providers/MergeProvider';
 function App() {
-  const donutData = [
+ /* const donutData = [
     {title:"2025 Mayıs SAİDİ ADM-BÖLGELER",
       labels:['AYDIN', 'DENİZLİ','MUĞLA','BODRUM'],
       series:[11.19, 5.46,16.25,7.79],
@@ -64,16 +65,41 @@ function App() {
         "#0B3954", // # koyu mavi-yeşil
         "#C77DFF"  // # pastel mor
     ]  },
-  ];
+  ]; */
   
   document.title = " ADM DASHBOARD"; // Tarayıcı sekmesinde görünmesini istediğiniz başlığı burada ayarlayın.
  // const { datax } = useData();
 
+ 
+const theme = createTheme({
+  palette: {
+    mode: 'light', // "dark" yaparsan karanlık mod olur
+  },
+  // Buraya diğer tema özelleştirmelerini ekleyebilirsin
+});
 //console.log("dataxappjs ",datax)
   return (
+
+    
     <MergeProvider>
     <div className='main-container'>
-    <div className='donut-slider-container '> <DonutSlider dataList={donutData} perPage={2} /> </div>
+
+ <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Announcements
+        siteKey="ornek-sitem"
+        src="/api/announcements"
+        mode="dialog"
+        anchor="right"
+        buttonVariant="icon"
+        title="Sitedeki Son Yenilikler"
+      />
+    </ThemeProvider>
+
+
+
+   {/* <div className='donut-slider-container '>
+       <DonutSlider dataList={donutData} perPage={2} /> </div>*/} 
     
     <div className='header-row'>
  

@@ -126,7 +126,9 @@
   flex-direction: row; /* doğru: sütun için */
   align-items: center; /* ortala */
   justify-content: center;
+ 
   gap: 0px; /* Donutlar ve başlık arası mesafe */
+  
 }
 
 .titles {
@@ -134,19 +136,20 @@
   flex-direction: column;    /* ALT ALTA */
   align-items: center;       /* Metinleri ortala */
   text-align: center;
+ 
 }
 /* App.css */
 
 .donut-slider-container {
   padding: 2rem;
-  width: 1200px; /* Genişletmek için örnek */
+  width: 1500px; /* Genişletmek için örnek */
   margin: 0 auto;    /* Ortala */
 }
 
 .titles h1,
 .titles h2 {
   color: tomato;
-  margin: 0;                 /* İstenirse margin ayarla */
+  margin: 2;                 /* İstenirse margin ayarla */
 }
 
  

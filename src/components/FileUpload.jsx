@@ -56,7 +56,7 @@ const FileUpload = ({ handleFileChange }) => {
         </Typography>
       ) : (
         <Typography variant="body2" color="textSecondary">
-          Lütfen bir Excel dosyası seçin (.xlsx, .xls)
+          Excel Dosyasından Saidi Saifi Hesaplayıp Grafiğe Yüklemek İçin Excel dosyası seçin (.xlsx, .xls)
         </Typography>
       )}
     </Box>

@@ -49,8 +49,8 @@ console.log( result2024)
   }, [directisletmecount]);
 
   const maxValue = useMemo(() => {
-    if (allData.result2025.length === 0) return 100;
-    return Math.max(...allData.result2024) * 1.01;
+    if (allData.result2025.length === 0) return 10;
+    return Math.max(...allData.result2024,...allData.result2025 ) * 1.01;
   }, [allData]);
 
   const [dataLabelsEnabled, setDataLabelsEnabled] = useState(false);
