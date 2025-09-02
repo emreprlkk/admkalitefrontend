@@ -8,9 +8,10 @@ import {
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
 const fallback = [
-  { id:'v1.3.0', title:'SAİDİ SAİFİ VERİLERİ', body:'TABLO 1 VERİLERİNE GÖRE GÜNCELLENDİ', date:'2025-08-01T13:00:00Z', tag:'Veri Güncelleme', icon:'🌙' },
+  { id:'v1.3.0', title:'SAİDİ SAİFİ VERİLERİ', body:'2025 Haziran ayına kadar EBİS verisi \n Temmuz Ve Ağustos ise İnavitas verisi \n Baz alınarak değerler hesaplanmıştır', date:'2025-09-02T14:36:00Z', tag:'Veri Güncelleme', icon:'' },
   { id:'v1.2.2', title:'ODE VERİLERİ SİTEYE EKLENDİ', body:'2024 VE 2025 ODE VERİLERİ', date:'2025-08-02T14:30:00Z', tag:'Yeni Eklenti', icon:'🛠️' },
- { id:'v1.2.0', title:'ÖZET GRAFİKLER GÜNCELLENDİ', body:'2025 Temmuz a kadar güncel veri', date:'2025-08-13T14:10:00Z', tag:'Veri Güncelleme', icon:'🕵️‍♀️' },
+ { id:'v1.2.0', title:'ÖZET GRAFİKLER GÜNCELLENDİ', body:'2025 Ağustos Ayına Kadar Güncel veri. ', date:'2025-09-01T14:10:00Z', tag:'Veri Güncelleme', icon:'🕵️‍♀️' },
+ { id:'v1.2.0', title:'GÜNLÜK KIRILIMLAR GÜNCELLENDİ', body:'2025 Ağustos Ayına Kadar Güncel veri. ', date:'2025-09-01T14:10:00Z', tag:'Veri Güncelleme', icon:'🕵️‍♀️' },
 ];
 
 function timeAgoTR(iso){
@@ -41,7 +42,7 @@ export default function Announcements({
   siteKey,
   src,
   items,
-  mode = 'dialog',         // 'dialog' | 'drawer' | 'inline'
+  mode = 'dialog',         // 'dialog' | 'drawer' | 'inline' 
   anchor = 'right',        // drawer yönü
   buttonVariant = 'icon',  // 'icon' | 'text'
   title = 'Duyurular',

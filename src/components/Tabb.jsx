@@ -6,6 +6,7 @@ import { SaidiSaifiGraph } from "./SaidiSaifiGraph.jsx";
 import { SaidiSaifiGraphEdas } from "./SaidiSaifiGraphEdas.jsx";
 import DrillDownChart from "./DrillDownChart.jsx";
 import  OdeApexCharts  from "./OdeApexChart.jsx";
+import EAM from "./EAM/eam.jsx";
 // 🔹 Tab 1: Saidi + Summary
 const Tab1Component = memo(({ isletme, navbarbolgecount, navbarisletmecount }) => (
   <Typography variant="body1">
@@ -38,11 +39,19 @@ const Tab4Component = () => (
   </Typography>
 );
 
-// 🔹 Tab 5: DrillDownChart (2 kez render ediliyor örnek olarak)
+// 🔹 Tab 5: EAM
 const Tab5Component = () => (
   <Typography variant="body1">
-    <DrillDownChart />
-    <DrillDownChart />
+   <EAM/>
+  </Typography>
+);
+
+
+// 🔹 Tab 5: DrillDownChart (2 kez render ediliyor örnek olarak)
+const Tab6Component = () => (
+  <Typography variant="body1">
+    <DrillDownChart/>
+    
   </Typography>
 );
 
@@ -60,6 +69,7 @@ console.log("tabb a geçen " ,directnavbardangelenisletmecount)
     <Tab3Component key="tab3" isletme={isletme} navbarbolgecount={navbarbolgecount} navbarisletmecount={navbarisletmecount} directnavbardangelenisletmecount={directnavbardangelenisletmecount}  />,
     <Tab4Component key="tab4" />,
     <Tab5Component key="tab5" />,
+    <Tab6Component key="tab6" />,
   ];
 
   return (
@@ -75,6 +85,7 @@ console.log("tabb a geçen " ,directnavbardangelenisletmecount)
         <Tab label="ORTALAMA DAĞITILAMAYAN ENERJİ VERİLERİ" />
         <Tab label="ÖZET GRAFİKLER" />
         <Tab label="GÜNLÜK KIRILIMLAR" />
+          <Tab label="EAM" />
         <Tab label="Bütünden > Özele Grafikler" />
       </Tabs>
 
