@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import EastSharpIcon from '@mui/icons-material/EastSharp';
 import './Navbar.css';
 
@@ -45,4 +45,5 @@ function NavbarIsletme({ onIsletmeChange }) {
   );
 }
 
-export default NavbarIsletme;
+export default NavbarIsletme;  
+ 

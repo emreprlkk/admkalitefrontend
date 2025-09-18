@@ -1,0 +1,2878 @@
+ {
+  "data": [
+    {
+      "ISLETMELER": [
+        {
+          "isletme_adi": "ACIPAYAM İŞLETME ",
+          "ekipler": [
+            {
+              "Ekip": "ACIPAYAM.TRAFO",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 11 },
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ACIPAYAM.TRAFO", "SAYI": 17 }]
+            },
+            {
+              "Ekip": "ACIPAYAM-20",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ACIPAYAM-20", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "ACIPAYAM-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 55 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 95 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ACIPAYAM-30", "SAYI": 223 }]
+            },
+            {
+              "Ekip": "ACIPAYAM-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 8 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 11 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ACIPAYAM-40", "SAYI": 26 }]
+            },
+            {
+              "Ekip": "ACIPAYAM-50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 33 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 32 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 84 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ACIPAYAM-50", "SAYI": 178 }]
+            },
+            {
+              "Ekip": "CAMELI.TIBETOGL",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 954 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CAMELI.TIBETOGL", "SAYI": 954 }]
+            },
+            {
+              "Ekip": "CAMELI-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 12 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 11 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 39 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CAMELI-30", "SAYI": 88 }]
+            },
+            {
+              "Ekip": "DENIZLI ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI ROLE 1", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "DENIZLI_SCD_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI_SCD_AOB", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "HKANDEMIR-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 46 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "HKANDEMIR-EKP", "SAYI": 46 }]
+            },
+            {
+              "Ekip": "KABLOTEST1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KABLOTEST1", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "KABLOTEST2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KABLOTEST2", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "KALE-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 12 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 16 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 27 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KALE-30", "SAYI": 73 }]
+            },
+            {
+              "Ekip": "KALE-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 10 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KALE-40", "SAYI": 31 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 19 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 39 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 16 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 17 }]
+            },
+            {
+              "Ekip": "TAVAS.TRAFO",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TAVAS.TRAFO", "SAYI": 12 }]
+            },
+            {
+              "Ekip": "TAVAS-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Aydınlatma/OSOS Kontrol İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 26 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 45 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 9 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 28 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TAVAS-30", "SAYI": 147 }]
+            },
+            {
+              "Ekip": "TAVAS-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 150 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TAVAS-40", "SAYI": 150 }]
+            },
+            {
+              "Ekip": "TAVAS-50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 17 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 43 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 41 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TAVAS-50", "SAYI": 132 }]
+            },
+            {
+              "Ekip": "TIBET-DENIZLI-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 1501 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-DENIZLI-2", "SAYI": 1501 }]
+            },
+            {
+              "Ekip": "YILEVKARALI-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 57 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YILEVKARALI-EKP", "SAYI": 57 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "AYDIN MERKEZ İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AYD-B1 BINA-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Drone İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-B1 BINA-BKM", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "AYD-EFELR-BKM-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 20 },
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 387 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-EFELR-BKM-1", "SAYI": 408 }]
+            },
+            {
+              "Ekip": "AYDIN ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 14 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN ROLE 1", "SAYI": 14 }]
+            },
+            {
+              "Ekip": "AYDIN_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN_SCADA_AOB", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "AYDIN-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN-01", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "AYD-INCRLV-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 16 },
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 482 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-INCRLV-BKM", "SAYI": 498 }]
+            },
+            {
+              "Ekip": "AYDIN-TRF-BKM-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN-TRF-BKM-1", "SAYI": 12 }]
+            },
+            {
+              "Ekip": "BURAK_HAVA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BURAK_HAVA", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "CTASKIRAN-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CTASKIRAN-EKP", "SAYI": 5 }]
+            },
+            {
+              "Ekip": "EFELER-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 40 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 5 },
+                { "İş Emri Tipi": "İhbar Alt İE", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 48 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 99 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 27 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "EFELER-30", "SAYI": 232 }]
+            },
+            {
+              "Ekip": "EFELER-50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 6 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 56 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "EFELER-50", "SAYI": 86 }]
+            },
+            {
+              "Ekip": "EFELER-60",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 10 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 36 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 6 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 38 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "EFELER-60", "SAYI": 105 }]
+            },
+            {
+              "Ekip": "EFELER-70",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 81 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "Hat Kontrolü İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar Alt İE", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 50 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 138 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "EFELER-70", "SAYI": 319 }]
+            },
+            {
+              "Ekip": "GERMENCIK-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 39 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 81 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GERMENCIK-30", "SAYI": 162 }]
+            },
+            {
+              "Ekip": "INCIRLIOVA-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 98 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 12 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 63 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 159 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "INCIRLIOVA-30", "SAYI": 347 }]
+            },
+            {
+              "Ekip": "KOCARLI-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 8 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 31 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 65 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 10 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KOCARLI-30", "SAYI": 145 }]
+            },
+            {
+              "Ekip": "KOSK-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direk Dibi Betonlama", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 20 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 25 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 68 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 25 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KOSK-30", "SAYI": 163 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 76 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 28 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 38 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 142 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 11 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 11 }]
+            },
+            {
+              "Ekip": "SÖKE-TRF-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SÖKE-TRF-BKM", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "TIBETOGLU-AYD",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 87 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBETOGLU-AYD", "SAYI": 87 }]
+            },
+            {
+              "Ekip": "YYORGAN-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YYORGAN-EKP", "SAYI": 1 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "BODRUM İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "BODRUM-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-01", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "BODRUM-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 18 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 97 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 20 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-04", "SAYI": 161 }]
+            },
+            {
+              "Ekip": "BODRUM-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 11 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 39 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 143 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 7 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 20 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-06", "SAYI": 222 }]
+            },
+            {
+              "Ekip": "BODRUM-08",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 33 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-08", "SAYI": 33 }]
+            },
+            {
+              "Ekip": "BODRUM-KTEST",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-KTEST", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "BODRUM-MERKEZ",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 9 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 4 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 18 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 113 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-MERKEZ", "SAYI": 181 }]
+            },
+            {
+              "Ekip": "FETHIYE-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-06", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "GDEMIR",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 8 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GDEMIR", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "MDURNA-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MDURNA-EKP", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "MILAS-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MILAS-04", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MKATI-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MKATI-EKP", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MUMCULAR-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 26 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 34 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUMCULAR-04", "SAYI": 98 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 23 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 32 }]
+            },
+            {
+              "Ekip": "PELIN_OZER",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "PELIN_OZER", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 25 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 26 }]
+            },
+            {
+              "Ekip": "TURGUTREIS-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 50 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 31 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 149 },
+                { "İş Emri Tipi": "Müdahale İş Emri", "SAYI": 3 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 8 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 13 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TURGUTREIS-04", "SAYI": 262 }]
+            },
+            {
+              "Ekip": "TURGUTREIS-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 51 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TURGUTREIS-06", "SAYI": 53 }]
+            },
+            {
+              "Ekip": "YALIKAVAK-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 17 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 38 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 136 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 14 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YALIKAVAK-04", "SAYI": 214 }]
+            },
+            {
+              "Ekip": "YALIKAVAK-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 49 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YALIKAVAK-06", "SAYI": 50 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "ÇİNE İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AYD-CINE-BAKIM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-CINE-BAKIM", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "AYDIN ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN ROLE 1", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "AYDIN-TRF-BKM-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN-TRF-BKM-1", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "CINE-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 39 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 38 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 118 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 8 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 24 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CINE-30", "SAYI": 244 }]
+            },
+            {
+              "Ekip": "CINE-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 23 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 52 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CINE-40", "SAYI": 103 }]
+            },
+            {
+              "Ekip": "CINE-50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 12 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CINE-50", "SAYI": 21 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 24 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 13 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 13 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "ÇİVRİL İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "BKM-KONT-CIVRIL",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 214 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BKM-KONT-CIVRIL", "SAYI": 214 }]
+            },
+            {
+              "Ekip": "CAL-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 5 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 14 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 5 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 35 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CAL-30", "SAYI": 107 }]
+            },
+            {
+              "Ekip": "CAL-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CAL-40", "SAYI": 24 }]
+            },
+            {
+              "Ekip": "CAL-50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 5 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 10 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CAL-50", "SAYI": 42 }]
+            },
+            {
+              "Ekip": "CARDAK-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 21 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 29 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CARDAK-30", "SAYI": 106 }]
+            },
+            {
+              "Ekip": "CIVRIL BAKIM2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 137 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CIVRIL BAKIM2", "SAYI": 137 }]
+            },
+            {
+              "Ekip": "CIVRIL_30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 11 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 48 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 40 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 103 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 58 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CIVRIL_30", "SAYI": 285 }]
+            },
+            {
+              "Ekip": "CIVRIL_50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 14 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 5 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 17 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CIVRIL_50", "SAYI": 89 }]
+            },
+            {
+              "Ekip": "CIVRILGOZLEM1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 88 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CIVRILGOZLEM1", "SAYI": 88 }]
+            },
+            {
+              "Ekip": "CIVRIL-TRAFO",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 34 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CIVRIL-TRAFO", "SAYI": 40 }]
+            },
+            {
+              "Ekip": "D90",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "D90", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "DENIZLI ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI ROLE 1", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "DENIZLI_SCD_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI_SCD_AOB", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "DNZ_MRKZ_B9",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_MRKZ_B9", "SAYI": 18 }]
+            },
+            {
+              "Ekip": "KABLOTEST1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KABLOTEST1", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 12 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 11 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 40 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 9 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "DENİZLİ MERKEZ İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AKKOY-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AKKOY-30", "SAYI": 10 }]
+            },
+            {
+              "Ekip": "D90",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "D90", "SAYI": 12 }]
+            },
+            {
+              "Ekip": "D96",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 153 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "D96", "SAYI": 171 }]
+            },
+            {
+              "Ekip": "DENIZLI ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 11 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI ROLE 1", "SAYI": 11 }]
+            },
+            {
+              "Ekip": "DENIZLI ROLE 2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 49 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI ROLE 2", "SAYI": 49 }]
+            },
+            {
+              "Ekip": "DENIZLI_SCD_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI_SCD_AOB", "SAYI": 6 }]
+            },
+            {
+              "Ekip": "DENIZLI-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 37 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 6 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 25 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 74 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Portatif Kablo Test İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 33 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-30", "SAYI": 183 }]
+            },
+            {
+              "Ekip": "DENIZLI-32",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 26 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 7 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 27 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 54 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 23 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-32", "SAYI": 144 }]
+            },
+            {
+              "Ekip": "DENIZLI-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 6 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 30 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 20 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 16 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 92 },
+                { "İş Emri Tipi": "Manevra", "SAYI": 7 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 40 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-40", "SAYI": 215 }]
+            },
+            {
+              "Ekip": "DENIZLI-42",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 64 },
+                { "İş Emri Tipi": "Hasar Tespit (Tutanak) Alt İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 10 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 35 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 98 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 26 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-42", "SAYI": 245 }]
+            },
+            {
+              "Ekip": "DENIZLI-48",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 51 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 17 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 32 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-48", "SAYI": 101 }]
+            },
+            {
+              "Ekip": "DENIZLI-50",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 27 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 4 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 74 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 15 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-50", "SAYI": 154 }]
+            },
+            {
+              "Ekip": "DENIZLI-52",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 27 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 62 },
+                { "İş Emri Tipi": "Portatif Kablo Test İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 15 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-52", "SAYI": 131 }]
+            },
+            {
+              "Ekip": "DENIZLI-56",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-56", "SAYI": 12 }]
+            },
+            {
+              "Ekip": "DENIZLI-58",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 83 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 19 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 26 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 4 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-58", "SAYI": 145 }]
+            },
+            {
+              "Ekip": "DENIZLI-60",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 2 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 12 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 33 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 56 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 5 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 26 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-60", "SAYI": 141 }]
+            },
+            {
+              "Ekip": "DENIZLI-62",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 13 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 67 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 14 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-62", "SAYI": 118 }]
+            },
+            {
+              "Ekip": "DNZ_HNZ_B1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 75 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_HNZ_B1", "SAYI": 75 }]
+            },
+            {
+              "Ekip": "DNZ_MRKZ_B1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_MRKZ_B1", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "DNZ_MRKZ_B2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 8 },
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_MRKZ_B2", "SAYI": 12 }]
+            },
+            {
+              "Ekip": "DNZ_MRKZ_B4",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 147 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_MRKZ_B4", "SAYI": 147 }]
+            },
+            {
+              "Ekip": "DNZ_MRKZ_B6",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 6 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_MRKZ_B6", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "DNZ_MRKZ_B9",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 133 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DNZ_MRKZ_B9", "SAYI": 133 }]
+            },
+            {
+              "Ekip": "FERHAT.YILMAZ-E",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Ağaç Kesim Alt İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FERHAT.YILMAZ-E", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "HDIZBAY-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 76 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "HDIZBAY-EKP", "SAYI": 76 }]
+            },
+            {
+              "Ekip": "HKANDEMIR-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 43 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "HKANDEMIR-EKP", "SAYI": 43 }]
+            },
+            {
+              "Ekip": "HONAZ-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 16 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 35 },
+                { "İş Emri Tipi": "Müdahale İş Emri", "SAYI": 1 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 56 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "HONAZ-30", "SAYI": 124 }]
+            },
+            {
+              "Ekip": "HONAZ-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "HONAZ-40", "SAYI": 12 }]
+            },
+            {
+              "Ekip": "KABLOTEST1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 7 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KABLOTEST1", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "KABLOTEST2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KABLOTEST2", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "OSMANRIZA_ÇIÇEK",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 8 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OSMANRIZA_ÇIÇEK", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 7 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 198 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 129 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 6 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 376 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 15 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 15 }]
+            },
+            {
+              "Ekip": "TIBET-DENIZLI-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 1047 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-DENIZLI-1", "SAYI": 1047 }]
+            },
+            {
+              "Ekip": "TIBET-DENIZLI-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 1118 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-DENIZLI-2", "SAYI": 1118 }]
+            },
+            {
+              "Ekip": "TYY",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma Alt İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TYY", "SAYI": 1 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "DİDİM İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AKBUK-32",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 76 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 13 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 46 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 148 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AKBUK-32", "SAYI": 320 }]
+            },
+            {
+              "Ekip": "AYD-DIDIM-BAKIM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 194 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-DIDIM-BAKIM", "SAYI": 194 }]
+            },
+            {
+              "Ekip": "AYDIN ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN ROLE 1", "SAYI": 5 }]
+            },
+            {
+              "Ekip": "AYDIN_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN_SCADA_AOB", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "BURAK_HAVA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BURAK_HAVA", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "CTASKIRAN-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CTASKIRAN-EKP", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "DIDIM-22",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 58 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DIDIM-22", "SAYI": 103 }]
+            },
+            {
+              "Ekip": "DIDIM-24",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 3 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 8 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 121 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 21 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 96 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 3 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 257 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DIDIM-24", "SAYI": 539 }]
+            },
+            {
+              "Ekip": "DIDIM-26",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Branşman Onarım", "SAYI": 4 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 10 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Portatif Kablo Test İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DIDIM-26", "SAYI": 58 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 45 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 81 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 8 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 135 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "SELIMIYE-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SELIMIYE-04", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "SÖKE-TRF-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SÖKE-TRF-BKM", "SAYI": 1 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "FETHİYE İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "ATAKAN_ONUR",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ATAKAN_ONUR", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "BKM-KONT-FETHIY",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 674 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BKM-KONT-FETHIY", "SAYI": 674 }]
+            },
+            {
+              "Ekip": "BSASMAZ-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 30 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BSASMAZ-EKP", "SAYI": 32 }]
+            },
+            {
+              "Ekip": "FETHIYE-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 16 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 42 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 65 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-01", "SAYI": 151 }]
+            },
+            {
+              "Ekip": "FETHIYE-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 21 },
+                { "İş Emri Tipi": "Branşman Onarım", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 84 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 5 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 55 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 187 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 5 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-04", "SAYI": 365 }]
+            },
+            {
+              "Ekip": "FETHIYE-05",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 9 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 25 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 68 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-05", "SAYI": 124 }]
+            },
+            {
+              "Ekip": "FETHIYE-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 89 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 4 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 59 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 136 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-06", "SAYI": 302 }]
+            },
+            {
+              "Ekip": "FETHIYE-07",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Portatif Kablo Test İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-07", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "MEHMETER-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Tekrarlayan Kesintili İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MEHMETER-EKP", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "MUGLA_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA_SCADA_AOB", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "MUGLA-TRF",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA-TRF", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 29 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 57 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 39 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 125 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 19 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 19 }]
+            },
+            {
+              "Ekip": "SEYDIKEMER-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 17 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 49 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 51 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 139 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 9 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SEYDIKEMER-01", "SAYI": 275 }]
+            },
+            {
+              "Ekip": "SEYDIKEMER-01-E",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 45 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 73 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 10 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SEYDIKEMER-01-E", "SAYI": 162 }]
+            },
+            {
+              "Ekip": "SEYDIKEMER-05",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 10 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SEYDIKEMER-05", "SAYI": 13 }]
+            },
+            {
+              "Ekip": "SEYDIKEMER-08",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 16 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 70 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 6 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 27 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 74 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SEYDIKEMER-08", "SAYI": 205 }]
+            },
+            {
+              "Ekip": "TIBET-DENIZLI-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 117 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-DENIZLI-2", "SAYI": 117 }]
+            },
+            {
+              "Ekip": "TIBET-MGL-FTY-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 2279 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-MGL-FTY-2", "SAYI": 2279 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "KUŞADASI İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AYDIN ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN ROLE 1", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "AYDIN_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN_SCADA_AOB", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "AYD-KUSADSI-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "3. Seviye Planlı Bakım", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-KUSADSI-BKM", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "BURAK_HAVA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BURAK_HAVA", "SAYI": 7 }]
+            },
+            {
+              "Ekip": "CTASKIRAN-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 11 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CTASKIRAN-EKP", "SAYI": 11 }]
+            },
+            {
+              "Ekip": "KUSADASI21",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 3 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 130 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 4 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 46 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 185 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KUSADASI21", "SAYI": 383 }]
+            },
+            {
+              "Ekip": "KUSADASI23",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Aydınlatma Bakım (Etüt) İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 7 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 20 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 2 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 54 },
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KUSADASI23", "SAYI": 107 }]
+            },
+            {
+              "Ekip": "KUSADASI27",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 102 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 7 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 33 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 101 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KUSADASI27", "SAYI": 264 }]
+            },
+            {
+              "Ekip": "KUSADASI32",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KUSADASI32", "SAYI": 9 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 37 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 42 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 11 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 90 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "SÖKE-TRF-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SÖKE-TRF-BKM", "SAYI": 1 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "MARMARİS İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "DATCA-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 10 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 34 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 8 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 60 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 102 },
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DATCA-06", "SAYI": 222 }]
+            },
+            {
+              "Ekip": "DRONE MUĞLA-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 10 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DRONE MUĞLA-1", "SAYI": 10 }]
+            },
+            {
+              "Ekip": "GDEMIR",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GDEMIR", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "HASANAK-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Arızalı Ekipman İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "HASANAK-EKP", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MARMARIS-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 63 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 40 },
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 113 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MARMARIS-04", "SAYI": 232 }]
+            },
+            {
+              "Ekip": "MARMARIS-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 33 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 43 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 83 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 6 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MARMARIS-06", "SAYI": 178 }]
+            },
+            {
+              "Ekip": "MARMARIS-07",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MARMARIS-07", "SAYI": 9 }]
+            },
+            {
+              "Ekip": "MGL-MRS-BAKIM-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 190 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MGL-MRS-BAKIM-2", "SAYI": 190 }]
+            },
+            {
+              "Ekip": "MGL-MRS-BAKIM-3",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 317 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MGL-MRS-BAKIM-3", "SAYI": 317 }]
+            },
+            {
+              "Ekip": "MKATI-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MKATI-EKP", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "MUGLA ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA ROLE 1", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MUGLA-TRF",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA-TRF", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "ORTACA-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ORTACA-04", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 10 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 16 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 33 }]
+            },
+            {
+              "Ekip": "PELIN_OZER",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "PELIN_OZER", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 5 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "MİLAS İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "BODRUM-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-04", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "BODRUM-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-06", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "BODRUM-MERKEZ",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BODRUM-MERKEZ", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "DIDIM-26",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DIDIM-26", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "GDEMIR",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GDEMIR", "SAYI": 7 }]
+            },
+            {
+              "Ekip": "GULLUK-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 42 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 6 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 66 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 81 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Tehlikeli Durum İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GULLUK-04", "SAYI": 208 }]
+            },
+            {
+              "Ekip": "M.MERKEZ-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "M.MERKEZ-06", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MILAS-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 4 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 56 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 17 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 74 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 258 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 4 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 21 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MILAS-04", "SAYI": 447 }]
+            },
+            {
+              "Ekip": "MILAS-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 25 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 34 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 94 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 27 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MILAS-06", "SAYI": 192 }]
+            },
+            {
+              "Ekip": "MILAS-10",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 26 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MILAS-10", "SAYI": 40 }]
+            },
+            {
+              "Ekip": "MKATI-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MKATI-EKP", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MUGLA ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA ROLE 1", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "MUMCULAR-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 24 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUMCULAR-04", "SAYI": 45 }]
+            },
+            {
+              "Ekip": "NEVZAT-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "NEVZAT-EKP", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "OREN-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 11 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 58 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 58 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 15 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OREN-04", "SAYI": 167 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 8 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 55 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 68 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 37 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 37 }]
+            },
+            {
+              "Ekip": "SELIMIYE-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 9 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 51 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 35 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SELIMIYE-04", "SAYI": 120 }]
+            },
+            {
+              "Ekip": "TIBETOGLU-BDR-3",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 17 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBETOGLU-BDR-3", "SAYI": 17 }]
+            },
+            {
+              "Ekip": "TURGUTREIS-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TURGUTREIS-06", "SAYI": 1 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "MUĞLA MERKEZ İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AKYAKA-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Genel Aydınlatma Alt İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 25 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 36 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 3 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 47 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 12 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AKYAKA-04", "SAYI": 145 }]
+            },
+            {
+              "Ekip": "GDEMIR",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GDEMIR", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "KAVAKLIDERE-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 25 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 3 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KAVAKLIDERE-04", "SAYI": 69 }]
+            },
+            {
+              "Ekip": "M.MERKEZ-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 13 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 12 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 127 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 6 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 41 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 5 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 110 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 17 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "M.MERKEZ-04", "SAYI": 337 }]
+            },
+            {
+              "Ekip": "M.MERKEZ-05",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "M.MERKEZ-05", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "M.MERKEZ-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 5 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 12 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 4 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 56 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 16 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 57 },
+                { "İş Emri Tipi": "Müdahale İş Emri", "SAYI": 1 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 11 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 12 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "M.MERKEZ-06", "SAYI": 176 }]
+            },
+            {
+              "Ekip": "M.MERKEZ-07",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 69 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 28 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 68 },
+                { "İş Emri Tipi": "Müdahale İş Emri", "SAYI": 5 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 6 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "M.MERKEZ-07", "SAYI": 199 }]
+            },
+            {
+              "Ekip": "MARMARIS-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MARMARIS-06", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MDURNA-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MDURNA-EKP", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MGL-MRKZ-BKM-4",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 1611 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MGL-MRKZ-BKM-4", "SAYI": 1611 }]
+            },
+            {
+              "Ekip": "MGL-MRKZ-BKM-6",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 292 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MGL-MRKZ-BKM-6", "SAYI": 292 }]
+            },
+            {
+              "Ekip": "MILAS-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MILAS-04", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MILAS-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MILAS-06", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MKATI-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MKATI-EKP", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "MUGLA_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA_SCADA_AOB", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "MUGLA-TRF",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA-TRF", "SAYI": 5 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 7 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 37 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 58 }]
+            },
+            {
+              "Ekip": "PELIN_OZER",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "PELIN_OZER", "SAYI": 9 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 9 }]
+            },
+            {
+              "Ekip": "TIBET-MUGLA-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 852 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-MUGLA-2", "SAYI": 852 }]
+            },
+            {
+              "Ekip": "TIBET-MUGLA-3",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 320 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "TIBET-MUGLA-3", "SAYI": 320 }]
+            },
+            {
+              "Ekip": "YALIKAVAK-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YALIKAVAK-04", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "YATAGAN-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 7 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 26 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 3 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 56 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 30 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YATAGAN-04", "SAYI": 141 }]
+            },
+            {
+              "Ekip": "YATAGAN-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 34 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 18 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 37 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 20 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YATAGAN-06", "SAYI": 110 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "NAZİLLİ İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AYDIN_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN_SCADA_AOB", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "AYDIN-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN-01", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "AYD-NAZILLIBKM6",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 472 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-NAZILLIBKM6", "SAYI": 472 }]
+            },
+            {
+              "Ekip": "AYD-NAZLL-BKM-3",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 112 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-NAZLL-BKM-3", "SAYI": 112 }]
+            },
+            {
+              "Ekip": "BOZDOGAN20-21",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 14 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 29 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 70 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 5 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BOZDOGAN20-21", "SAYI": 144 }]
+            },
+            {
+              "Ekip": "BOZDOGAN22",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 14 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BOZDOGAN22", "SAYI": 25 }]
+            },
+            {
+              "Ekip": "BUHARKENT20-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 5 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 32 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 16 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BUHARKENT20-1", "SAYI": 79 }]
+            },
+            {
+              "Ekip": "CTASKIRAN-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "CTASKIRAN-EKP", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "KARACASU30-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 31 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 37 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 7 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 34 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KARACASU30-1", "SAYI": 129 }]
+            },
+            {
+              "Ekip": "KUYUCAK21-1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Ağaç Kesim Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 29 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 84 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 23 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KUYUCAK21-1", "SAYI": 174 }]
+            },
+            {
+              "Ekip": "NAZILLI-22",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 58 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 5 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 40 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 5 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 128 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Talep İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "NAZILLI-22", "SAYI": 264 }]
+            },
+            {
+              "Ekip": "NAZILLI-26",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 6 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 32 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "Hat Kontrolü İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 26 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 70 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "NAZILLI-26", "SAYI": 150 }]
+            },
+            {
+              "Ekip": "NAZILLI-28",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "NAZILLI-28", "SAYI": 33 }]
+            },
+            {
+              "Ekip": "NAZILLI-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 8 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "NAZILLI-30", "SAYI": 9 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 18 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 29 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 37 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 85 }]
+            },
+            {
+              "Ekip": "S.HSR-Y.AZR21_1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 4 },
+                { "İş Emri Tipi": "Aydınlatma Bakım (Etüt) İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 27 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 39 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 62 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "S.HSR-Y.AZR21_1", "SAYI": 153 }]
+            },
+            {
+              "Ekip": "S.HSR-Y.AZR21-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "S.HSR-Y.AZR21-2", "SAYI": 36 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 13 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 13 }]
+            },
+            {
+              "Ekip": "SARAYKOY40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SARAYKOY40", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "YYORGAN-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Plansız Bakım", "SAYI": 28 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "YYORGAN-EKP", "SAYI": 28 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "ORTACA İŞLETME ",
+          "ekipler": [
+            {
+              "Ekip": "DALAMAN-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 5 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 15 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 3 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 32 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 30 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 78 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 9 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DALAMAN-04", "SAYI": 175 }]
+            },
+            {
+              "Ekip": "DAL-KOY-KIR-06",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "Ağaç Kesim Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 5 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 21 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 13 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 23 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 10 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DAL-KOY-KIR-06", "SAYI": 77 }]
+            },
+            {
+              "Ekip": "ELIF-EKP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Tekrarlayan Kesintili İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ELIF-EKP", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "FETHIYE-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-01", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "FETHIYE-07",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Portatif Kablo Test İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "FETHIYE-07", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "KOYCEGIZ-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 5 },
+                { "İş Emri Tipi": "Ağaç Kesim Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 22 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 2 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 4 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 36 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 4 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 37 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 79 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 14 },
+                { "İş Emri Tipi": "Tekrarlayan Kesintili İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KOYCEGIZ-04", "SAYI": 206 }]
+            },
+            {
+              "Ekip": "MGL-ORT-BAKIM-2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 461 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MGL-ORT-BAKIM-2", "SAYI": 461 }]
+            },
+            {
+              "Ekip": "MUGLA-TRF",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "MUGLA-TRF", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "ORTACA-03",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 2 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ORTACA-03", "SAYI": 6 }]
+            },
+            {
+              "Ekip": "ORTACA-04",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 6 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 25 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 143 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 10 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 98 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 218 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 5 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 8 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "ORTACA-04", "SAYI": 516 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 28 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 40 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 26 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 94 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 16 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 16 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "SARAYKÖY İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "BULDAN-30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Diğer Hasar", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 66 },
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 3 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 4 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 42 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 8 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 25 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BULDAN-30", "SAYI": 170 }]
+            },
+            {
+              "Ekip": "BULDAN-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 2 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 8 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 17 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 33 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 9 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 25 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BULDAN-40", "SAYI": 95 }]
+            },
+            {
+              "Ekip": "DENIZLI ROLE 1",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI ROLE 1", "SAYI": 7 }]
+            },
+            {
+              "Ekip": "DENIZLI ROLE 2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Röle Ekibi İE", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI ROLE 2", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "DENIZLI_SCD_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI_SCD_AOB", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "DENIZLI-40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-40", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "DENIZLI-42",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "DENIZLI-42", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "GZLM-D2-3",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 153 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "GZLM-D2-3", "SAYI": 153 }]
+            },
+            {
+              "Ekip": "KABLOTEST2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kablo Test", "SAYI": 2 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "KABLOTEST2", "SAYI": 2 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 7 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 7 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 17 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 5 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 5 }]
+            },
+            {
+              "Ekip": "SARAYKOY30",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 18 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 10 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 23 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 2 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 40 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SARAYKOY30", "SAYI": 95 }]
+            },
+            {
+              "Ekip": "SARAYKOY40",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 8 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 18 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SARAYKOY40", "SAYI": 26 }]
+            },
+            {
+              "Ekip": "SARAYKOY-TIBET",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 218 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SARAYKOY-TIBET", "SAYI": 218 }]
+            },
+            {
+              "Ekip": "SARAYKOY-TIBET2",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 212 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SARAYKOY-TIBET2", "SAYI": 212 }]
+            }
+          ]
+        },
+        {
+          "isletme_adi": "SÖKE İŞLETME",
+          "ekipler": [
+            {
+              "Ekip": "AYDIN_SCADA_AOB",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "SCADA AOB İE", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYDIN_SCADA_AOB", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "AYD-SOKE-BAKIM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha Keşif IE", "SAYI": 138 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "AYD-SOKE-BAKIM", "SAYI": 138 }]
+            },
+            {
+              "Ekip": "BURAK_HAVA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Geçici Kabul", "SAYI": 1 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "BURAK_HAVA", "SAYI": 1 }]
+            },
+            {
+              "Ekip": "OTO-EKIP",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 1 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 6 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "OTO-EKIP", "SAYI": 8 }]
+            },
+            {
+              "Ekip": "SAHA",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 3 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SAHA", "SAYI": 3 }]
+            },
+            {
+              "Ekip": "SOKE-01",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Hasar Tespiti (Tutanak)", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SOKE-01", "SAYI": 4 }]
+            },
+            {
+              "Ekip": "SOKE-23",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 19 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 9 },
+                { "İş Emri Tipi": "Direkten Kesme-Açma", "SAYI": 8 },
+                { "İş Emri Tipi": "Genel Aydınlatma Alt İE", "SAYI": 1 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 56 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 44 },
+                { "İş Emri Tipi": "Kablo Güzergahı", "SAYI": 1 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 91 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 6 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 24 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SOKE-23", "SAYI": 260 }]
+            },
+            {
+              "Ekip": "SOKE-25",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Agaç Kesim", "SAYI": 1 },
+                { "İş Emri Tipi": "Aydınlatma Tarama İE", "SAYI": 3 },
+                { "İş Emri Tipi": "Branşman İE", "SAYI": 4 },
+                { "İş Emri Tipi": "Genel Aydınlatma İE", "SAYI": 30 },
+                { "İş Emri Tipi": "İhbar İE", "SAYI": 28 },
+                { "İş Emri Tipi": "Kesintili Arıza İE", "SAYI": 40 },
+                { "İş Emri Tipi": "Planlı Bakım", "SAYI": 3 },
+                { "İş Emri Tipi": "Saha İE", "SAYI": 17 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SOKE-25", "SAYI": 126 }]
+            },
+            {
+              "Ekip": "SÖKE-TRF-BKM",
+              "KIRILIMLI_IS_EMRI_TOPLAM_SAYISI": [
+                { "İş Emri Tipi": "Saha İE", "SAYI": 4 }
+              ],
+              "TOTAL_IE_SAYISI": [{ "Ekip": "SÖKE-TRF-BKM", "SAYI": 4 }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,8 @@ import {
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
 const fallback = [
-  { id:'v1.3.0', title:'SAİDİ SAİFİ VERİLERİ', body:'2025 Haziran ayına kadar EBİS verisi \n Temmuz Ve Ağustos ise İnavitas verisi \n Baz alınarak değerler hesaplanmıştır', date:'2025-09-02T14:36:00Z', tag:'Veri Güncelleme', icon:'' },
+  { id:'v1.3.0', title:'SAİDİ SAİFİ VERİLERİ', body:'2025 Haziran ayına kadar EBİS verisi \n Temmuz Ve Ağustos ise İnavitas verisi \n Baz alınarak değerler hesaplanmıştır', date:'2025-09-18T14:36:00Z', tag:'Veri Güncelleme', icon:'' },
+    { id:'v1.4.0', title:'EAM VERİLERİ ANALİZİ', body:'EAM Veri Analizleri İçin Bİleşen Hazırlanıyor', date:'2025-09-18T14:36:00Z', tag:'YENİ BİLEŞEN', icon:'' },
   { id:'v1.2.2', title:'ODE VERİLERİ SİTEYE EKLENDİ', body:'2024 VE 2025 ODE VERİLERİ', date:'2025-08-02T14:30:00Z', tag:'Yeni Eklenti', icon:'🛠️' },
  { id:'v1.2.0', title:'ÖZET GRAFİKLER GÜNCELLENDİ', body:'2025 Ağustos Ayına Kadar Güncel veri. ', date:'2025-09-02T14:10:00Z', tag:'Veri Güncelleme', icon:'🕵️‍♀️' },
  { id:'v1.2.0', title:'GÜNLÜK KIRILIMLAR GÜNCELLENDİ', body:'2025 Ağustos Ayına Kadar Güncel veri. ', date:'2025-09-02T14:10:00Z', tag:'Veri Güncelleme', icon:'🕵️‍♀️' },

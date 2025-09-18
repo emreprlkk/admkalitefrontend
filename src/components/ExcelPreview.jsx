@@ -11,7 +11,7 @@ import { useExcelJsonData } from 'hooks/UseExceLjsonData';
 import ColumnSelector from './ColumnSelector'
 import FileUpload from './FileUpload';
 import Tabb from './Tabb.jsx'
-
+import { useSelectedNavbar } from '../zustand/store.js';
 
 
 // Türkçe karakterleri temizleyen fonksiyon
@@ -36,6 +36,8 @@ export default function ExcelPreview() {
   const [directnavbardangelenisletmecount,setdirectnavbardangelenisletmecount]=useState(1);
   const { DataHandle } = use2025SaidiSaifiData();
   const {updateSetExcelJsonData}=useExcelJsonData();
+
+  const {setSelectedNavbarBolge,setSelectedNavbarIsletme,setSelectedNavbarDirectIsletme}=useSelectedNavbar();
   //const [executionCount,SetexecutionCount]=useState(18);
   
  
@@ -385,12 +387,17 @@ allSelectedData = allSelectedData.map(item => {
 
   // İlk 20 satırı önizleme
   
-  const handleIsletmeChange = (newIsletmeName,bolgecount,İsletmecount,directİsletmecount) => {
+  const handleIsletmeChange = 
+  (newIsletmeName,bolgecount,İsletmecount,directİsletmecount) => {
     setIsletmeName(newIsletmeName); // isletmeName'i güncelliyoruz
     setnavbardangelenbolgecount(bolgecount);
     setnavbardangelenisletmecount( İsletmecount)
-    
     setdirectnavbardangelenisletmecount(directİsletmecount)
+    console.log("clg " ,directİsletmecount)
+    setSelectedNavbarBolge(bolgecount)
+    setSelectedNavbarIsletme(İsletmecount)
+    setSelectedNavbarDirectIsletme(directİsletmecount);
+
    
   };
   // isletmeName değiştiği anda güncellenmiş değeri yakala
@@ -405,7 +412,9 @@ allSelectedData = allSelectedData.map(item => {
     <div className='manin-container'>
     
     {/*  <NavbarBolge  onIsletmeChange={handleIsletmeChange} /> */}
-       <Navbarİsletme onIsletmeChange={handleIsletmeChange} /> {/* handleIsletmeChange fonksiyonunu prop olarak geçiyoruz */} {/* Navbar'ı burada render ediyoruz */}
+       <Navbarİsletme onIsletmeChange={handleIsletmeChange} /> 
+       {/* handleIsletmeChange fonksiyonunu prop olarak geçiyoruz */} 
+       {/* Navbar'ı burada render ediyoruz */}
      
 
       { <FileUpload handleFileChange={handleFileChange}/>}
