@@ -1,7 +1,7 @@
 import React from "react";
 import ReactApexChart from "react-apexcharts";
 
-const MonthlyColumnChart = () => {
+const MonthlyColumnChart = ({propsarraychart=[]}) => {
   // 1..31 gün
   const days = Array.from({ length: 31 }, (_, i) => i + 1);
   // Fake değerler (10–100 arası)
@@ -69,7 +69,7 @@ const MonthlyColumnChart = () => {
   const series = [
     {
       name: "Değer",
-      data,
+      data:propsarraychart,
     },
   ];
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Timeline= () => {
+const Timeline= ({statugecisi=[]}) => {
+  
   
   const timelineData = [
     {
@@ -48,13 +49,33 @@ const Timeline= () => {
     }
   ];
 
+  function renameProppety (arr){
+
+      return arr.map(obj => {
+    const entries = Object.entries(obj);
+    const [firstKey, firstValue] = entries[0];
+
+    const newObj = { [firstKey]: firstValue };
+
+    for (let i = 1; i < entries.length; i++) {
+      const [, value] = entries[i];
+      newObj["duration"] = value; // overwrite olacağı için sadece sonuncu kalır
+    }
+
+    return newObj;
+  });
+  }
+
+  const xy =renameProppety(statugecisi)
+  const kesintili_arıza_is_emri_Statu=statugecisi?.filter((item)=>item["İş Emri Tipi"]==="Kesintili Arıza İE")
+  console.log("asdasdas" ,kesintili_arıza_is_emri_Statu)
   return (
     <div className="mb-2 mr-2 ml-2 bg-secondary-content border-4 mt-0.5 rounded-2xl   overflow-x-auto">
    
       <h2 className="text-2xl text-black font-bold mb-8 text-center">EAM İŞ EMRİ STATÜ GEÇİŞLERİ</h2>
       
       <div className="flex  items-center  ">
-        {timelineData.map((item, index) => (
+        {xy.map((item, index) => (
           <div key={index} className="flex items-center">
             {/* Timeline Item */}
             <div className="w-16 flex-none items-center">
@@ -69,12 +90,12 @@ const Timeline= () => {
             </div>
             
             {/* Connection Line with Duration */}
-            {index < timelineData.length - 1 && (
+            {index < xy.length - 1 && (
               <div className="flex flex-col items-center ">
                 {/* Duration Label */}
-                {timelineData[index + 1].duration && (
-                  <div className="text-xs font-serif text-secondary px-3 py-1 rounded-full border border-primary/30 mb-4 whitespace-nowrap">
-                    {timelineData[index + 1].duration}
+                {xy[index + 1].duration && (
+                  <div className="text-xs font-serif text-secondary  rounded-l border border-primary/30 mb-4 whitespace-nowrap">
+                    {xy[index + 1].duration}
                   </div>
                 )}
                 

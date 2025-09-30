@@ -1,35 +1,41 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import StatCard from './StatCard';
-
+import { chunk } from '../../../stats/utils/chunk';
 export default function Slides({ groups, current, onPrev, onNext, onCardClick }) {
-  const total = groups.length;
-
-  return (
+  
+  const xxx=useMemo(()=>{
+    return chunk(groups,4)
+  }
+  ,[groups])
+  const total = xxx.length;
+console.log("slides props ",xxx)
+return (
     <div className="relative">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{ transform: `translateX(-${current * 100}%)` }}
         >
-          {groups.map((group, idx) => (
-            <div key={idx} className="w-full flex-shrink-0 p-8">
+          {xxx.map((page, pageIdx) => (
+            // her page bir slayt
+            <div key={pageIdx} className="w-full flex-shrink-0 p-4 bg-amber-800">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {group.map((stat, i) => (
-                  <StatCard key={i} stat={stat} onClick={() => onCardClick(stat)} />
+                {page.map((item, i) => (
+                  <StatCard
+                    key={`${pageIdx}-${i}`}
+                    stat={item}                 // ✅ tek obje gönder
+                    onClick={() => onCardClick(item)}
+                  />
                 ))}
-                {group.length < 3 &&
-                  Array.from({ length: 3 - group.length }).map((_, k) => (
+
+                {/* 4'ü tamamlamak (opsiyonel) */}
+                {page.length < 4 &&
+                  Array.from({ length: 4 - page.length }).map((_, k) => (
                     <div
-                      key={`empty-${k}`}
+                      key={`empty-${pageIdx}-${k}`}
                       className="bg-slate-50/50 rounded-2xl p-6 border-2 border-dashed border-slate-200 opacity-40"
-                    >
-                      <div className="space-y-3">
-                        <div className="h-4 bg-slate-200 rounded w-2/3"></div>
-                        <div className="h-8 bg-slate-200 rounded w-1/2"></div>
-                        <div className="h-3 bg-slate-200 rounded w-3/4"></div>
-                      </div>
-                    </div>
+                    />
                   ))}
               </div>
             </div>

@@ -3,6 +3,7 @@
  
 //import Timeline from "./timeline";
  
+import { useState,useEffect } from "react";
 import StatsSlider from "../../features/stats/components/StatsSlider/StatsSlider";
  import { useDataStore,useSelectedNavbar } from "../../zustand/store";
 
@@ -106,14 +107,39 @@ const demoStats = [
   // diğer statlar...
 ];
 
-
+ 
 
 export default function EAM() {
  // const [selected, setSelected] = useState({ group: "Products", key: "overview" });
  const dataEamJson=useDataStore((state)=>state.data )
  const SelectedNavbarDirectIsletme=useSelectedNavbar((state)=>state.SelectedNavbarDirectIsletme)
- const ekipler=dataEamJson[0]?.ISLETMELER[SelectedNavbarDirectIsletme]?.ekipler;
- //console.log("ekipler ",ekipler)
+
+ const [selectedEkip,setSelectedEkip]=useState([]);
+
+  const EamIsletmeData=dataEamJson[SelectedNavbarDirectIsletme+1] 
+
+ console.log("EamIsletmeData ",EamIsletmeData)
+ 
+// Doğru şekilde tanımlanmış fonksiyon
+  const handleChangeEkip = (ekipAdi) => {
+    // Eğer ekip zaten seçiliyse, listeden çıkar
+    if (selectedEkip.includes(ekipAdi)) {
+      setSelectedEkip(selectedEkip.filter((ekip) => ekip !== ekipAdi));
+    } 
+    // Eğer ekip seçili değilse ve 4'ten az seçim varsa, listeye ekle
+    else if (selectedEkip.length < 4) {
+      setSelectedEkip([...selectedEkip, ekipAdi]);
+    }
+
+    //console.log("as",selectedEkip)
+  };
+
+const EamDataEkip=EamIsletmeData?.ekipler.filter((xx)=> (
+selectedEkip.includes(xx.Ekip)
+
+)?? [ ])
+console.log("EamDataEkip " ,EamDataEkip)
+console.log("selectedEkip ",selectedEkip)
  return (
     <div className="min-h-screen  bg-gradient-to-br from-slate-100 to-blue-50   p-4" >
       <div className="relative  h-30 flex items-center justify-center p-4   ">
@@ -138,34 +164,37 @@ export default function EAM() {
       
  <form className="overflow-x-auto  ">
   <input className="btn btn-square" type="reset" value="×"/>
-  {ekipler.map((ekip,index)=> (
-    <input key={index} className="btn" 
+  {EamIsletmeData.ekipler.map((ekip,index)=> (
+    <input key={index} className="btn" onChange={()=>handleChangeEkip(ekip.Ekip)}
+    // Checkbox'ın seçili olup olmadığını state'e göre ayarla
+      checked={selectedEkip.includes(ekip.Ekip)}
     type="checkbox" name="frameworks"
      aria-label={ekip.Ekip}/>
 
 
   ) ) }
- 
-   
-  
-    
-  
 </form>
  
       </div>
    
-      <div className="container mx-auto py-8">
-          <div className="grid  gap-4 border-xl border-black  grid-cols-2">
-            {ekipler.slice(0,2).map((_,index)=> (
-                 <StatsSlider  key={index} stats={demoStats} />
-
-            ))}
+      <div className="flex flex-row  container mx-auto py-8">
+          {selectedEkip.slice(0,2).map((xx, index) => {
+      // Her ekip için ilgili veriyi filtrele
+      const gidecekprops=EamDataEkip.filter(item=>item.Ekip===xx)
+      
+      return (
+        <StatsSlider 
+          key={index} 
+          stats={gidecekprops}
+        />
+      );
+    })}
 
        
          
           </div>
        
       </div>
-    </div>
+
   );
 }

@@ -4,7 +4,7 @@ import LocationTable from './LocationTable';
 import MapView from './MapView.client';
 
 export default function DetailsModal({ stat, onClose }) {
-  const title = stat.title || stat.statTitle || 'Detay';
+  const title = stat.title || stat.statTitle || 'EHEHEH';
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4" role="dialog" aria-modal="true">

@@ -3,8 +3,9 @@ import { getTrendIcon, trendTextColor } from '../../utils/trend';
 import { formatStatValue } from '../../utils/number';
 
 export default function StatCard({ stat, onClick }) {
-  const title = stat.title || stat.statTitle || 'Stat';
-  const value = stat.value ?? stat.statValue ?? '0';
+  console.log("statcard ",stat)
+  const title = stat["is_emri_tipi"]  || 'HATA VAR';
+  const value = stat.sayi ?? stat.statValue ?? '0';
   const desc = stat.desc || stat.statDesc || stat.description;
 ///KARTLARIN DÜZENLEYECEĞN COMPONENT
   return (
@@ -12,15 +13,13 @@ export default function StatCard({ stat, onClick }) {
       onClick={onClick}
       className=" group relative bg-gradient-to-br from-white to-slate-50 rounded-2xl p-6 hover:from-slate-50 hover:to-slate-100 transition-all duration-300 hover:shadow-xl hover:scale-105 cursor-pointer border border-slate-200 hover:border-slate-300"
     >
-      
-      
 
       <div  >
         <div className="text-slate-600 text-sm font-medium uppercase tracking-wide">
           {title}
         </div>
 
-        <div className="text-2xl font-bold text-slate-800 group-hover:text-indigo-700 transition-colors">
+        <div className="text-center items-center text-2xl font-bold text-slate-800 group-hover:text-indigo-700 transition-colors">
           {formatStatValue(value)}
         </div>
 
@@ -38,7 +37,7 @@ export default function StatCard({ stat, onClick }) {
 
       <div className="absolute    opacity-0 group-hover:opacity-100 transition-opacity">
         <div className="bg-indigo-500 text-white text-xs px-2 py-1 rounded">
-          Detaylar
+          YA HAK
         </div>
       </div>
 
