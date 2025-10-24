@@ -7,12 +7,6 @@ import { Button } from '@mui/material'
 
 export  const SaidiSaifiGraphEdas=()=> {
  
-   
- 
-   
- 
- 
- 
     const categories_Aylik= [
         'Ocak',
         'Şubat',
