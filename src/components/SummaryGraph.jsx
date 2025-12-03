@@ -7,11 +7,10 @@ import React, { useState, useEffect } from 'react';
 const initialStateSummaryData=[
     {
         2025:{
-          
-    "1": [
+        "1": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 43.74,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 43.65,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.66,
             "OG_UZUN_KESİNTİ_SAYISI": 136,
             "AG_UZUN_KESİNTİ_SAYISI": 171,
@@ -19,7 +18,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 62.17,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.19,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.34,
             "OG_UZUN_KESİNTİ_SAYISI": 118,
             "AG_UZUN_KESİNTİ_SAYISI": 259,
@@ -27,7 +26,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 87.91,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 87.97,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.99,
             "OG_UZUN_KESİNTİ_SAYISI": 117,
             "AG_UZUN_KESİNTİ_SAYISI": 344,
@@ -35,7 +34,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 67.44,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 67.43,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.25,
             "OG_UZUN_KESİNTİ_SAYISI": 21,
             "AG_UZUN_KESİNTİ_SAYISI": 52,
@@ -43,7 +42,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.32,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 54.24,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.38,
             "OG_UZUN_KESİNTİ_SAYISI": 83,
             "AG_UZUN_KESİNTİ_SAYISI": 98,
@@ -51,7 +50,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.74,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 54.67,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.71,
             "OG_UZUN_KESİNTİ_SAYISI": 101,
             "AG_UZUN_KESİNTİ_SAYISI": 292,
@@ -59,7 +58,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 121.34,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 121.3,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.44,
             "OG_UZUN_KESİNTİ_SAYISI": 53,
             "AG_UZUN_KESİNTİ_SAYISI": 181,
@@ -67,7 +66,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 69.39,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 69.29,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.78,
             "OG_UZUN_KESİNTİ_SAYISI": 112,
             "AG_UZUN_KESİNTİ_SAYISI": 299,
@@ -75,7 +74,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 90.76,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 90.71,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.29,
             "OG_UZUN_KESİNTİ_SAYISI": 31,
             "AG_UZUN_KESİNTİ_SAYISI": 222,
@@ -83,7 +82,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 71.33,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 71.21,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.87,
             "OG_UZUN_KESİNTİ_SAYISI": 85,
             "AG_UZUN_KESİNTİ_SAYISI": 150,
@@ -91,15 +90,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 84.77,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.92,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 84.85,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.93,
             "OG_UZUN_KESİNTİ_SAYISI": 130,
             "AG_UZUN_KESİNTİ_SAYISI": 306,
             "OG_KISA_KESİNTİ_SAYISI": 6
         },
         {
             "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 51.73,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 51.78,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.35,
             "OG_UZUN_KESİNTİ_SAYISI": 172,
             "AG_UZUN_KESİNTİ_SAYISI": 239,
@@ -107,7 +106,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 46.31,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 46.34,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.86,
             "OG_UZUN_KESİNTİ_SAYISI": 64,
             "AG_UZUN_KESİNTİ_SAYISI": 212,
@@ -115,7 +114,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 66.8,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 66.83,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.06,
             "OG_UZUN_KESİNTİ_SAYISI": 58,
             "AG_UZUN_KESİNTİ_SAYISI": 128,
@@ -123,7 +122,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 49.03,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 49.11,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.68,
             "OG_UZUN_KESİNTİ_SAYISI": 35,
             "AG_UZUN_KESİNTİ_SAYISI": 58,
@@ -131,7 +130,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 92.83,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 92.95,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.56,
             "OG_UZUN_KESİNTİ_SAYISI": 38,
             "AG_UZUN_KESİNTİ_SAYISI": 169,
@@ -141,7 +140,7 @@ const initialStateSummaryData=[
     "2": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 51.05,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 51.02,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.91,
             "OG_UZUN_KESİNTİ_SAYISI": 98,
             "AG_UZUN_KESİNTİ_SAYISI": 212,
@@ -149,7 +148,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.04,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.03,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.87,
             "OG_UZUN_KESİNTİ_SAYISI": 116,
             "AG_UZUN_KESİNTİ_SAYISI": 297,
@@ -157,7 +156,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 82.63,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 82.66,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.84,
             "OG_UZUN_KESİNTİ_SAYISI": 107,
             "AG_UZUN_KESİNTİ_SAYISI": 556,
@@ -165,7 +164,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 47.65,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 47.5,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.5,
             "OG_UZUN_KESİNTİ_SAYISI": 18,
             "AG_UZUN_KESİNTİ_SAYISI": 44,
@@ -173,7 +172,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 34.59,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 34.57,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.26,
             "OG_UZUN_KESİNTİ_SAYISI": 67,
             "AG_UZUN_KESİNTİ_SAYISI": 99,
@@ -181,7 +180,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 58.93,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 58.94,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.81,
             "OG_UZUN_KESİNTİ_SAYISI": 77,
             "AG_UZUN_KESİNTİ_SAYISI": 243,
@@ -189,7 +188,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 59.5,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 59.54,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.33,
             "OG_UZUN_KESİNTİ_SAYISI": 39,
             "AG_UZUN_KESİNTİ_SAYISI": 213,
@@ -197,7 +196,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 94.78,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 94.68,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.39,
             "OG_UZUN_KESİNTİ_SAYISI": 191,
             "AG_UZUN_KESİNTİ_SAYISI": 657,
@@ -205,7 +204,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.99,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 55.0,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.98,
             "OG_UZUN_KESİNTİ_SAYISI": 24,
             "AG_UZUN_KESİNTİ_SAYISI": 189,
@@ -213,7 +212,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 58.81,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 58.78,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.36,
             "OG_UZUN_KESİNTİ_SAYISI": 54,
             "AG_UZUN_KESİNTİ_SAYISI": 160,
@@ -221,7 +220,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 74.95,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 74.93,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.41,
             "OG_UZUN_KESİNTİ_SAYISI": 123,
             "AG_UZUN_KESİNTİ_SAYISI": 411,
@@ -229,7 +228,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 53.28,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.26,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.67,
             "OG_UZUN_KESİNTİ_SAYISI": 151,
             "AG_UZUN_KESİNTİ_SAYISI": 350,
@@ -237,7 +236,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 41.14,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 41.17,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.14,
             "OG_UZUN_KESİNTİ_SAYISI": 89,
             "AG_UZUN_KESİNTİ_SAYISI": 193,
@@ -245,7 +244,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 70.52,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 70.34,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.2,
             "OG_UZUN_KESİNTİ_SAYISI": 82,
             "AG_UZUN_KESİNTİ_SAYISI": 274,
@@ -253,7 +252,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 28.23,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 28.27,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.57,
             "OG_UZUN_KESİNTİ_SAYISI": 22,
             "AG_UZUN_KESİNTİ_SAYISI": 66,
@@ -261,7 +260,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 79.46,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 79.48,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.24,
             "OG_UZUN_KESİNTİ_SAYISI": 33,
             "AG_UZUN_KESİNTİ_SAYISI": 154,
@@ -271,31 +270,31 @@ const initialStateSummaryData=[
     "3": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.66,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.64,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.72,
             "OG_UZUN_KESİNTİ_SAYISI": 148,
-            "AG_UZUN_KESİNTİ_SAYISI": 222,
+            "AG_UZUN_KESİNTİ_SAYISI": 221,
             "OG_KISA_KESİNTİ_SAYISI": 42
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 56.81,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.53,
-            "OG_UZUN_KESİNTİ_SAYISI": 154,
-            "AG_UZUN_KESİNTİ_SAYISI": 263,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.17,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.54,
+            "OG_UZUN_KESİNTİ_SAYISI": 151,
+            "AG_UZUN_KESİNTİ_SAYISI": 259,
             "OG_KISA_KESİNTİ_SAYISI": 23
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 63.96,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.7,
-            "OG_UZUN_KESİNTİ_SAYISI": 127,
-            "AG_UZUN_KESİNTİ_SAYISI": 347,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 64.51,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.69,
+            "OG_UZUN_KESİNTİ_SAYISI": 119,
+            "AG_UZUN_KESİNTİ_SAYISI": 339,
             "OG_KISA_KESİNTİ_SAYISI": 5
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 68.59,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 68.58,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.99,
             "OG_UZUN_KESİNTİ_SAYISI": 31,
             "AG_UZUN_KESİNTİ_SAYISI": 70,
@@ -303,7 +302,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.44,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.37,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.43,
             "OG_UZUN_KESİNTİ_SAYISI": 103,
             "AG_UZUN_KESİNTİ_SAYISI": 163,
@@ -311,7 +310,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 39.45,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 39.28,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.75,
             "OG_UZUN_KESİNTİ_SAYISI": 94,
             "AG_UZUN_KESİNTİ_SAYISI": 250,
@@ -319,7 +318,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 48.78,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.79,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.39,
             "OG_UZUN_KESİNTİ_SAYISI": 47,
             "AG_UZUN_KESİNTİ_SAYISI": 173,
@@ -327,15 +326,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 80.35,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.61,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 80.38,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.59,
             "OG_UZUN_KESİNTİ_SAYISI": 198,
-            "AG_UZUN_KESİNTİ_SAYISI": 437,
+            "AG_UZUN_KESİNTİ_SAYISI": 434,
             "OG_KISA_KESİNTİ_SAYISI": 36
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 43.76,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 43.84,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.03,
             "OG_UZUN_KESİNTİ_SAYISI": 32,
             "AG_UZUN_KESİNTİ_SAYISI": 131,
@@ -343,15 +342,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 48.78,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.92,
-            "OG_UZUN_KESİNTİ_SAYISI": 52,
-            "AG_UZUN_KESİNTİ_SAYISI": 132,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 46.68,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.82,
+            "OG_UZUN_KESİNTİ_SAYISI": 47,
+            "AG_UZUN_KESİNTİ_SAYISI": 126,
             "OG_KISA_KESİNTİ_SAYISI": 8
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 44.1,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 44.13,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.27,
             "OG_UZUN_KESİNTİ_SAYISI": 137,
             "AG_UZUN_KESİNTİ_SAYISI": 252,
@@ -367,7 +366,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 49.32,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 49.26,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.99,
             "OG_UZUN_KESİNTİ_SAYISI": 125,
             "AG_UZUN_KESİNTİ_SAYISI": 188,
@@ -375,15 +374,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 72.08,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 72.94,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.58,
-            "OG_UZUN_KESİNTİ_SAYISI": 70,
+            "OG_UZUN_KESİNTİ_SAYISI": 69,
             "AG_UZUN_KESİNTİ_SAYISI": 128,
             "OG_KISA_KESİNTİ_SAYISI": 26
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 51.72,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 51.66,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.88,
             "OG_UZUN_KESİNTİ_SAYISI": 44,
             "AG_UZUN_KESİNTİ_SAYISI": 63,
@@ -391,7 +390,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 64.66,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 64.58,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.54,
             "OG_UZUN_KESİNTİ_SAYISI": 83,
             "AG_UZUN_KESİNTİ_SAYISI": 103,
@@ -401,15 +400,15 @@ const initialStateSummaryData=[
     "4": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.03,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.92,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 54.0,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.91,
             "OG_UZUN_KESİNTİ_SAYISI": 184,
-            "AG_UZUN_KESİNTİ_SAYISI": 181,
+            "AG_UZUN_KESİNTİ_SAYISI": 178,
             "OG_KISA_KESİNTİ_SAYISI": 102
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 75.24,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 75.23,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.44,
             "OG_UZUN_KESİNTİ_SAYISI": 195,
             "AG_UZUN_KESİNTİ_SAYISI": 460,
@@ -417,15 +416,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 93.02,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.96,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 92.99,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.97,
             "OG_UZUN_KESİNTİ_SAYISI": 74,
-            "AG_UZUN_KESİNTİ_SAYISI": 277,
+            "AG_UZUN_KESİNTİ_SAYISI": 276,
             "OG_KISA_KESİNTİ_SAYISI": 2
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 69.48,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 69.5,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.11,
             "OG_UZUN_KESİNTİ_SAYISI": 60,
             "AG_UZUN_KESİNTİ_SAYISI": 90,
@@ -433,23 +432,23 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 56.22,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.13,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.46,
             "OG_UZUN_KESİNTİ_SAYISI": 137,
-            "AG_UZUN_KESİNTİ_SAYISI": 170,
+            "AG_UZUN_KESİNTİ_SAYISI": 167,
             "OG_KISA_KESİNTİ_SAYISI": 43
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 52.91,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.93,
-            "OG_UZUN_KESİNTİ_SAYISI": 111,
-            "AG_UZUN_KESİNTİ_SAYISI": 315,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.76,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.94,
+            "OG_UZUN_KESİNTİ_SAYISI": 109,
+            "AG_UZUN_KESİNTİ_SAYISI": 314,
             "OG_KISA_KESİNTİ_SAYISI": 30
         },
         {
             "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 44.12,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 44.06,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.34,
             "OG_UZUN_KESİNTİ_SAYISI": 51,
             "AG_UZUN_KESİNTİ_SAYISI": 204,
@@ -457,15 +456,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 92.73,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.59,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 92.66,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.54,
             "OG_UZUN_KESİNTİ_SAYISI": 197,
-            "AG_UZUN_KESİNTİ_SAYISI": 481,
+            "AG_UZUN_KESİNTİ_SAYISI": 476,
             "OG_KISA_KESİNTİ_SAYISI": 58
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 74.92,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 74.93,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.24,
             "OG_UZUN_KESİNTİ_SAYISI": 41,
             "AG_UZUN_KESİNTİ_SAYISI": 178,
@@ -473,15 +472,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 92.05,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.54,
-            "OG_UZUN_KESİNTİ_SAYISI": 143,
-            "AG_UZUN_KESİNTİ_SAYISI": 183,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 76.88,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.47,
+            "OG_UZUN_KESİNTİ_SAYISI": 114,
+            "AG_UZUN_KESİNTİ_SAYISI": 174,
             "OG_KISA_KESİNTİ_SAYISI": 26
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 73.84,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 73.78,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.62,
             "OG_UZUN_KESİNTİ_SAYISI": 222,
             "AG_UZUN_KESİNTİ_SAYISI": 348,
@@ -489,7 +488,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.13,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.06,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.11,
             "OG_UZUN_KESİNTİ_SAYISI": 235,
             "AG_UZUN_KESİNTİ_SAYISI": 300,
@@ -497,7 +496,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.38,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.35,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.07,
             "OG_UZUN_KESİNTİ_SAYISI": 151,
             "AG_UZUN_KESİNTİ_SAYISI": 265,
@@ -505,15 +504,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.45,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.91,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.4,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.88,
             "OG_UZUN_KESİNTİ_SAYISI": 112,
-            "AG_UZUN_KESİNTİ_SAYISI": 121,
+            "AG_UZUN_KESİNTİ_SAYISI": 120,
             "OG_KISA_KESİNTİ_SAYISI": 68
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 56.83,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.76,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.95,
             "OG_UZUN_KESİNTİ_SAYISI": 51,
             "AG_UZUN_KESİNTİ_SAYISI": 66,
@@ -521,7 +520,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 71.01,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 71.08,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.16,
             "OG_UZUN_KESİNTİ_SAYISI": 73,
             "AG_UZUN_KESİNTİ_SAYISI": 119,
@@ -531,7 +530,7 @@ const initialStateSummaryData=[
     "5": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 51.38,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 51.37,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.74,
             "OG_UZUN_KESİNTİ_SAYISI": 195,
             "AG_UZUN_KESİNTİ_SAYISI": 193,
@@ -539,7 +538,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 41.36,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 41.32,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.29,
             "OG_UZUN_KESİNTİ_SAYISI": 180,
             "AG_UZUN_KESİNTİ_SAYISI": 356,
@@ -547,15 +546,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.15,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.8,
-            "OG_UZUN_KESİNTİ_SAYISI": 150,
-            "AG_UZUN_KESİNTİ_SAYISI": 337,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 49.82,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.75,
+            "OG_UZUN_KESİNTİ_SAYISI": 146,
+            "AG_UZUN_KESİNTİ_SAYISI": 330,
             "OG_KISA_KESİNTİ_SAYISI": 13
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 62.01,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.02,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 4.17,
             "OG_UZUN_KESİNTİ_SAYISI": 87,
             "AG_UZUN_KESİNTİ_SAYISI": 161,
@@ -563,7 +562,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.9,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.81,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.7,
             "OG_UZUN_KESİNTİ_SAYISI": 110,
             "AG_UZUN_KESİNTİ_SAYISI": 179,
@@ -571,7 +570,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 39.94,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 39.87,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.83,
             "OG_UZUN_KESİNTİ_SAYISI": 134,
             "AG_UZUN_KESİNTİ_SAYISI": 301,
@@ -579,7 +578,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 32.65,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 32.62,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.58,
             "OG_UZUN_KESİNTİ_SAYISI": 39,
             "AG_UZUN_KESİNTİ_SAYISI": 204,
@@ -587,7 +586,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.98,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.89,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.0,
             "OG_UZUN_KESİNTİ_SAYISI": 131,
             "AG_UZUN_KESİNTİ_SAYISI": 278,
@@ -595,7 +594,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.52,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.43,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.28,
             "OG_UZUN_KESİNTİ_SAYISI": 51,
             "AG_UZUN_KESİNTİ_SAYISI": 206,
@@ -603,15 +602,15 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 81.46,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.53,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 81.42,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.54,
             "OG_UZUN_KESİNTİ_SAYISI": 106,
-            "AG_UZUN_KESİNTİ_SAYISI": 175,
+            "AG_UZUN_KESİNTİ_SAYISI": 174,
             "OG_KISA_KESİNTİ_SAYISI": 19
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.55,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.53,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.28,
             "OG_UZUN_KESİNTİ_SAYISI": 191,
             "AG_UZUN_KESİNTİ_SAYISI": 318,
@@ -619,7 +618,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.73,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.7,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.77,
             "OG_UZUN_KESİNTİ_SAYISI": 214,
             "AG_UZUN_KESİNTİ_SAYISI": 297,
@@ -627,7 +626,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 36.36,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 36.29,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.09,
             "OG_UZUN_KESİNTİ_SAYISI": 161,
             "AG_UZUN_KESİNTİ_SAYISI": 240,
@@ -635,7 +634,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 53.66,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.68,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.37,
             "OG_UZUN_KESİNTİ_SAYISI": 97,
             "AG_UZUN_KESİNTİ_SAYISI": 128,
@@ -643,7 +642,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.93,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.91,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.04,
             "OG_UZUN_KESİNTİ_SAYISI": 58,
             "AG_UZUN_KESİNTİ_SAYISI": 87,
@@ -651,17 +650,619 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 72.97,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 73.02,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.07,
             "OG_UZUN_KESİNTİ_SAYISI": 55,
             "AG_UZUN_KESİNTİ_SAYISI": 162,
             "OG_KISA_KESİNTİ_SAYISI": 30
         }
     ],
+    "7": [
+        {
+            "isletmeName": "ACIPAYAM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 47.09,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.66,
+            "OG_UZUN_KESİNTİ_SAYISI": 424,
+            "AG_UZUN_KESİNTİ_SAYISI": 338,
+            "OG_KISA_KESİNTİ_SAYISI": 151
+        },
+        {
+            "isletmeName": "AYDIN MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 51.17,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.97,
+            "OG_UZUN_KESİNTİ_SAYISI": 304,
+            "AG_UZUN_KESİNTİ_SAYISI": 766,
+            "OG_KISA_KESİNTİ_SAYISI": 90
+        },
+        {
+            "isletmeName": "BODRUM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 76.92,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.35,
+            "OG_UZUN_KESİNTİ_SAYISI": 216,
+            "AG_UZUN_KESİNTİ_SAYISI": 644,
+            "OG_KISA_KESİNTİ_SAYISI": 19
+        },
+        {
+            "isletmeName": "ÇİNE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.97,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.39,
+            "OG_UZUN_KESİNTİ_SAYISI": 74,
+            "AG_UZUN_KESİNTİ_SAYISI": 159,
+            "OG_KISA_KESİNTİ_SAYISI": 44
+        },
+        {
+            "isletmeName": "ÇİVRİL İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 54.41,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.57,
+            "OG_UZUN_KESİNTİ_SAYISI": 220,
+            "AG_UZUN_KESİNTİ_SAYISI": 229,
+            "OG_KISA_KESİNTİ_SAYISI": 73
+        },
+        {
+            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.23,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.98,
+            "OG_UZUN_KESİNTİ_SAYISI": 262,
+            "AG_UZUN_KESİNTİ_SAYISI": 1054,
+            "OG_KISA_KESİNTİ_SAYISI": 78
+        },
+        {
+            "isletmeName": "DİDİM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.51,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.5,
+            "OG_UZUN_KESİNTİ_SAYISI": 115,
+            "AG_UZUN_KESİNTİ_SAYISI": 368,
+            "OG_KISA_KESİNTİ_SAYISI": 55
+        },
+        {
+            "isletmeName": "FETHİYE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 70.61,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.9,
+            "OG_UZUN_KESİNTİ_SAYISI": 341,
+            "AG_UZUN_KESİNTİ_SAYISI": 900,
+            "OG_KISA_KESİNTİ_SAYISI": 97
+        },
+        {
+            "isletmeName": "KUŞADASI İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 71.27,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.19,
+            "OG_UZUN_KESİNTİ_SAYISI": 98,
+            "AG_UZUN_KESİNTİ_SAYISI": 353,
+            "OG_KISA_KESİNTİ_SAYISI": 11
+        },
+        {
+            "isletmeName": "MARMARİS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.56,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.84,
+            "OG_UZUN_KESİNTİ_SAYISI": 134,
+            "AG_UZUN_KESİNTİ_SAYISI": 302,
+            "OG_KISA_KESİNTİ_SAYISI": 25
+        },
+        {
+            "isletmeName": "MİLAS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 67.45,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.2,
+            "OG_UZUN_KESİNTİ_SAYISI": 261,
+            "AG_UZUN_KESİNTİ_SAYISI": 478,
+            "OG_KISA_KESİNTİ_SAYISI": 67
+        },
+        {
+            "isletmeName": "MUĞLA MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 47.34,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.71,
+            "OG_UZUN_KESİNTİ_SAYISI": 231,
+            "AG_UZUN_KESİNTİ_SAYISI": 369,
+            "OG_KISA_KESİNTİ_SAYISI": 35
+        },
+        {
+            "isletmeName": "NAZİLLİ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 33.91,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.85,
+            "OG_UZUN_KESİNTİ_SAYISI": 266,
+            "AG_UZUN_KESİNTİ_SAYISI": 525,
+            "OG_KISA_KESİNTİ_SAYISI": 95
+        },
+        {
+            "isletmeName": "ORTACA İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 65.55,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.57,
+            "OG_UZUN_KESİNTİ_SAYISI": 134,
+            "AG_UZUN_KESİNTİ_SAYISI": 448,
+            "OG_KISA_KESİNTİ_SAYISI": 64
+        },
+        {
+            "isletmeName": "SARAYKÖY İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.41,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.68,
+            "OG_UZUN_KESİNTİ_SAYISI": 79,
+            "AG_UZUN_KESİNTİ_SAYISI": 177,
+            "OG_KISA_KESİNTİ_SAYISI": 39
+        },
+        {
+            "isletmeName": "SÖKE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 61.93,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.29,
+            "OG_UZUN_KESİNTİ_SAYISI": 98,
+            "AG_UZUN_KESİNTİ_SAYISI": 175,
+            "OG_KISA_KESİNTİ_SAYISI": 27
+        }
+    ],
+    "9": [
+        {
+            "isletmeName": "ACIPAYAM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 52.5,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.01,
+            "OG_UZUN_KESİNTİ_SAYISI": 179,
+            "AG_UZUN_KESİNTİ_SAYISI": 235,
+            "OG_KISA_KESİNTİ_SAYISI": 94
+        },
+        {
+            "isletmeName": "AYDIN MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 47.17,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.69,
+            "OG_UZUN_KESİNTİ_SAYISI": 179,
+            "AG_UZUN_KESİNTİ_SAYISI": 318,
+            "OG_KISA_KESİNTİ_SAYISI": 68
+        },
+        {
+            "isletmeName": "BODRUM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.66,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.06,
+            "OG_UZUN_KESİNTİ_SAYISI": 87,
+            "AG_UZUN_KESİNTİ_SAYISI": 197,
+            "OG_KISA_KESİNTİ_SAYISI": 9
+        },
+        {
+            "isletmeName": "ÇİNE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.37,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.19,
+            "OG_UZUN_KESİNTİ_SAYISI": 67,
+            "AG_UZUN_KESİNTİ_SAYISI": 163,
+            "OG_KISA_KESİNTİ_SAYISI": 30
+        },
+        {
+            "isletmeName": "ÇİVRİL İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 52.41,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.56,
+            "OG_UZUN_KESİNTİ_SAYISI": 114,
+            "AG_UZUN_KESİNTİ_SAYISI": 163,
+            "OG_KISA_KESİNTİ_SAYISI": 54
+        },
+        {
+            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.27,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.84,
+            "OG_UZUN_KESİNTİ_SAYISI": 103,
+            "AG_UZUN_KESİNTİ_SAYISI": 350,
+            "OG_KISA_KESİNTİ_SAYISI": 57
+        },
+        {
+            "isletmeName": "DİDİM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.45,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.85,
+            "OG_UZUN_KESİNTİ_SAYISI": 84,
+            "AG_UZUN_KESİNTİ_SAYISI": 186,
+            "OG_KISA_KESİNTİ_SAYISI": 46
+        },
+        {
+            "isletmeName": "FETHİYE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 51.01,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.95,
+            "OG_UZUN_KESİNTİ_SAYISI": 159,
+            "AG_UZUN_KESİNTİ_SAYISI": 341,
+            "OG_KISA_KESİNTİ_SAYISI": 77
+        },
+        {
+            "isletmeName": "KUŞADASI İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 60.21,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.66,
+            "OG_UZUN_KESİNTİ_SAYISI": 57,
+            "AG_UZUN_KESİNTİ_SAYISI": 132,
+            "OG_KISA_KESİNTİ_SAYISI": 2
+        },
+        {
+            "isletmeName": "MARMARİS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 73.28,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.76,
+            "OG_UZUN_KESİNTİ_SAYISI": 137,
+            "AG_UZUN_KESİNTİ_SAYISI": 149,
+            "OG_KISA_KESİNTİ_SAYISI": 20
+        },
+        {
+            "isletmeName": "MİLAS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.66,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.59,
+            "OG_UZUN_KESİNTİ_SAYISI": 258,
+            "AG_UZUN_KESİNTİ_SAYISI": 222,
+            "OG_KISA_KESİNTİ_SAYISI": 73
+        },
+        {
+            "isletmeName": "MUĞLA MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 42.36,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.0,
+            "OG_UZUN_KESİNTİ_SAYISI": 152,
+            "AG_UZUN_KESİNTİ_SAYISI": 264,
+            "OG_KISA_KESİNTİ_SAYISI": 49
+        },
+        {
+            "isletmeName": "NAZİLLİ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 34.84,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.41,
+            "OG_UZUN_KESİNTİ_SAYISI": 124,
+            "AG_UZUN_KESİNTİ_SAYISI": 343,
+            "OG_KISA_KESİNTİ_SAYISI": 58
+        },
+        {
+            "isletmeName": "ORTACA İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.33,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.85,
+            "OG_UZUN_KESİNTİ_SAYISI": 107,
+            "AG_UZUN_KESİNTİ_SAYISI": 192,
+            "OG_KISA_KESİNTİ_SAYISI": 48
+        },
+        {
+            "isletmeName": "SARAYKÖY İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.96,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.53,
+            "OG_UZUN_KESİNTİ_SAYISI": 102,
+            "AG_UZUN_KESİNTİ_SAYISI": 61,
+            "OG_KISA_KESİNTİ_SAYISI": 22
+        },
+        {
+            "isletmeName": "SÖKE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 75.5,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.49,
+            "OG_UZUN_KESİNTİ_SAYISI": 58,
+            "AG_UZUN_KESİNTİ_SAYISI": 142,
+            "OG_KISA_KESİNTİ_SAYISI": 18
+        }
+    ],
+    "10": [
+        {
+            "isletmeName": "ACIPAYAM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.95,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.87,
+            "OG_UZUN_KESİNTİ_SAYISI": 177,
+            "AG_UZUN_KESİNTİ_SAYISI": 286,
+            "OG_KISA_KESİNTİ_SAYISI": 93
+        },
+        {
+            "isletmeName": "AYDIN MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.24,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.29,
+            "OG_UZUN_KESİNTİ_SAYISI": 145,
+            "AG_UZUN_KESİNTİ_SAYISI": 373,
+            "OG_KISA_KESİNTİ_SAYISI": 70
+        },
+        {
+            "isletmeName": "BODRUM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 68.98,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.21,
+            "OG_UZUN_KESİNTİ_SAYISI": 163,
+            "AG_UZUN_KESİNTİ_SAYISI": 271,
+            "OG_KISA_KESİNTİ_SAYISI": 13
+        },
+        {
+            "isletmeName": "ÇİNE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 63.07,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.81,
+            "OG_UZUN_KESİNTİ_SAYISI": 70,
+            "AG_UZUN_KESİNTİ_SAYISI": 110,
+            "OG_KISA_KESİNTİ_SAYISI": 22
+        },
+        {
+            "isletmeName": "ÇİVRİL İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.41,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.67,
+            "OG_UZUN_KESİNTİ_SAYISI": 94,
+            "AG_UZUN_KESİNTİ_SAYISI": 170,
+            "OG_KISA_KESİNTİ_SAYISI": 55
+        },
+        {
+            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 35.61,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.93,
+            "OG_UZUN_KESİNTİ_SAYISI": 111,
+            "AG_UZUN_KESİNTİ_SAYISI": 364,
+            "OG_KISA_KESİNTİ_SAYISI": 42
+        },
+        {
+            "isletmeName": "DİDİM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 44.1,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.34,
+            "OG_UZUN_KESİNTİ_SAYISI": 58,
+            "AG_UZUN_KESİNTİ_SAYISI": 214,
+            "OG_KISA_KESİNTİ_SAYISI": 35
+        },
+        {
+            "isletmeName": "FETHİYE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 67.62,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.01,
+            "OG_UZUN_KESİNTİ_SAYISI": 263,
+            "AG_UZUN_KESİNTİ_SAYISI": 511,
+            "OG_KISA_KESİNTİ_SAYISI": 102
+        },
+        {
+            "isletmeName": "KUŞADASI İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 70.19,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.46,
+            "OG_UZUN_KESİNTİ_SAYISI": 52,
+            "AG_UZUN_KESİNTİ_SAYISI": 202,
+            "OG_KISA_KESİNTİ_SAYISI": 6
+        },
+        {
+            "isletmeName": "MARMARİS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 75.98,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.68,
+            "OG_UZUN_KESİNTİ_SAYISI": 144,
+            "AG_UZUN_KESİNTİ_SAYISI": 180,
+            "OG_KISA_KESİNTİ_SAYISI": 38
+        },
+        {
+            "isletmeName": "MİLAS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 67.79,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.1,
+            "OG_UZUN_KESİNTİ_SAYISI": 388,
+            "AG_UZUN_KESİNTİ_SAYISI": 294,
+            "OG_KISA_KESİNTİ_SAYISI": 69
+        },
+        {
+            "isletmeName": "MUĞLA MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 40.29,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.35,
+            "OG_UZUN_KESİNTİ_SAYISI": 220,
+            "AG_UZUN_KESİNTİ_SAYISI": 377,
+            "OG_KISA_KESİNTİ_SAYISI": 55
+        },
+        {
+            "isletmeName": "NAZİLLİ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 25.42,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.3,
+            "OG_UZUN_KESİNTİ_SAYISI": 165,
+            "AG_UZUN_KESİNTİ_SAYISI": 347,
+            "OG_KISA_KESİNTİ_SAYISI": 67
+        },
+        {
+            "isletmeName": "ORTACA İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 86.76,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.94,
+            "OG_UZUN_KESİNTİ_SAYISI": 189,
+            "AG_UZUN_KESİNTİ_SAYISI": 257,
+            "OG_KISA_KESİNTİ_SAYISI": 55
+        },
+        {
+            "isletmeName": "SARAYKÖY İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 49.97,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.03,
+            "OG_UZUN_KESİNTİ_SAYISI": 37,
+            "AG_UZUN_KESİNTİ_SAYISI": 106,
+            "OG_KISA_KESİNTİ_SAYISI": 12
+        },
+        {
+            "isletmeName": "SÖKE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.73,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.28,
+            "OG_UZUN_KESİNTİ_SAYISI": 63,
+            "AG_UZUN_KESİNTİ_SAYISI": 130,
+            "OG_KISA_KESİNTİ_SAYISI": 24
+        }
+    ],
+    "11": [
+        {
+            "isletmeName": "ACIPAYAM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.75,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.0,
+            "OG_UZUN_KESİNTİ_SAYISI": 192,
+            "AG_UZUN_KESİNTİ_SAYISI": 180,
+            "OG_KISA_KESİNTİ_SAYISI": 113
+        },
+        {
+            "isletmeName": "AYDIN MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 40.26,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.99,
+            "OG_UZUN_KESİNTİ_SAYISI": 133,
+            "AG_UZUN_KESİNTİ_SAYISI": 281,
+            "OG_KISA_KESİNTİ_SAYISI": 73
+        },
+        {
+            "isletmeName": "BODRUM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 67.12,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.07,
+            "OG_UZUN_KESİNTİ_SAYISI": 128,
+            "AG_UZUN_KESİNTİ_SAYISI": 229,
+            "OG_KISA_KESİNTİ_SAYISI": 24
+        },
+        {
+            "isletmeName": "ÇİNE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.17,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.39,
+            "OG_UZUN_KESİNTİ_SAYISI": 60,
+            "AG_UZUN_KESİNTİ_SAYISI": 76,
+            "OG_KISA_KESİNTİ_SAYISI": 25
+        },
+        {
+            "isletmeName": "ÇİVRİL İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.13,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.62,
+            "OG_UZUN_KESİNTİ_SAYISI": 86,
+            "AG_UZUN_KESİNTİ_SAYISI": 104,
+            "OG_KISA_KESİNTİ_SAYISI": 55
+        },
+        {
+            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 34.03,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.86,
+            "OG_UZUN_KESİNTİ_SAYISI": 121,
+            "AG_UZUN_KESİNTİ_SAYISI": 276,
+            "OG_KISA_KESİNTİ_SAYISI": 41
+        },
+        {
+            "isletmeName": "DİDİM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 43.33,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.6,
+            "OG_UZUN_KESİNTİ_SAYISI": 64,
+            "AG_UZUN_KESİNTİ_SAYISI": 176,
+            "OG_KISA_KESİNTİ_SAYISI": 23
+        },
+        {
+            "isletmeName": "FETHİYE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.88,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.25,
+            "OG_UZUN_KESİNTİ_SAYISI": 219,
+            "AG_UZUN_KESİNTİ_SAYISI": 320,
+            "OG_KISA_KESİNTİ_SAYISI": 124
+        },
+        {
+            "isletmeName": "KUŞADASI İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.22,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.1,
+            "OG_UZUN_KESİNTİ_SAYISI": 51,
+            "AG_UZUN_KESİNTİ_SAYISI": 152,
+            "OG_KISA_KESİNTİ_SAYISI": 10
+        },
+        {
+            "isletmeName": "MARMARİS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 189.42,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.64,
+            "OG_UZUN_KESİNTİ_SAYISI": 110,
+            "AG_UZUN_KESİNTİ_SAYISI": 139,
+            "OG_KISA_KESİNTİ_SAYISI": 28
+        },
+        {
+            "isletmeName": "MİLAS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.13,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.46,
+            "OG_UZUN_KESİNTİ_SAYISI": 174,
+            "AG_UZUN_KESİNTİ_SAYISI": 217,
+            "OG_KISA_KESİNTİ_SAYISI": 62
+        },
+        {
+            "isletmeName": "MUĞLA MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 38.59,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.48,
+            "OG_UZUN_KESİNTİ_SAYISI": 198,
+            "AG_UZUN_KESİNTİ_SAYISI": 288,
+            "OG_KISA_KESİNTİ_SAYISI": 60
+        },
+        {
+            "isletmeName": "NAZİLLİ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 33.73,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.05,
+            "OG_UZUN_KESİNTİ_SAYISI": 165,
+            "AG_UZUN_KESİNTİ_SAYISI": 235,
+            "OG_KISA_KESİNTİ_SAYISI": 69
+        },
+        {
+            "isletmeName": "ORTACA İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 61.96,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.13,
+            "OG_UZUN_KESİNTİ_SAYISI": 164,
+            "AG_UZUN_KESİNTİ_SAYISI": 164,
+            "OG_KISA_KESİNTİ_SAYISI": 83
+        },
+        {
+            "isletmeName": "SARAYKÖY İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.2,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.88,
+            "OG_UZUN_KESİNTİ_SAYISI": 51,
+            "AG_UZUN_KESİNTİ_SAYISI": 48,
+            "OG_KISA_KESİNTİ_SAYISI": 12
+        },
+        {
+            "isletmeName": "SÖKE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.49,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.23,
+            "OG_UZUN_KESİNTİ_SAYISI": 61,
+            "AG_UZUN_KESİNTİ_SAYISI": 99,
+            "OG_KISA_KESİNTİ_SAYISI": 31
+        }
+    ],
+    "12": [
+        {
+            "isletmeName": "AYDIN MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 12.0,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.1,
+            "OG_UZUN_KESİNTİ_SAYISI": 1,
+            "AG_UZUN_KESİNTİ_SAYISI": 1,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "BODRUM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 3.5,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": NaN,
+            "OG_UZUN_KESİNTİ_SAYISI": 2,
+            "AG_UZUN_KESİNTİ_SAYISI": 0,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "ÇİVRİL İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": NaN,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": NaN,
+            "OG_UZUN_KESİNTİ_SAYISI": 0,
+            "AG_UZUN_KESİNTİ_SAYISI": 0,
+            "OG_KISA_KESİNTİ_SAYISI": 1
+        },
+        {
+            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 42.0,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": NaN,
+            "OG_UZUN_KESİNTİ_SAYISI": 1,
+            "AG_UZUN_KESİNTİ_SAYISI": 0,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "DİDİM İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": NaN,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.1,
+            "OG_UZUN_KESİNTİ_SAYISI": 0,
+            "AG_UZUN_KESİNTİ_SAYISI": 2,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "FETHİYE İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 17.0,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": NaN,
+            "OG_UZUN_KESİNTİ_SAYISI": 1,
+            "AG_UZUN_KESİNTİ_SAYISI": 0,
+            "OG_KISA_KESİNTİ_SAYISI": 2
+        },
+        {
+            "isletmeName": "KUŞADASI İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": NaN,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0.98,
+            "OG_UZUN_KESİNTİ_SAYISI": 0,
+            "AG_UZUN_KESİNTİ_SAYISI": 1,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "MARMARİS İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 25.67,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0.57,
+            "OG_UZUN_KESİNTİ_SAYISI": 3,
+            "AG_UZUN_KESİNTİ_SAYISI": 1,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "MUĞLA MERKEZ İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": NaN,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.77,
+            "OG_UZUN_KESİNTİ_SAYISI": 0,
+            "AG_UZUN_KESİNTİ_SAYISI": 1,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        },
+        {
+            "isletmeName": "ORTACA İŞLETME",
+            "ORT_OG_ARIZA_SÜRESİ_DK": 93.0,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": NaN,
+            "OG_UZUN_KESİNTİ_SAYISI": 1,
+            "AG_UZUN_KESİNTİ_SAYISI": 0,
+            "OG_KISA_KESİNTİ_SAYISI": 0
+        }
+    ],
     "6": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 45.94,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 45.92,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.61,
             "OG_UZUN_KESİNTİ_SAYISI": 220,
             "AG_UZUN_KESİNTİ_SAYISI": 211,
@@ -669,7 +1270,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 46.24,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 46.27,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.36,
             "OG_UZUN_KESİNTİ_SAYISI": 264,
             "AG_UZUN_KESİNTİ_SAYISI": 556,
@@ -677,7 +1278,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 55.79,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 55.82,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.22,
             "OG_UZUN_KESİNTİ_SAYISI": 108,
             "AG_UZUN_KESİNTİ_SAYISI": 275,
@@ -685,7 +1286,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 67.57,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 67.64,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.68,
             "OG_UZUN_KESİNTİ_SAYISI": 83,
             "AG_UZUN_KESİNTİ_SAYISI": 130,
@@ -693,7 +1294,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 62.96,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.94,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.58,
             "OG_UZUN_KESİNTİ_SAYISI": 157,
             "AG_UZUN_KESİNTİ_SAYISI": 189,
@@ -701,7 +1302,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.62,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.56,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.78,
             "OG_UZUN_KESİNTİ_SAYISI": 147,
             "AG_UZUN_KESİNTİ_SAYISI": 350,
@@ -717,7 +1318,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 55.45,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 55.41,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.84,
             "OG_UZUN_KESİNTİ_SAYISI": 191,
             "AG_UZUN_KESİNTİ_SAYISI": 401,
@@ -725,7 +1326,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 58.28,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 58.29,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.23,
             "OG_UZUN_KESİNTİ_SAYISI": 56,
             "AG_UZUN_KESİNTİ_SAYISI": 196,
@@ -733,7 +1334,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 76.93,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 76.9,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.66,
             "OG_UZUN_KESİNTİ_SAYISI": 77,
             "AG_UZUN_KESİNTİ_SAYISI": 133,
@@ -741,7 +1342,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 53.49,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 53.51,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.26,
             "OG_UZUN_KESİNTİ_SAYISI": 220,
             "AG_UZUN_KESİNTİ_SAYISI": 324,
@@ -749,7 +1350,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.81,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.77,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.67,
             "OG_UZUN_KESİNTİ_SAYISI": 178,
             "AG_UZUN_KESİNTİ_SAYISI": 266,
@@ -757,7 +1358,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 25.55,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 25.5,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.05,
             "OG_UZUN_KESİNTİ_SAYISI": 204,
             "AG_UZUN_KESİNTİ_SAYISI": 326,
@@ -765,7 +1366,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 41.55,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 41.52,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.36,
             "OG_UZUN_KESİNTİ_SAYISI": 90,
             "AG_UZUN_KESİNTİ_SAYISI": 182,
@@ -773,7 +1374,7 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 53.02,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 52.91,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.99,
             "OG_UZUN_KESİNTİ_SAYISI": 91,
             "AG_UZUN_KESİNTİ_SAYISI": 89,
@@ -781,791 +1382,141 @@ const initialStateSummaryData=[
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 109.85,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 109.76,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.11,
             "OG_UZUN_KESİNTİ_SAYISI": 51,
             "AG_UZUN_KESİNTİ_SAYISI": 149,
             "OG_KISA_KESİNTİ_SAYISI": 17
         }
     ],
-    "7": [
-        {
-            "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 47.47,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.66,
-            "OG_UZUN_KESİNTİ_SAYISI": 423,
-            "AG_UZUN_KESİNTİ_SAYISI": 339,
-            "OG_KISA_KESİNTİ_SAYISI": 147
-        },
-        {
-            "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.79,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.96,
-            "OG_UZUN_KESİNTİ_SAYISI": 301,
-            "AG_UZUN_KESİNTİ_SAYISI": 772,
-            "OG_KISA_KESİNTİ_SAYISI": 88
-        },
-        {
-            "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 76.33,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.33,
-            "OG_UZUN_KESİNTİ_SAYISI": 210,
-            "AG_UZUN_KESİNTİ_SAYISI": 653,
-            "OG_KISA_KESİNTİ_SAYISI": 18
-        },
-        {
-            "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 59.9,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.39,
-            "OG_UZUN_KESİNTİ_SAYISI": 72,
-            "AG_UZUN_KESİNTİ_SAYISI": 161,
-            "OG_KISA_KESİNTİ_SAYISI": 44
-        },
-        {
-            "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.47,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.57,
-            "OG_UZUN_KESİNTİ_SAYISI": 220,
-            "AG_UZUN_KESİNTİ_SAYISI": 229,
-            "OG_KISA_KESİNTİ_SAYISI": 73
-        },
-        {
-            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.11,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.98,
-            "OG_UZUN_KESİNTİ_SAYISI": 260,
-            "AG_UZUN_KESİNTİ_SAYISI": 1056,
-            "OG_KISA_KESİNTİ_SAYISI": 78
-        },
-        {
-            "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 51.21,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.49,
-            "OG_UZUN_KESİNTİ_SAYISI": 114,
-            "AG_UZUN_KESİNTİ_SAYISI": 374,
-            "OG_KISA_KESİNTİ_SAYISI": 57
-        },
-        {
-            "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 66.96,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.87,
-            "OG_UZUN_KESİNTİ_SAYISI": 326,
-            "AG_UZUN_KESİNTİ_SAYISI": 933,
-            "OG_KISA_KESİNTİ_SAYISI": 94
-        },
-        {
-            "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 70.35,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.18,
-            "OG_UZUN_KESİNTİ_SAYISI": 97,
-            "AG_UZUN_KESİNTİ_SAYISI": 358,
-            "OG_KISA_KESİNTİ_SAYISI": 11
-        },
-        {
-            "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 58.76,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.85,
-            "OG_UZUN_KESİNTİ_SAYISI": 132,
-            "AG_UZUN_KESİNTİ_SAYISI": 305,
-            "OG_KISA_KESİNTİ_SAYISI": 25
-        },
-        {
-            "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 66.64,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.19,
-            "OG_UZUN_KESİNTİ_SAYISI": 247,
-            "AG_UZUN_KESİNTİ_SAYISI": 480,
-            "OG_KISA_KESİNTİ_SAYISI": 67
-        },
-        {
-            "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 47.39,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.64,
-            "OG_UZUN_KESİNTİ_SAYISI": 227,
-            "AG_UZUN_KESİNTİ_SAYISI": 361,
-            "OG_KISA_KESİNTİ_SAYISI": 33
-        },
-        {
-            "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 33.83,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.85,
-            "OG_UZUN_KESİNTİ_SAYISI": 266,
-            "AG_UZUN_KESİNTİ_SAYISI": 525,
-            "OG_KISA_KESİNTİ_SAYISI": 93
-        },
-        {
-            "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.35,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.61,
-            "OG_UZUN_KESİNTİ_SAYISI": 128,
-            "AG_UZUN_KESİNTİ_SAYISI": 459,
-            "OG_KISA_KESİNTİ_SAYISI": 64
-        },
-        {
-            "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 53.43,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.68,
-            "OG_UZUN_KESİNTİ_SAYISI": 79,
-            "AG_UZUN_KESİNTİ_SAYISI": 177,
-            "OG_KISA_KESİNTİ_SAYISI": 39
-        },
-        {
-            "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 61.27,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.27,
-            "OG_UZUN_KESİNTİ_SAYISI": 97,
-            "AG_UZUN_KESİNTİ_SAYISI": 178,
-            "OG_KISA_KESİNTİ_SAYISI": 27
-        }
-    ],
     "8": [
         {
             "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 89.41,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.44,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.93,
-            "OG_UZUN_KESİNTİ_SAYISI": 240,
-            "AG_UZUN_KESİNTİ_SAYISI": 256,
-            "OG_KISA_KESİNTİ_SAYISI": 64
+            "OG_UZUN_KESİNTİ_SAYISI": 234,
+            "AG_UZUN_KESİNTİ_SAYISI": 255,
+            "OG_KISA_KESİNTİ_SAYISI": 69
         },
         {
             "isletmeName": "AYDIN MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 50.92,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.99,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.98,
             "OG_UZUN_KESİNTİ_SAYISI": 210,
-            "AG_UZUN_KESİNTİ_SAYISI": 539,
-            "OG_KISA_KESİNTİ_SAYISI": 59
+            "AG_UZUN_KESİNTİ_SAYISI": 537,
+            "OG_KISA_KESİNTİ_SAYISI": 61
         },
         {
             "isletmeName": "BODRUM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 82.26,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 3.04,
-            "OG_UZUN_KESİNTİ_SAYISI": 126,
-            "AG_UZUN_KESİNTİ_SAYISI": 339,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 82.34,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.99,
+            "OG_UZUN_KESİNTİ_SAYISI": 127,
+            "AG_UZUN_KESİNTİ_SAYISI": 338,
             "OG_KISA_KESİNTİ_SAYISI": 9
         },
         {
             "isletmeName": "ÇİNE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 72.86,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.56,
-            "OG_UZUN_KESİNTİ_SAYISI": 64,
-            "AG_UZUN_KESİNTİ_SAYISI": 161,
-            "OG_KISA_KESİNTİ_SAYISI": 26
+            "ORT_OG_ARIZA_SÜRESİ_DK": 75.77,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.57,
+            "OG_UZUN_KESİNTİ_SAYISI": 65,
+            "AG_UZUN_KESİNTİ_SAYISI": 158,
+            "OG_KISA_KESİNTİ_SAYISI": 27
         },
         {
             "isletmeName": "ÇİVRİL İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 48.37,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.59,
-            "OG_UZUN_KESİNTİ_SAYISI": 132,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 48.51,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.58,
+            "OG_UZUN_KESİNTİ_SAYISI": 134,
             "AG_UZUN_KESİNTİ_SAYISI": 162,
-            "OG_KISA_KESİNTİ_SAYISI": 39
+            "OG_KISA_KESİNTİ_SAYISI": 40
         },
         {
             "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 66.11,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 68.45,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.87,
-            "OG_UZUN_KESİNTİ_SAYISI": 172,
+            "OG_UZUN_KESİNTİ_SAYISI": 165,
             "AG_UZUN_KESİNTİ_SAYISI": 541,
-            "OG_KISA_KESİNTİ_SAYISI": 18
+            "OG_KISA_KESİNTİ_SAYISI": 26
         },
         {
             "isletmeName": "DİDİM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.15,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.75,
-            "OG_UZUN_KESİNTİ_SAYISI": 49,
-            "AG_UZUN_KESİNTİ_SAYISI": 263,
-            "OG_KISA_KESİNTİ_SAYISI": 33
+            "ORT_OG_ARIZA_SÜRESİ_DK": 50.3,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.82,
+            "OG_UZUN_KESİNTİ_SAYISI": 50,
+            "AG_UZUN_KESİNTİ_SAYISI": 262,
+            "OG_KISA_KESİNTİ_SAYISI": 34
         },
         {
             "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 54.28,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 55.64,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.52,
-            "OG_UZUN_KESİNTİ_SAYISI": 194,
-            "AG_UZUN_KESİNTİ_SAYISI": 504,
-            "OG_KISA_KESİNTİ_SAYISI": 77
+            "OG_UZUN_KESİNTİ_SAYISI": 192,
+            "AG_UZUN_KESİNTİ_SAYISI": 503,
+            "OG_KISA_KESİNTİ_SAYISI": 82
         },
         {
             "isletmeName": "KUŞADASI İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.58,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.09,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.1,
-            "OG_UZUN_KESİNTİ_SAYISI": 31,
-            "AG_UZUN_KESİNTİ_SAYISI": 223,
+            "OG_UZUN_KESİNTİ_SAYISI": 33,
+            "AG_UZUN_KESİNTİ_SAYISI": 224,
             "OG_KISA_KESİNTİ_SAYISI": 2
         },
         {
             "isletmeName": "MARMARİS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 60.6,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.37,
-            "OG_UZUN_KESİNTİ_SAYISI": 86,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 62.02,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.35,
+            "OG_UZUN_KESİNTİ_SAYISI": 89,
             "AG_UZUN_KESİNTİ_SAYISI": 193,
             "OG_KISA_KESİNTİ_SAYISI": 16
         },
         {
             "isletmeName": "MİLAS İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 55.28,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.91,
-            "OG_UZUN_KESİNTİ_SAYISI": 207,
-            "AG_UZUN_KESİNTİ_SAYISI": 368,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 57.05,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.9,
+            "OG_UZUN_KESİNTİ_SAYISI": 198,
+            "AG_UZUN_KESİNTİ_SAYISI": 369,
             "OG_KISA_KESİNTİ_SAYISI": 54
         },
         {
             "isletmeName": "MUĞLA MERKEZ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 81.92,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 56.99,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.43,
-            "OG_UZUN_KESİNTİ_SAYISI": 160,
-            "AG_UZUN_KESİNTİ_SAYISI": 272,
-            "OG_KISA_KESİNTİ_SAYISI": 37
+            "OG_UZUN_KESİNTİ_SAYISI": 154,
+            "AG_UZUN_KESİNTİ_SAYISI": 273,
+            "OG_KISA_KESİNTİ_SAYISI": 38
         },
         {
             "isletmeName": "NAZİLLİ İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 36.31,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 36.64,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.9,
-            "OG_UZUN_KESİNTİ_SAYISI": 189,
+            "OG_UZUN_KESİNTİ_SAYISI": 192,
             "AG_UZUN_KESİNTİ_SAYISI": 420,
-            "OG_KISA_KESİNTİ_SAYISI": 71
+            "OG_KISA_KESİNTİ_SAYISI": 70
         },
         {
             "isletmeName": "ORTACA İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 44.84,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.11,
-            "OG_UZUN_KESİNTİ_SAYISI": 81,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 44.78,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.12,
+            "OG_UZUN_KESİNTİ_SAYISI": 83,
             "AG_UZUN_KESİNTİ_SAYISI": 256,
-            "OG_KISA_KESİNTİ_SAYISI": 43
+            "OG_KISA_KESİNTİ_SAYISI": 44
         },
         {
             "isletmeName": "SARAYKÖY İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 57.14,
+            "ORT_OG_ARIZA_SÜRESİ_DK": 58.02,
             "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 1.75,
             "OG_UZUN_KESİNTİ_SAYISI": 89,
-            "AG_UZUN_KESİNTİ_SAYISI": 102,
+            "AG_UZUN_KESİNTİ_SAYISI": 103,
             "OG_KISA_KESİNTİ_SAYISI": 15
         },
         {
             "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 80.73,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.08,
-            "OG_UZUN_KESİNTİ_SAYISI": 43,
-            "AG_UZUN_KESİNTİ_SAYISI": 111,
-            "OG_KISA_KESİNTİ_SAYISI": 14
-        }
-    ],
-     "9":  [
-        {
-            "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "AYDIN MERKEZ İŞLETME",
-           "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "BODRUM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİNE İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİVRİL İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DİDİM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "KUŞADASI İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MARMARİS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MİLAS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MUĞLA MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "NAZİLLİ İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ORTACA İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SARAYKÖY İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 59.99,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.6,
-            "OG_UZUN_KESİNTİ_SAYISI": 100,
-            "AG_UZUN_KESİNTİ_SAYISI": 178,
-            "OG_KISA_KESİNTİ_SAYISI": 24
-        }
-    ],
-     "10": [
-        {
-            "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "AYDIN MERKEZ İŞLETME",
-           "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "BODRUM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİNE İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİVRİL İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DİDİM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "KUŞADASI İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MARMARİS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MİLAS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MUĞLA MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "NAZİLLİ İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ORTACA İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SARAYKÖY İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 59.99,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.6,
-            "OG_UZUN_KESİNTİ_SAYISI": 100,
-            "AG_UZUN_KESİNTİ_SAYISI": 178,
-            "OG_KISA_KESİNTİ_SAYISI": 24
-        }
-    ], 
-    "11":  [
-        {
-            "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "AYDIN MERKEZ İŞLETME",
-           "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "BODRUM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİNE İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİVRİL İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DİDİM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "KUŞADASI İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MARMARİS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MİLAS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MUĞLA MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "NAZİLLİ İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ORTACA İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SARAYKÖY İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 59.99,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.6,
-            "OG_UZUN_KESİNTİ_SAYISI": 100,
-            "AG_UZUN_KESİNTİ_SAYISI": 178,
-            "OG_KISA_KESİNTİ_SAYISI": 24
-        }
-    ],
-     "12":  [
-        {
-            "isletmeName": "ACIPAYAM İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "AYDIN MERKEZ İŞLETME",
-           "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "BODRUM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİNE İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ÇİVRİL İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DENİZLİ MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "DİDİM İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "FETHİYE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "KUŞADASI İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MARMARİS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MİLAS İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "MUĞLA MERKEZ İŞLETME",
-             "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "NAZİLLİ İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "ORTACA İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SARAYKÖY İŞLETME",
-              "ORT_OG_ARIZA_SÜRESİ_DK": 0,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 0,
-            "OG_UZUN_KESİNTİ_SAYISI": 0,
-            "AG_UZUN_KESİNTİ_SAYISI": 0,
-            "OG_KISA_KESİNTİ_SAYISI": 0
-        },
-        {
-            "isletmeName": "SÖKE İŞLETME",
-            "ORT_OG_ARIZA_SÜRESİ_DK": 59.99,
-            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.6,
-            "OG_UZUN_KESİNTİ_SAYISI": 100,
-            "AG_UZUN_KESİNTİ_SAYISI": 178,
-            "OG_KISA_KESİNTİ_SAYISI": 24
+            "ORT_OG_ARIZA_SÜRESİ_DK": 81.79,
+            "ORT_AG_UZUN_ARIZA_SÜRESİ_SAAT": 2.14,
+            "OG_UZUN_KESİNTİ_SAYISI": 42,
+            "AG_UZUN_KESİNTİ_SAYISI": 110,
+            "OG_KISA_KESİNTİ_SAYISI": 15
         }
     ]
         },
